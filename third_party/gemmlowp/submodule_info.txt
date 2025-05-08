@@ -1,0 +1,5 @@
+Name      : third_party/gemmlowp/gemmlowp
+Path      : third_party/gemmlowp/gemmlowp
+URL       : https://github.com/google/gemmlowp.git
+Commit ID : 16e8662c34917be0065110bfcd9cc27d30f52fdf
+-------------------------------------

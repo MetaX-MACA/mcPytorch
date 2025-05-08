@@ -1,0 +1,66 @@
+default_input_dir: save_input
+default_model_dir: save_model
+default_result_dir: save_result
+width: 320
+height: 320
+num_classes: 80
+
+all:
+    error_eps: 1e-4
+    pretrained: True
+    create_input_tensor: True
+    create_label_tensor: True
+    create_golden_data: True
+    check_data: True
+    is_backward: True
+    model_dir: ''
+    input_dir: ''
+    result_dir: ''
+
+check_test_data:
+    error_eps: 1e-4
+    pretrained: True
+    create_input_tensor: False
+    create_label_tensor: False
+    create_golden_data: False
+    check_data: True
+    is_backward: True
+    model_dir: ''
+    input_dir: ''
+    result_dir: ''
+  
+create_golden_data:
+    error_eps: 1e-4
+    pretrained: True
+    create_input_tensor: True
+    create_label_tensor: True
+    create_golden_data: True
+    check_data: False
+    is_backward: True
+    model_dir: ''
+    input_dir: ''
+    result_dir: ''
+
+ci:
+    error_eps: 1e-4
+    pretrained: True
+    create_input_tensor: False
+    create_label_tensor: False
+    create_golden_data: False
+    check_data: True
+    is_backward: True
+    model_dir: '/netapp/pytorch/golden/yolov5/save_model/'
+    input_dir: '/netapp/pytorch/golden/yolov5/save_input/'
+    result_dir: ''
+
+null_hardware:
+  error_eps: 1e-4
+  pretrained: False
+  create_input_tensor: False
+  create_label_tensor: False
+  create_golden_data: False
+  check_data: False
+  is_backward: True
+  model_dir: ''
+  input_dir: ''
+  result_dir: ''

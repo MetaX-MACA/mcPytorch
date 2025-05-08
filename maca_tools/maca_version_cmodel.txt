@@ -1,0 +1,1 @@
+export MACA_PATH="/netapp/pytorch/mxc500-20241218-270/opt/maca-20241218.270/"

@@ -1,0 +1,9 @@
+{
+    "database": {
+        "user": "root",
+        "password": "metax1234",
+        "host": "10.2.120.176",
+        "database_name": "acl_performance",
+        "port": 30000
+    }
+}

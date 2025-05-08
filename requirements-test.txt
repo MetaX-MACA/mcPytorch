@@ -1,0 +1,18 @@
+# Python dependencies required for test
+hypothesis
+scipy
+onnx==1.17.0
+# xmlrunner
+unittest-xml-reporting==3.2.0
+ninja
+transformers==4.44.2
+pytest==7.3.2
+pytest-xdist
+pytest-rerunfailures
+pytest-shard
+pytest-flakefinder
+boto3
+expecttest==0.1.6
+dill
+pyyaml
+pandas

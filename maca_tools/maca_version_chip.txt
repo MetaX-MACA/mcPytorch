@@ -1,0 +1,1 @@
+export MACA_PATH="/opt/maca"

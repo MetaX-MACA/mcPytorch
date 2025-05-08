@@ -1,0 +1,9 @@
+python bert/run_bert.py --config_file_path bert/configs/cfg_batch_1_seqlength_128.py --mode save
+python bert/run_bert.py --config_file_path bert/configs/cfg_batch_1_seqlength_256.py --mode save
+python bert/run_bert.py --config_file_path bert/configs/cfg_batch_1_seqlength_512.py --mode save
+python bert/run_bert.py --config_file_path bert/configs/cfg_batch_2_seqlength_128.py --mode save
+python bert/run_bert.py --config_file_path bert/configs/cfg_batch_2_seqlength_256.py --mode save
+python bert/run_bert.py --config_file_path bert/configs/cfg_batch_2_seqlength_512.py --mode save
+python bert/run_bert.py --config_file_path bert/configs/cfg_batch_4_seqlength_128.py --mode save
+python bert/run_bert.py --config_file_path bert/configs/cfg_batch_4_seqlength_256.py --mode save
+python bert/run_bert.py --config_file_path bert/configs/cfg_batch_4_seqlength_512.py --mode save
