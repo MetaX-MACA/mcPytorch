@@ -1,0 +1,9 @@
+test_filename,test_case_name,status,err_info,used_time
+test_torch_segment4,test_arctan2_cuda,pass,,0.027
+test_torch_segment4,test_get_num_interop_threads_cuda,pass,,0.040
+test_torch_segment4,test_get_num_threads_cuda,pass,,0.028
+test_torch_segment4,test_is_grad_enabled_cuda,pass,,0.045
+test_torch_segment4,test_is_inference_mode_enabled_cuda,pass,,0.027
+test_torch_segment4,test_quasirandom_SobolEngine_cuda,pass,,0.035
+test_torch_segment4,test_set_num_interop_threads_cuda,pass,,0.036
+test_torch_segment4,test_set_num_threads_cuda,pass,,0.032

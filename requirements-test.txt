@@ -1,0 +1,10 @@
+# Python dependencies required for test
+hypothesis
+scipy
+onnx==1.11.0
+xmlrunner
+ninja
+transformers==4.44.2
+pytest==7.4.0
+pytest-xdist
+

@@ -1,0 +1,10 @@
+test_filename,test_case_name
+inductor/test_select_algorithm,test_linear_relu
+inductor/test_select_algorithm,test_addmm
+inductor/test_select_algorithm,test_addmm_fp16
+inductor/test_select_algorithm,test_mm
+inductor/test_select_algorithm,test_mm_skip
+inductor/test_select_algorithm,test_bmm
+inductor/test_select_algorithm,test_mm_not_even_k
+inductor/test_select_algorithm,test_baddbmm
+inductor/test_select_algorithm,test_mm_plus_mm

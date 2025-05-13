@@ -1,0 +1,4 @@
+test_filename,test_case_name,status,err_info
+test_torch,test_type_conversions_same_device_cuda,skipped,fewer than 2 devices
+test_torch,test_pdist_norm_large_cuda,skipped,Insufficient cpu mem
+test_torch,test_cdist_large_cuda,pass

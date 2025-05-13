@@ -1,0 +1,15 @@
+test_filename,test_case_name,status,err_info,used_time
+test_torch_segment3,test_argsort_cuda_float32,pass,,2.197
+test_torch_segment3,test_norm_cuda_float32,pass,,1.608
+test_torch_segment3,test_dist_cuda_float16,pass,,5.455
+test_torch_segment3,test_dist_cuda_float64,pass,,4.490
+test_torch_segment3,test_norm_cuda_float64,pass,,1.601
+test_torch_segment3,test_argsort_cuda_float64,pass,,2.096
+test_torch_segment3,test_unique_consecutive_cuda_float16,pass,,1.753
+test_torch_segment3,test_unique_consecutive_cuda_float32,pass,,1.700
+test_torch_segment3,test_norm_cuda_float16,pass,,2.128
+test_torch_segment3,test_unique_consecutive_cuda_float64,pass,,1.377
+test_torch_segment3,test_dist_cuda_float32,pass,,3.684
+test_torch_segment3,test_unique_cuda_float16,pass,,2.803
+test_torch_segment3,test_unique_cuda_float64,pass,,4.733
+test_torch_segment3,test_unique_cuda_float32,pass,,4.465

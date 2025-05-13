@@ -1,0 +1,1330 @@
+test_filename,test_case_name,status,err_info,used_time
+inductor/test_torchinductor,test_indexing_join,pass,,0.221
+inductor/test_torchinductor,test_indexing_simplification,pass,,0.137
+inductor/test_torchinductor,test_abs_cpu,pass,,0.123
+inductor/test_torchinductor,test_abs_dynamic_shapes_cpu,pass,,0.050
+inductor/test_torchinductor,test_adaptive_avg_pool2d1_cpu,pass,,13.054
+inductor/test_torchinductor,test_adaptive_avg_pool2d1_dynamic_shapes_cpu,pass,,1.169
+inductor/test_torchinductor,test_adaptive_avg_pool2d2_cpu,pass,,0.015
+inductor/test_torchinductor,test_adaptive_avg_pool2d2_dynamic_shapes_cpu,pass,,0.052
+inductor/test_torchinductor,test_add_const_float_cpu,pass,,0.014
+inductor/test_torchinductor,test_add_const_float_dynamic_shapes_cpu,pass,,0.019
+inductor/test_torchinductor,test_add_const_int_cpu,pass,,0.018
+inductor/test_torchinductor,test_add_const_int_dynamic_shapes_cpu,pass,,0.025
+inductor/test_torchinductor,test_add_inplace_permuted_cpu,pass,,0.032
+inductor/test_torchinductor,test_add_inplace_permuted_dynamic_shapes_cpu,pass,,0.153
+inductor/test_torchinductor,test_addmm_cpu,pass,,0.039
+inductor/test_torchinductor,test_addmm_dynamic_shapes_cpu,pass,,0.067
+inductor/test_torchinductor,test_alexnet_prefix_cpu,pass,,0.127
+inductor/test_torchinductor,test_alexnet_prefix_dynamic_shapes_cpu,pass,,0.801
+inductor/test_torchinductor,test_any_cpu,pass,,0.228
+inductor/test_torchinductor,test_any_dynamic_shapes_cpu,pass,,0.261
+inductor/test_torchinductor,test_arange1_cpu,pass,,0.080
+inductor/test_torchinductor,test_arange1_dynamic_shapes_cpu,pass,,0.092
+inductor/test_torchinductor,test_arange2_cpu,pass,,0.027
+inductor/test_torchinductor,test_arange2_dynamic_shapes_cpu,pass,,0.037
+inductor/test_torchinductor,test_arange3_cpu,pass,,0.042
+inductor/test_torchinductor,test_arange3_dynamic_shapes_cpu,pass,,0.049
+inductor/test_torchinductor,test_arange4_cpu,pass,,0.034
+inductor/test_torchinductor,test_arange4_dynamic_shapes_cpu,pass,,0.041
+inductor/test_torchinductor,test_arange5_cpu,pass,,0.083
+inductor/test_torchinductor,test_arange5_dynamic_shapes_cpu,pass,,0.075
+inductor/test_torchinductor,test_arange6_cpu,pass,,0.048
+inductor/test_torchinductor,test_arange6_dynamic_shapes_cpu,pass,,0.046
+inductor/test_torchinductor,test_argmax_argmin1_cpu,pass,,0.036
+inductor/test_torchinductor,test_argmax_argmin1_dynamic_shapes_cpu,pass,,0.046
+inductor/test_torchinductor,test_argmax_argmin2_cpu,pass,,0.052
+inductor/test_torchinductor,test_argmax_argmin2_dynamic_shapes_cpu,pass,,0.083
+inductor/test_torchinductor,test_argmax_argmin3_cpu,skipped,"
+        FIXME: In the case of having equally max/min elements, our implementation returns
+        the last index instead of the first one",0.001
+inductor/test_torchinductor,test_argmax_argmin3_dynamic_shapes_cpu,skipped,"
+        FIXME: In the case of having equally max/min elements, our implementation returns
+        the last index instead of the first one",0.001
+inductor/test_torchinductor,test_argmax_min_int32_cpu,pass,,0.029
+inductor/test_torchinductor,test_argmax_min_int32_dynamic_shapes_cpu,pass,,0.136
+inductor/test_torchinductor,test_as_strided_cpu,pass,,0.100
+inductor/test_torchinductor,test_as_strided_dynamic_shapes_cpu,pass,,0.159
+inductor/test_torchinductor,test_as_strided_scatter_cpu,pass,,0.050
+inductor/test_torchinductor,test_as_strided_scatter_dynamic_shapes_cpu,pass,,0.168
+inductor/test_torchinductor,test_avg_pool2d1_cpu,pass,,0.047
+inductor/test_torchinductor,test_avg_pool2d1_dynamic_shapes_cpu,pass,,0.230
+inductor/test_torchinductor,test_avg_pool2d2_cpu,pass,,0.066
+inductor/test_torchinductor,test_avg_pool2d2_dynamic_shapes_cpu,pass,,0.219
+inductor/test_torchinductor,test_avg_pool2d3_cpu,pass,,1.039
+inductor/test_torchinductor,test_avg_pool2d3_dynamic_shapes_cpu,pass,,0.434
+inductor/test_torchinductor,test_avg_pool2d4_cpu,pass,,0.056
+inductor/test_torchinductor,test_avg_pool2d4_dynamic_shapes_cpu,pass,,0.190
+inductor/test_torchinductor,test_avg_pool2d5_cpu,pass,,2.014
+inductor/test_torchinductor,test_avg_pool2d5_dynamic_shapes_cpu,pass,,0.596
+inductor/test_torchinductor,test_avg_pool2d6_cpu,pass,,1.144
+inductor/test_torchinductor,test_avg_pool2d6_dynamic_shapes_cpu,pass,,0.317
+inductor/test_torchinductor,test_avg_pool2d7_cpu,pass,,0.016
+inductor/test_torchinductor,test_avg_pool2d7_dynamic_shapes_cpu,pass,,0.113
+inductor/test_torchinductor,test_avg_pool2d_backward2_cpu,pass,,0.175
+inductor/test_torchinductor,test_avg_pool2d_backward2_dynamic_shapes_cpu,pass,,0.117
+inductor/test_torchinductor,test_avg_pool2d_backward3_cpu,pass,,0.253
+inductor/test_torchinductor,test_avg_pool2d_backward3_dynamic_shapes_cpu,pass,,0.225
+inductor/test_torchinductor,test_avg_pool2d_backward4_cpu,pass,,0.019
+inductor/test_torchinductor,test_avg_pool2d_backward4_dynamic_shapes_cpu,pass,,0.102
+inductor/test_torchinductor,test_avg_pool2d_backward_cpu,pass,,0.182
+inductor/test_torchinductor,test_avg_pool2d_backward_dynamic_shapes_cpu,pass,,0.210
+inductor/test_torchinductor,test_baddbmm_cpu,pass,,0.029
+inductor/test_torchinductor,test_baddbmm_dynamic_shapes_cpu,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_batch_norm_2d_cpu,pass,,0.289
+inductor/test_torchinductor,test_batch_norm_2d_dynamic_shapes_cpu,pass,,0.585
+inductor/test_torchinductor,test_bernoulli1_cpu,pass,,0.023
+inductor/test_torchinductor,test_bernoulli1_dynamic_shapes_cpu,pass,,0.036
+inductor/test_torchinductor,test_bernoulli2_cpu,pass,,0.030
+inductor/test_torchinductor,test_bernoulli2_dynamic_shapes_cpu,pass,,0.033
+inductor/test_torchinductor,test_bitwise2_cpu,pass,,0.046
+inductor/test_torchinductor,test_bitwise2_dynamic_shapes_cpu,pass,,0.082
+inductor/test_torchinductor,test_bitwise_cpu,pass,,0.026
+inductor/test_torchinductor,test_bitwise_dynamic_shapes_cpu,pass,,0.043
+inductor/test_torchinductor,test_bmm1_cpu,pass,,0.065
+inductor/test_torchinductor,test_bmm1_dynamic_shapes_cpu,pass,,0.144
+inductor/test_torchinductor,test_bmm2_cpu,pass,,0.015
+inductor/test_torchinductor,test_bmm2_dynamic_shapes_cpu,pass,,0.039
+inductor/test_torchinductor,test_bool_cpu,pass,,0.052
+inductor/test_torchinductor,test_bool_dynamic_shapes_cpu,pass,,0.085
+inductor/test_torchinductor,test_both_scalars_cpu,pass,,0.049
+inductor/test_torchinductor,test_both_scalars_dynamic_shapes_cpu,pass,,0.077
+inductor/test_torchinductor,test_cat_cpu,pass,,0.122
+inductor/test_torchinductor,test_cat_dynamic_shapes_cpu,pass,,0.483
+inductor/test_torchinductor,test_cat_extern_kernel_cpu,pass,,0.047
+inductor/test_torchinductor,test_cat_extern_kernel_dynamic_shapes_cpu,pass,,0.120
+inductor/test_torchinductor,test_cat_inplace_cpu,pass,,0.021
+inductor/test_torchinductor,test_cat_inplace_dynamic_shapes_cpu,pass,,0.033
+inductor/test_torchinductor,test_cat_of_loops_and_extern_kernel_cpu,pass,,0.062
+inductor/test_torchinductor,test_cat_of_loops_and_extern_kernel_dynamic_shapes_cpu,pass,,0.370
+inductor/test_torchinductor,test_cat_upcasting_cpu,pass,,0.028
+inductor/test_torchinductor,test_cat_upcasting_dynamic_shapes_cpu,pass,,0.078
+inductor/test_torchinductor,test_cauchy_cpu,pass,,0.191
+inductor/test_torchinductor,test_cauchy_dynamic_shapes_cpu,pass,,0.052
+inductor/test_torchinductor,test_clamp_cpu,pass,,0.033
+inductor/test_torchinductor,test_clamp_dynamic_shapes_cpu,pass,,0.108
+inductor/test_torchinductor,test_clamp_type_promotion_cpu,pass,,0.031
+inductor/test_torchinductor,test_clamp_type_promotion_dynamic_shapes_cpu,pass,,0.068
+inductor/test_torchinductor,test_clone_cpu,pass,,0.035
+inductor/test_torchinductor,test_clone_dynamic_shapes_cpu,pass,,0.061
+inductor/test_torchinductor,test_concat_add_inplace_cpu,pass,,0.038
+inductor/test_torchinductor,test_concat_add_inplace_dynamic_shapes_cpu,pass,,0.178
+inductor/test_torchinductor,test_constant_pad_1d_cpu,pass,,0.119
+inductor/test_torchinductor,test_constant_pad_1d_dynamic_shapes_cpu,pass,,0.132
+inductor/test_torchinductor,test_constant_pad_2d_cpu,pass,,0.276
+inductor/test_torchinductor,test_constant_pad_2d_dynamic_shapes_cpu,pass,,0.318
+inductor/test_torchinductor,test_constant_pad_3d_cpu,pass,,0.302
+inductor/test_torchinductor,test_constant_pad_3d_dynamic_shapes_cpu,pass,,0.272
+inductor/test_torchinductor,test_constant_pad_fill_dtype_cpu,pass,,0.110
+inductor/test_torchinductor,test_constant_pad_fill_dtype_dynamic_shapes_cpu,pass,,0.143
+inductor/test_torchinductor,test_constant_pad_float64_cpu,pass,,0.044
+inductor/test_torchinductor,test_constant_pad_float64_dynamic_shapes_cpu,pass,,0.075
+inductor/test_torchinductor,test_conv2d_backward_channels_last_cpu,pass,,0.037
+inductor/test_torchinductor,test_conv2d_backward_channels_last_dynamic_shapes_cpu,pass,,0.136
+inductor/test_torchinductor,test_conv2d_binary_cpu,skipped,too slow,0.001
+inductor/test_torchinductor,test_conv2d_binary_dynamic_shapes_cpu,skipped,too slow,0.000
+inductor/test_torchinductor,test_conv2d_channels_last_cpu,pass,,0.084
+inductor/test_torchinductor,test_conv2d_channels_last_dynamic_shapes_cpu,pass,,0.510
+inductor/test_torchinductor,test_conv2d_packed_cpu,pass,,0.033
+inductor/test_torchinductor,test_conv2d_packed_dynamic_shapes_cpu,pass,,0.168
+inductor/test_torchinductor,test_conv2d_unary_cpu,skipped,too slow,0.000
+inductor/test_torchinductor,test_conv2d_unary_dynamic_shapes_cpu,skipped,too slow,0.000
+inductor/test_torchinductor,test_conv3d_channels_last_cpu,pass,,0.104
+inductor/test_torchinductor,test_conv3d_channels_last_dynamic_shapes_cpu,pass,,0.456
+inductor/test_torchinductor,test_conv_backward_cpu,pass,,0.068
+inductor/test_torchinductor,test_conv_backward_dynamic_shapes_cpu,pass,,0.300
+inductor/test_torchinductor,test_conv_bn_fuse_cpu,skipped,too slow,0.001
+inductor/test_torchinductor,test_conv_bn_fuse_dynamic_shapes_cpu,skipped,too slow,0.000
+inductor/test_torchinductor,test_conv_functional_bn_fuse_cpu,pass,,0.038
+inductor/test_torchinductor,test_conv_functional_bn_fuse_dynamic_shapes_cpu,pass,,0.149
+inductor/test_torchinductor,test_conv_transpose2d_packed_cpu,pass,,0.024
+inductor/test_torchinductor,test_conv_transpose2d_packed_dynamic_shapes_cpu,pass,,0.109
+inductor/test_torchinductor,test_conv_transpose2d_unary_cpu,pass,,53.436
+inductor/test_torchinductor,test_conv_transpose2d_unary_dynamic_shapes_cpu,pass,,284.495
+inductor/test_torchinductor,test_convolution1_cpu,pass,,0.040
+inductor/test_torchinductor,test_convolution1_dynamic_shapes_cpu,pass,,0.273
+inductor/test_torchinductor,test_convolution2_cpu,pass,,0.019
+inductor/test_torchinductor,test_convolution2_dynamic_shapes_cpu,pass,,0.087
+inductor/test_torchinductor,test_cos_cpu,pass,,0.032
+inductor/test_torchinductor,test_cos_dynamic_shapes_cpu,pass,,0.055
+inductor/test_torchinductor,test_cpp_wrapper_cpu,pass,,230.030
+inductor/test_torchinductor,test_cpp_wrapper_dynamic_shapes_cpu,skipped,Skipped!,0.001
+inductor/test_torchinductor,test_cudnn_rnn_cpu,skipped,requires CUDA,0.001
+inductor/test_torchinductor,test_cudnn_rnn_dynamic_shapes_cpu,skipped,requires CUDA,0.001
+inductor/test_torchinductor,test_dense_mask_index_cpu,skipped,https://github.com/pytorch/torchdynamo/issues/1697,0.001
+inductor/test_torchinductor,test_dense_mask_index_dynamic_shapes_cpu,skipped,https://github.com/pytorch/torchdynamo/issues/1697,0.001
+inductor/test_torchinductor,test_div1_cpu,pass,,0.089
+inductor/test_torchinductor,test_div1_dynamic_shapes_cpu,pass,,0.315
+inductor/test_torchinductor,test_div2_cpu,pass,,0.070
+inductor/test_torchinductor,test_div2_dynamic_shapes_cpu,pass,,0.329
+inductor/test_torchinductor,test_div3_cpu,pass,,0.069
+inductor/test_torchinductor,test_div3_dynamic_shapes_cpu,pass,,0.159
+inductor/test_torchinductor,test_div4_cpu,pass,,0.047
+inductor/test_torchinductor,test_div4_dynamic_shapes_cpu,pass,,0.157
+inductor/test_torchinductor,test_div5_cpu,pass,,0.047
+inductor/test_torchinductor,test_div5_dynamic_shapes_cpu,pass,,0.138
+inductor/test_torchinductor,test_div6_cpu,pass,,0.050
+inductor/test_torchinductor,test_div6_dynamic_shapes_cpu,pass,,0.167
+inductor/test_torchinductor,test_div7_cpu,pass,,0.051
+inductor/test_torchinductor,test_div7_dynamic_shapes_cpu,pass,,0.158
+inductor/test_torchinductor,test_div8_cpu,pass,,0.031
+inductor/test_torchinductor,test_div8_dynamic_shapes_cpu,pass,,0.030
+inductor/test_torchinductor,test_div_prim_cpu,pass,,0.038
+inductor/test_torchinductor,test_div_prim_dynamic_shapes_cpu,pass,,0.055
+inductor/test_torchinductor,test_div_zero_dim_cpu,pass,,0.221
+inductor/test_torchinductor,test_div_zero_dim_dynamic_shapes_cpu,pass,,0.569
+inductor/test_torchinductor,test_dropout_cpu,pass,,0.058
+inductor/test_torchinductor,test_dropout_deterministic_cpu,pass,,0.059
+inductor/test_torchinductor,test_dropout_deterministic_dynamic_shapes_cpu,pass,,0.072
+inductor/test_torchinductor,test_dropout_dynamic_shapes_cpu,pass,,0.070
+inductor/test_torchinductor,test_dtype_mismatch_issue_cpu,pass,,0.060
+inductor/test_torchinductor,test_dtype_mismatch_issue_dynamic_shapes_cpu,pass,,0.112
+inductor/test_torchinductor,test_elu_cpu,pass,,0.056
+inductor/test_torchinductor,test_elu_dynamic_shapes_cpu,pass,,0.119
+inductor/test_torchinductor,test_embedding_bag_cpu,pass,,0.024
+inductor/test_torchinductor,test_embedding_bag_dynamic_shapes_cpu,pass,,0.054
+inductor/test_torchinductor,test_embedding_cpu,pass,,0.048
+inductor/test_torchinductor,test_embedding_dynamic_shapes_cpu,pass,,0.092
+inductor/test_torchinductor,test_empty1_cpu,pass,,0.010
+inductor/test_torchinductor,test_empty1_dynamic_shapes_cpu,pass,,0.009
+inductor/test_torchinductor,test_empty2_cpu,pass,,0.014
+inductor/test_torchinductor,test_empty2_dynamic_shapes_cpu,pass,,0.014
+inductor/test_torchinductor,test_empty_strided_cpu,pass,,0.015
+inductor/test_torchinductor,test_empty_strided_dynamic_shapes_cpu,pass,,0.014
+inductor/test_torchinductor,test_exp2_cpu,pass,,0.038
+inductor/test_torchinductor,test_exp2_dynamic_shapes_cpu,pass,,0.080
+inductor/test_torchinductor,test_exp_cpu,pass,,0.024
+inductor/test_torchinductor,test_exp_dynamic_shapes_cpu,pass,,0.052
+inductor/test_torchinductor,test_expand_as_cpu,pass,,0.045
+inductor/test_torchinductor,test_expand_as_dynamic_shapes_cpu,pass,,0.118
+inductor/test_torchinductor,test_expand_cpu,pass,,0.045
+inductor/test_torchinductor,test_expand_dynamic_shapes_cpu,pass,,0.070
+inductor/test_torchinductor,test_expanded_reduction_cpu,skipped,https://github.com/pytorch/torchdynamo/issues/1697,0.001
+inductor/test_torchinductor,test_expanded_reduction_dynamic_shapes_cpu,skipped,https://github.com/pytorch/torchdynamo/issues/1697,0.001
+inductor/test_torchinductor,test_expm1_cpu,pass,,0.497
+inductor/test_torchinductor,test_expm1_dynamic_shapes_cpu,pass,,0.389
+inductor/test_torchinductor,test_fill1_cpu,pass,,0.027
+inductor/test_torchinductor,test_fill1_dynamic_shapes_cpu,pass,,0.046
+inductor/test_torchinductor,test_fill2_cpu,pass,,0.029
+inductor/test_torchinductor,test_fill2_dynamic_shapes_cpu,pass,,0.048
+inductor/test_torchinductor,test_flip_cpu,pass,,0.036
+inductor/test_torchinductor,test_flip_dynamic_shapes_cpu,pass,,0.142
+inductor/test_torchinductor,test_fmod_cpu,pass,,0.031
+inductor/test_torchinductor,test_fmod_dynamic_shapes_cpu,pass,,0.103
+inductor/test_torchinductor,test_fmod_zero_dim_cpu,pass,,0.033
+inductor/test_torchinductor,test_fmod_zero_dim_dynamic_shapes_cpu,pass,,0.052
+inductor/test_torchinductor,test_forced_buffer_realize_cpu,pass,,0.028
+inductor/test_torchinductor,test_forced_buffer_realize_dynamic_shapes_cpu,pass,,0.037
+inductor/test_torchinductor,test_full_like_cpu,pass,,0.018
+inductor/test_torchinductor,test_full_like_dynamic_shapes_cpu,pass,,0.031
+inductor/test_torchinductor,test_full_truncation_cpu,pass,,0.132
+inductor/test_torchinductor,test_full_truncation_dynamic_shapes_cpu,pass,,0.289
+inductor/test_torchinductor,test_fuse_tiled_cpu,pass,,0.033
+inductor/test_torchinductor,test_fuse_tiled_dynamic_shapes_cpu,pass,,0.085
+inductor/test_torchinductor,test_gather1_cpu,pass,,0.038
+inductor/test_torchinductor,test_gather1_dynamic_shapes_cpu,pass,,0.111
+inductor/test_torchinductor,test_gather2_cpu,pass,,0.001
+inductor/test_torchinductor,test_gather2_dynamic_shapes_cpu,pass,,0.001
+inductor/test_torchinductor,test_gather_scatter_cpu,pass,,0.052
+inductor/test_torchinductor,test_gather_scatter_dynamic_shapes_cpu,pass,,0.114
+inductor/test_torchinductor,test_gelu_cpu,pass,,0.053
+inductor/test_torchinductor,test_gelu_dynamic_shapes_cpu,pass,,0.116
+inductor/test_torchinductor,test_glu_cpu,pass,,0.073
+inductor/test_torchinductor,test_glu_dynamic_shapes_cpu,pass,,0.622
+inductor/test_torchinductor,test_grid_sampler_2d_cpu,pass,,0.839
+inductor/test_torchinductor,test_grid_sampler_2d_dynamic_shapes_cpu,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_hardsigmoid_cpu,pass,,0.052
+inductor/test_torchinductor,test_hardsigmoid_dynamic_shapes_cpu,pass,,0.128
+inductor/test_torchinductor,test_hardswish_cpu,pass,,0.056
+inductor/test_torchinductor,test_hardswish_dynamic_shapes_cpu,pass,,0.135
+inductor/test_torchinductor,test_hardtanh_cpu,pass,,0.035
+inductor/test_torchinductor,test_hardtanh_dynamic_shapes_cpu,pass,,0.109
+inductor/test_torchinductor,test_horizonal_fusion1_cpu,pass,,0.032
+inductor/test_torchinductor,test_horizonal_fusion1_dynamic_shapes_cpu,pass,,0.093
+inductor/test_torchinductor,test_horizonal_fusion2_cpu,pass,,0.028
+inductor/test_torchinductor,test_horizonal_fusion2_dynamic_shapes_cpu,pass,,0.062
+inductor/test_torchinductor,test_in_out_buffer_cpu,skipped,test in_out_ptr for CppKernel,0.000
+inductor/test_torchinductor,test_in_out_buffer_dynamic_shapes_cpu,skipped,test in_out_ptr for CppKernel,0.000
+inductor/test_torchinductor,test_index1_cpu,pass,,0.048
+inductor/test_torchinductor,test_index1_dynamic_shapes_cpu,pass,,0.113
+inductor/test_torchinductor,test_index2_cpu,pass,,0.044
+inductor/test_torchinductor,test_index2_dynamic_shapes_cpu,pass,,0.096
+inductor/test_torchinductor,test_index3_cpu,pass,,0.023
+inductor/test_torchinductor,test_index3_dynamic_shapes_cpu,pass,,0.128
+inductor/test_torchinductor,test_index_put1_cpu,pass,,0.414
+inductor/test_torchinductor,test_index_put1_dynamic_shapes_cpu,pass,,0.781
+inductor/test_torchinductor,test_index_put2_cpu,pass,,0.108
+inductor/test_torchinductor,test_index_put2_dynamic_shapes_cpu,pass,,0.157
+inductor/test_torchinductor,test_index_put3_cpu,pass,,0.057
+inductor/test_torchinductor,test_index_put3_dynamic_shapes_cpu,pass,,0.101
+inductor/test_torchinductor,test_index_put_as_masked_fill_cpu,pass,,0.047
+inductor/test_torchinductor,test_index_put_as_masked_fill_dynamic_shapes_cpu,pass,,0.110
+inductor/test_torchinductor,test_index_put_fallback1_cpu,pass,,0.042
+inductor/test_torchinductor,test_index_put_fallback1_dynamic_shapes_cpu,pass,,0.070
+inductor/test_torchinductor,test_index_put_fallback2_cpu,pass,,0.052
+inductor/test_torchinductor,test_index_put_fallback2_dynamic_shapes_cpu,pass,,0.092
+inductor/test_torchinductor,test_index_select_cpu,pass,,0.101
+inductor/test_torchinductor,test_index_select_dynamic_shapes_cpu,pass,,0.226
+inductor/test_torchinductor,test_indirect_load_broadcast_cpu,pass,,0.075
+inductor/test_torchinductor,test_indirect_load_broadcast_dynamic_shapes_cpu,pass,,0.114
+inductor/test_torchinductor,test_inf_cpu,pass,,0.029
+inductor/test_torchinductor,test_inf_dynamic_shapes_cpu,pass,,0.035
+inductor/test_torchinductor,test_inplace_activations_cpu,pass,,0.133
+inductor/test_torchinductor,test_inplace_activations_dynamic_shapes_cpu,pass,,0.219
+inductor/test_torchinductor,test_inplace_add_cpu,pass,,0.018
+inductor/test_torchinductor,test_inplace_add_dynamic_shapes_cpu,pass,,0.036
+inductor/test_torchinductor,test_inplace_mixed_dtype_ops_cpu,pass,,0.027
+inductor/test_torchinductor,test_inplace_mixed_dtype_ops_dynamic_shapes_cpu,pass,,0.064
+inductor/test_torchinductor,test_input_mutation1_cpu,pass,,0.030
+inductor/test_torchinductor,test_input_mutation1_dynamic_shapes_cpu,pass,,0.044
+inductor/test_torchinductor,test_input_mutation2_cpu,pass,,0.054
+inductor/test_torchinductor,test_input_mutation2_dynamic_shapes_cpu,pass,,0.098
+inductor/test_torchinductor,test_input_mutation3_cpu,pass,,0.060
+inductor/test_torchinductor,test_input_mutation3_dynamic_shapes_cpu,pass,,0.113
+inductor/test_torchinductor,test_input_mutation4_cpu,pass,,0.017
+inductor/test_torchinductor,test_input_mutation4_dynamic_shapes_cpu,pass,,0.034
+inductor/test_torchinductor,test_invalid_operand_issue1_cpu,pass,,0.534
+inductor/test_torchinductor,test_invalid_operand_issue1_dynamic_shapes_cpu,pass,,0.672
+inductor/test_torchinductor,test_isinf2_cpu,pass,,0.044
+inductor/test_torchinductor,test_isinf2_dynamic_shapes_cpu,pass,,0.048
+inductor/test_torchinductor,test_isinf_cpu,pass,,0.033
+inductor/test_torchinductor,test_isinf_dynamic_shapes_cpu,pass,,0.056
+inductor/test_torchinductor,test_kernel_names_cpu,pass,,0.015
+inductor/test_torchinductor,test_kernel_names_dynamic_shapes_cpu,pass,,0.026
+# inductor/test_torchinductor,test_kwargs_cpu,failed,"###fixed in new version torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised SyntaxError: keyword argument repeated (c6jtjzr4tny65r64y4zodnqj4sembe7cteyoecjdl3ra4brcpw2p.py, line 26)",0.052
+inductor/test_torchinductor,test_kwargs_dynamic_shapes_cpu,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_l1_loss_cpu,pass,,0.037
+inductor/test_torchinductor,test_l1_loss_dynamic_shapes_cpu,pass,,0.104
+inductor/test_torchinductor,test_layer_norm_cpu,pass,,0.071
+inductor/test_torchinductor,test_layer_norm_dynamic_shapes_cpu,pass,,0.135
+inductor/test_torchinductor,test_leaky_relu_cpu,pass,,0.040
+inductor/test_torchinductor,test_leaky_relu_dynamic_shapes_cpu,pass,,0.077
+inductor/test_torchinductor,test_lerp_cpu,pass,,0.066
+inductor/test_torchinductor,test_lerp_dynamic_shapes_cpu,pass,,0.216
+inductor/test_torchinductor,test_lgamma_cpu,pass,,0.031
+inductor/test_torchinductor,test_lgamma_dynamic_shapes_cpu,pass,,0.054
+# inductor/test_torchinductor,test_like_rands_cpu,failed,"###fixed in new version torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised SyntaxError: keyword argument repeated (caxidzy6mzusjxsn5a75zvgp27alsevetgt2zmwqfrufuhovvpnh.py, line 26)",0.015
+# inductor/test_torchinductor,test_like_rands_dynamic_shapes_cpu,failed,"###fixed in new version torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised SyntaxError: keyword argument repeated (c4q52zykhkfyo4tkmknnh5k5j6p3kszkj6kwnpbo6zzsw4frf7tn.py, line 28)",0.027
+inductor/test_torchinductor,test_linear1_cpu,pass,,0.035
+inductor/test_torchinductor,test_linear1_dynamic_shapes_cpu,pass,,0.078
+inductor/test_torchinductor,test_linear2_cpu,pass,,0.322
+inductor/test_torchinductor,test_linear2_dynamic_shapes_cpu,pass,,0.202
+inductor/test_torchinductor,test_linear_binary_cpu,pass,,0.958
+inductor/test_torchinductor,test_linear_binary_dynamic_shapes_cpu,pass,,2.329
+inductor/test_torchinductor,test_linear_buffer_reuse_cpu,pass,,0.075
+inductor/test_torchinductor,test_linear_buffer_reuse_dynamic_shapes_cpu,pass,,0.088
+inductor/test_torchinductor,test_linear_packed_cpu,pass,,0.101
+inductor/test_torchinductor,test_linear_packed_dynamic_shapes_cpu,pass,,0.221
+inductor/test_torchinductor,test_linear_unary_cpu,pass,,3.879
+inductor/test_torchinductor,test_linear_unary_dynamic_shapes_cpu,pass,,9.595
+inductor/test_torchinductor,test_linspace1_cpu,pass,,0.044
+inductor/test_torchinductor,test_linspace1_dynamic_shapes_cpu,pass,,0.051
+inductor/test_torchinductor,test_linspace2_cpu,pass,,0.016
+inductor/test_torchinductor,test_linspace2_dynamic_shapes_cpu,pass,,0.018
+inductor/test_torchinductor,test_linspace3_cpu,pass,,0.009
+inductor/test_torchinductor,test_linspace3_dynamic_shapes_cpu,pass,,0.009
+inductor/test_torchinductor,test_list_clearing_cpu,pass,,0.012
+inductor/test_torchinductor,test_list_clearing_dynamic_shapes_cpu,pass,,0.013
+inductor/test_torchinductor,test_log1p_cpu,pass,,0.180
+inductor/test_torchinductor,test_log1p_dynamic_shapes_cpu,pass,,0.335
+inductor/test_torchinductor,test_log2_cpu,pass,,0.024
+inductor/test_torchinductor,test_log2_dynamic_shapes_cpu,pass,,0.036
+inductor/test_torchinductor,test_log_fp64_cpu,pass,,0.018
+inductor/test_torchinductor,test_log_fp64_dynamic_shapes_cpu,pass,,0.027
+inductor/test_torchinductor,test_log_softmax_cpu,pass,,0.081
+inductor/test_torchinductor,test_log_softmax_dynamic_shapes_cpu,pass,,0.192
+inductor/test_torchinductor,test_logsumexp_cpu,pass,,0.059
+inductor/test_torchinductor,test_logsumexp_dynamic_shapes_cpu,pass,,0.141
+inductor/test_torchinductor,test_long_tensor_cpu,pass,,0.023
+inductor/test_torchinductor,test_long_tensor_dynamic_shapes_cpu,pass,,0.036
+inductor/test_torchinductor,test_lowmem_dropout1_cpu,pass,,0.083
+inductor/test_torchinductor,test_lowmem_dropout1_dynamic_shapes_cpu,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_lowmem_dropout2_cpu,pass,,0.143
+inductor/test_torchinductor,test_lowmem_dropout2_dynamic_shapes_cpu,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_masked_fill_cpu,pass,,0.040
+inductor/test_torchinductor,test_masked_fill_dynamic_shapes_cpu,pass,,0.086
+inductor/test_torchinductor,test_masked_fill_promotion_cpu,pass,,0.045
+inductor/test_torchinductor,test_masked_fill_promotion_dynamic_shapes_cpu,pass,,0.096
+inductor/test_torchinductor,test_max_min_cpu,pass,,0.037
+inductor/test_torchinductor,test_max_min_dynamic_shapes_cpu,pass,,0.062
+inductor/test_torchinductor,test_max_pool2d1_cpu,pass,,0.996
+inductor/test_torchinductor,test_max_pool2d1_dynamic_shapes_cpu,pass,,0.346
+inductor/test_torchinductor,test_max_pool2d2_cpu,pass,,0.814
+inductor/test_torchinductor,test_max_pool2d2_dynamic_shapes_cpu,pass,,0.292
+inductor/test_torchinductor,test_max_pool2d3_cpu,pass,,2.618
+inductor/test_torchinductor,test_max_pool2d3_dynamic_shapes_cpu,pass,,0.583
+inductor/test_torchinductor,test_max_pool2d4_cpu,pass,,1.014
+inductor/test_torchinductor,test_max_pool2d4_dynamic_shapes_cpu,pass,,0.265
+inductor/test_torchinductor,test_max_pool2d5_cpu,pass,,0.861
+inductor/test_torchinductor,test_max_pool2d5_dynamic_shapes_cpu,pass,,0.259
+inductor/test_torchinductor,test_max_pool2d6_cpu,pass,,0.040
+inductor/test_torchinductor,test_max_pool2d6_dynamic_shapes_cpu,pass,,0.144
+inductor/test_torchinductor,test_max_pool2d_with_indices_backward2_cpu,pass,,0.269
+inductor/test_torchinductor,test_max_pool2d_with_indices_backward2_dynamic_shapes_cpu,pass,,0.258
+inductor/test_torchinductor,test_max_pool2d_with_indices_backward3_cpu,pass,,0.507
+inductor/test_torchinductor,test_max_pool2d_with_indices_backward3_dynamic_shapes_cpu,pass,,0.492
+inductor/test_torchinductor,test_max_pool2d_with_indices_backward4_cpu,pass,,0.333
+inductor/test_torchinductor,test_max_pool2d_with_indices_backward4_dynamic_shapes_cpu,pass,,0.468
+inductor/test_torchinductor,test_max_pool2d_with_indices_backward5_cpu,pass,,0.023
+inductor/test_torchinductor,test_max_pool2d_with_indices_backward5_dynamic_shapes_cpu,pass,,0.129
+inductor/test_torchinductor,test_max_pool2d_with_indices_backward_cpu,pass,,0.239
+inductor/test_torchinductor,test_max_pool2d_with_indices_backward_dynamic_shapes_cpu,pass,,0.225
+inductor/test_torchinductor,test_mean_cpu,pass,,0.052
+inductor/test_torchinductor,test_mean_dynamic_shapes_cpu,pass,,0.158
+inductor/test_torchinductor,test_min_max_reduction_cpu,pass,,0.030
+inductor/test_torchinductor,test_min_max_reduction_dynamic_shapes_cpu,pass,,0.051
+inductor/test_torchinductor,test_misaligned_address_issue1_cpu,pass,,0.019
+inductor/test_torchinductor,test_misaligned_address_issue1_dynamic_shapes_cpu,pass,,0.026
+inductor/test_torchinductor,test_mm_views_cpu,pass,,0.016
+inductor/test_torchinductor,test_mm_views_dynamic_shapes_cpu,pass,,0.054
+inductor/test_torchinductor,test_move_arange_cpu,pass,,0.024
+inductor/test_torchinductor,test_move_arange_dynamic_shapes_cpu,pass,,0.026
+inductor/test_torchinductor,test_multi_device_cpu,pass,,0.124
+inductor/test_torchinductor,test_multi_device_dynamic_shapes_cpu,pass,,0.195
+inductor/test_torchinductor,test_multi_gpu_device_cpu,skipped,requires multiple cuda devices,0.001
+inductor/test_torchinductor,test_multi_gpu_device_dynamic_shapes_cpu,skipped,requires multiple cuda devices,0.001
+inductor/test_torchinductor,test_multilayer_low_prec_cpu,skipped,requires CUDA,0.001
+inductor/test_torchinductor,test_multilayer_low_prec_dynamic_shapes_cpu,skipped,requires CUDA,0.001
+inductor/test_torchinductor,test_nan_to_num_cpu,skipped,Skipping due to op bugs,0.001
+inductor/test_torchinductor,test_nan_to_num_dynamic_shapes_cpu,skipped,Skipping due to op bugs,0.001
+inductor/test_torchinductor,test_narrow_cpu,pass,,0.033
+inductor/test_torchinductor,test_narrow_dynamic_shapes_cpu,pass,,0.068
+inductor/test_torchinductor,test_neg_max_uint8_cpu,pass,,0.016
+inductor/test_torchinductor,test_neg_max_uint8_dynamic_shapes_cpu,pass,,0.031
+inductor/test_torchinductor,test_new_empty_cpu,pass,,0.014
+inductor/test_torchinductor,test_new_empty_dynamic_shapes_cpu,pass,,0.019
+inductor/test_torchinductor,test_new_empty_strided_cpu,pass,,0.014
+inductor/test_torchinductor,test_new_empty_strided_dynamic_shapes_cpu,pass,,0.018
+inductor/test_torchinductor,test_new_ones_cpu,pass,,0.026
+inductor/test_torchinductor,test_new_ones_dynamic_shapes_cpu,pass,,0.030
+inductor/test_torchinductor,test_nll_loss_backward_cpu,pass,,0.098
+inductor/test_torchinductor,test_nll_loss_backward_dynamic_shapes_cpu,pass,,0.167
+inductor/test_torchinductor,test_nll_loss_forward_cpu,pass,,0.096
+inductor/test_torchinductor,test_nll_loss_forward_dynamic_shapes_cpu,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_no_mega_fusion_during_lowering_cpu,pass,,0.212
+inductor/test_torchinductor,test_no_mega_fusion_during_lowering_dynamic_shapes_cpu,pass,,0.344
+inductor/test_torchinductor,test_no_op_reduction_cpu,pass,,0.026
+inductor/test_torchinductor,test_no_op_reduction_dynamic_shapes_cpu,pass,,0.035
+inductor/test_torchinductor,test_output_strides_cpu,pass,,0.047
+inductor/test_torchinductor,test_output_strides_dynamic_shapes_cpu,pass,,0.593
+inductor/test_torchinductor,test_permute1_cpu,pass,,0.029
+inductor/test_torchinductor,test_permute1_dynamic_shapes_cpu,pass,,0.149
+inductor/test_torchinductor,test_permute2_cpu,pass,,0.015
+inductor/test_torchinductor,test_permute2_dynamic_shapes_cpu,pass,,0.070
+inductor/test_torchinductor,test_pixel_shuffle_channels_last_cpu,skipped,Requires AVX2,0.000
+inductor/test_torchinductor,test_pixel_shuffle_channels_last_dynamic_shapes_cpu,skipped,Requires AVX2,0.000
+inductor/test_torchinductor,test_pow1_cpu,pass,,0.422
+inductor/test_torchinductor,test_pow1_dynamic_shapes_cpu,pass,,0.241
+inductor/test_torchinductor,test_pow2_cpu,pass,,0.026
+inductor/test_torchinductor,test_pow2_dynamic_shapes_cpu,pass,,0.045
+inductor/test_torchinductor,test_pow3_cpu,pass,,0.017
+inductor/test_torchinductor,test_pow3_dynamic_shapes_cpu,pass,,0.015
+inductor/test_torchinductor,test_profiler_mark_wrapper_call_cpu,pass,,0.017
+inductor/test_torchinductor,test_profiler_mark_wrapper_call_dynamic_shapes_cpu,pass,,0.024
+inductor/test_torchinductor,test_rand_like_deterministic_cpu,pass,,0.049
+inductor/test_torchinductor,test_rand_like_deterministic_dynamic_shapes_cpu,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_randn_generator_cpu,pass,,0.012
+inductor/test_torchinductor,test_randn_generator_dynamic_shapes_cpu,pass,,0.015
+inductor/test_torchinductor,test_randn_like_empty_cpu,pass,,0.015
+inductor/test_torchinductor,test_randn_like_empty_dynamic_shapes_cpu,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_recompile_on_index_cpu,skipped,requires multiple cuda devices,0.000
+inductor/test_torchinductor,test_recompile_on_index_dynamic_shapes_cpu,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_reduction1_cpu,pass,,0.025
+inductor/test_torchinductor,test_reduction1_dynamic_shapes_cpu,pass,,0.031
+inductor/test_torchinductor,test_reduction2_cpu,pass,,0.022
+inductor/test_torchinductor,test_reduction2_dynamic_shapes_cpu,pass,,0.028
+inductor/test_torchinductor,test_reduction3_cpu,pass,,0.021
+inductor/test_torchinductor,test_reduction3_dynamic_shapes_cpu,pass,,0.027
+inductor/test_torchinductor,test_reduction4_cpu,skipped,Non-deterministic CPU results,0.000
+inductor/test_torchinductor,test_reduction4_dynamic_shapes_cpu,skipped,Non-deterministic CPU results,0.000
+inductor/test_torchinductor,test_reduction5_cpu,skipped,Non-deterministic CPU results,0.000
+inductor/test_torchinductor,test_reduction5_dynamic_shapes_cpu,skipped,Non-deterministic CPU results,0.000
+inductor/test_torchinductor,test_reflection_pad2d_backward_cpu,pass,,0.361
+inductor/test_torchinductor,test_reflection_pad2d_backward_dynamic_shapes_cpu,pass,,0.488
+inductor/test_torchinductor,test_reflection_pad2d_cpu,pass,,0.059
+inductor/test_torchinductor,test_reflection_pad2d_dynamic_shapes_cpu,pass,,0.102
+inductor/test_torchinductor,test_relu_cpu,pass,,0.025
+inductor/test_torchinductor,test_relu_dynamic_shapes_cpu,pass,,0.058
+inductor/test_torchinductor,test_remainder_cpu,pass,,0.032
+inductor/test_torchinductor,test_remainder_dynamic_shapes_cpu,pass,,0.050
+inductor/test_torchinductor,test_repeat_cpu,pass,,0.084
+inductor/test_torchinductor,test_repeat_dynamic_shapes_cpu,pass,,0.179
+inductor/test_torchinductor,test_roi_align_cpu,skipped,requires torchvision,0.001
+inductor/test_torchinductor,test_roi_align_dynamic_shapes_cpu,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_roll_cpu,pass,,0.178
+inductor/test_torchinductor,test_roll_dynamic_shapes_cpu,pass,,0.551
+inductor/test_torchinductor,test_round_correctness_cpu,pass,,0.014
+inductor/test_torchinductor,test_round_correctness_dynamic_shapes_cpu,pass,,0.020
+inductor/test_torchinductor,test_round_cpu,pass,,0.028
+inductor/test_torchinductor,test_round_dynamic_shapes_cpu,pass,,0.054
+inductor/test_torchinductor,test_rsqrt_cpu,pass,,0.027
+inductor/test_torchinductor,test_rsqrt_dynamic_shapes_cpu,pass,,0.062
+inductor/test_torchinductor,test_scatter1_cpu,pass,,0.024
+inductor/test_torchinductor,test_scatter1_dynamic_shapes_cpu,pass,,0.041
+inductor/test_torchinductor,test_scatter2_cpu,pass,,0.028
+inductor/test_torchinductor,test_scatter2_dynamic_shapes_cpu,pass,,0.044
+inductor/test_torchinductor,test_scatter3_cpu,pass,,0.024
+inductor/test_torchinductor,test_scatter3_dynamic_shapes_cpu,pass,,0.047
+inductor/test_torchinductor,test_scatter4_cpu,pass,,0.023
+inductor/test_torchinductor,test_scatter4_dynamic_shapes_cpu,pass,,0.038
+inductor/test_torchinductor,test_scatter_add1_cpu,skipped,"Flaky test, needs debugging",0.001
+inductor/test_torchinductor,test_scatter_add1_dynamic_shapes_cpu,skipped,"Flaky test, needs debugging",0.000
+inductor/test_torchinductor,test_scatter_add2_cpu,pass,,0.025
+inductor/test_torchinductor,test_scatter_add2_dynamic_shapes_cpu,pass,,0.042
+inductor/test_torchinductor,test_scatter_add3_cpu,pass,,0.023
+inductor/test_torchinductor,test_scatter_add3_dynamic_shapes_cpu,pass,,0.054
+inductor/test_torchinductor,test_scatter_reduce1_cpu,pass,,0.021
+inductor/test_torchinductor,test_scatter_reduce1_dynamic_shapes_cpu,pass,,0.052
+inductor/test_torchinductor,test_scatter_reduce2_cpu,pass,,0.025
+inductor/test_torchinductor,test_scatter_reduce2_dynamic_shapes_cpu,pass,,0.046
+inductor/test_torchinductor,test_scheduler_vertical_fusion1_cpu,pass,,0.092
+inductor/test_torchinductor,test_scheduler_vertical_fusion1_dynamic_shapes_cpu,pass,,0.167
+inductor/test_torchinductor,test_select_scatter_cpu,pass,,0.054
+inductor/test_torchinductor,test_select_scatter_dynamic_shapes_cpu,pass,,0.094
+inductor/test_torchinductor,test_sgn_cpu,pass,,0.022
+inductor/test_torchinductor,test_sgn_dynamic_shapes_cpu,pass,,0.034
+inductor/test_torchinductor,test_sgn_extremal_cpu,pass,,0.013
+inductor/test_torchinductor,test_sgn_extremal_dynamic_shapes_cpu,pass,,0.022
+inductor/test_torchinductor,test_shape_prop_torch_ones_cpu,pass,,0.401
+inductor/test_torchinductor,test_shape_prop_torch_ones_dynamic_shapes_cpu,pass,,0.441
+inductor/test_torchinductor,test_sigmoid_cpu,pass,,0.026
+inductor/test_torchinductor,test_sigmoid_dynamic_shapes_cpu,pass,,0.066
+inductor/test_torchinductor,test_signbit_cpu,pass,,0.025
+inductor/test_torchinductor,test_signbit_dynamic_shapes_cpu,pass,,0.105
+inductor/test_torchinductor,test_silu_cpu,pass,,0.017
+inductor/test_torchinductor,test_silu_dynamic_shapes_cpu,pass,,0.044
+inductor/test_torchinductor,test_simplify_loops_cpu,pass,,0.304
+inductor/test_torchinductor,test_simplify_loops_dynamic_shapes_cpu,pass,,0.142
+inductor/test_torchinductor,test_sin_cpu,pass,,0.031
+inductor/test_torchinductor,test_sin_dynamic_shapes_cpu,pass,,0.053
+inductor/test_torchinductor,test_single_elem_cpu,pass,,0.013
+inductor/test_torchinductor,test_single_elem_dynamic_shapes_cpu,pass,,0.012
+inductor/test_torchinductor,test_single_elem_indirect_cpu,pass,,0.016
+inductor/test_torchinductor,test_single_elem_indirect_dynamic_shapes_cpu,pass,,0.019
+inductor/test_torchinductor,test_sizehint_issue1_cpu,pass,,0.167
+inductor/test_torchinductor,test_sizehint_issue1_dynamic_shapes_cpu,skipped,Skipped!,0.001
+inductor/test_torchinductor,test_slice1_cpu,pass,,0.049
+inductor/test_torchinductor,test_slice1_dynamic_shapes_cpu,pass,,0.163
+inductor/test_torchinductor,test_slice2_cpu,pass,,0.046
+inductor/test_torchinductor,test_slice2_dynamic_shapes_cpu,pass,,0.181
+inductor/test_torchinductor,test_slice_mutation1_cpu,pass,,0.102
+inductor/test_torchinductor,test_slice_mutation1_dynamic_shapes_cpu,pass,,0.139
+inductor/test_torchinductor,test_slice_mutation2_cpu,pass,,0.083
+inductor/test_torchinductor,test_slice_mutation2_dynamic_shapes_cpu,pass,,0.107
+inductor/test_torchinductor,test_slice_scatter2_cpu,pass,,0.026
+inductor/test_torchinductor,test_slice_scatter2_dynamic_shapes_cpu,pass,,0.051
+inductor/test_torchinductor,test_slice_scatter_cpu,pass,,0.067
+inductor/test_torchinductor,test_slice_scatter_dynamic_shapes_cpu,pass,,0.123
+inductor/test_torchinductor,test_softmax_cpu,pass,,0.082
+inductor/test_torchinductor,test_softmax_dynamic_shapes_cpu,pass,,0.198
+inductor/test_torchinductor,test_softmax_one_kernel_loop_cpu,pass,,0.035
+inductor/test_torchinductor,test_softmax_one_kernel_loop_dynamic_shapes_cpu,pass,,0.080
+inductor/test_torchinductor,test_softmax_one_kernel_persist_cpu,pass,,0.032
+inductor/test_torchinductor,test_softmax_one_kernel_persist_dynamic_shapes_cpu,pass,,0.076
+inductor/test_torchinductor,test_sort_cpu,pass,,0.012
+inductor/test_torchinductor,test_sort_dynamic_shapes_cpu,pass,,0.048
+inductor/test_torchinductor,test_split_cpu,pass,,0.045
+inductor/test_torchinductor,test_split_dynamic_shapes_cpu,pass,,0.194
+inductor/test_torchinductor,test_split_with_sizes_cpu,pass,,0.134
+inductor/test_torchinductor,test_split_with_sizes_dynamic_shapes_cpu,pass,,0.453
+inductor/test_torchinductor,test_squeeze1_cpu,pass,,0.024
+inductor/test_torchinductor,test_squeeze1_dynamic_shapes_cpu,pass,,0.058
+inductor/test_torchinductor,test_squeeze2_cpu,pass,,0.028
+inductor/test_torchinductor,test_squeeze2_dynamic_shapes_cpu,pass,,0.087
+inductor/test_torchinductor,test_stack_cpu,pass,,0.026
+inductor/test_torchinductor,test_stack_dynamic_shapes_cpu,pass,,0.046
+inductor/test_torchinductor,test_std_cpu,pass,,0.144
+inductor/test_torchinductor,test_std_dynamic_shapes_cpu,pass,,0.306
+inductor/test_torchinductor,test_strided_inputs_cpu,pass,,0.016
+inductor/test_torchinductor,test_strided_inputs_dynamic_shapes_cpu,pass,,0.048
+inductor/test_torchinductor,test_sum1_cpu,pass,,0.018
+inductor/test_torchinductor,test_sum1_dynamic_shapes_cpu,pass,,0.038
+inductor/test_torchinductor,test_sum2_cpu,pass,,0.035
+inductor/test_torchinductor,test_sum2_dynamic_shapes_cpu,pass,,0.426
+inductor/test_torchinductor,test_sum3_cpu,pass,,0.045
+inductor/test_torchinductor,test_sum3_dynamic_shapes_cpu,pass,,0.057
+inductor/test_torchinductor,test_sum4_cpu,pass,,0.037
+inductor/test_torchinductor,test_sum4_dynamic_shapes_cpu,pass,,0.091
+inductor/test_torchinductor,test_sum5_cpu,pass,,0.033
+inductor/test_torchinductor,test_sum5_dynamic_shapes_cpu,pass,,0.075
+inductor/test_torchinductor,test_sum_dtype_cpu,pass,,0.027
+inductor/test_torchinductor,test_sum_dtype_dynamic_shapes_cpu,pass,,0.059
+inductor/test_torchinductor,test_sum_int_cpu,pass,,0.064
+inductor/test_torchinductor,test_sum_int_dynamic_shapes_cpu,pass,,0.105
+inductor/test_torchinductor,test_sum_keepdims_cpu,pass,,0.017
+inductor/test_torchinductor,test_sum_keepdims_dynamic_shapes_cpu,pass,,0.040
+inductor/test_torchinductor,test_tan_cpu,pass,,0.031
+inductor/test_torchinductor,test_tan_dynamic_shapes_cpu,pass,,0.053
+inductor/test_torchinductor,test_tanh_cpu,pass,,0.030
+inductor/test_torchinductor,test_tanh_dynamic_shapes_cpu,pass,,0.053
+inductor/test_torchinductor,test_tensor1_cpu,pass,,0.021
+inductor/test_torchinductor,test_tensor1_dynamic_shapes_cpu,pass,,0.026
+inductor/test_torchinductor,test_tensor2_cpu,pass,,0.017
+inductor/test_torchinductor,test_tensor2_dynamic_shapes_cpu,pass,,0.018
+inductor/test_torchinductor,test_tensor3_cpu,pass,,0.069
+inductor/test_torchinductor,test_tensor3_dynamic_shapes_cpu,pass,,0.075
+inductor/test_torchinductor,test_tmp_not_defined_issue1_cpu,pass,,0.103
+inductor/test_torchinductor,test_tmp_not_defined_issue1_dynamic_shapes_cpu,pass,,0.166
+inductor/test_torchinductor,test_tmp_not_defined_issue2_cpu,pass,,0.055
+inductor/test_torchinductor,test_tmp_not_defined_issue2_dynamic_shapes_cpu,pass,,0.133
+inductor/test_torchinductor,test_to_device_constant_cpu,pass,,0.054
+inductor/test_torchinductor,test_to_device_constant_dynamic_shapes_cpu,pass,,0.062
+inductor/test_torchinductor,test_to_device_cpu,pass,,0.029
+inductor/test_torchinductor,test_to_device_dynamic_shapes_cpu,pass,,0.041
+inductor/test_torchinductor,test_to_dtype_cpu,pass,,0.044
+inductor/test_torchinductor,test_to_dtype_dynamic_shapes_cpu,pass,,0.076
+inductor/test_torchinductor,test_to_memory_format_cpu,pass,,0.043
+inductor/test_torchinductor,test_to_memory_format_dynamic_shapes_cpu,pass,,0.192
+inductor/test_torchinductor,test_topk_cpu,pass,,0.012
+inductor/test_torchinductor,test_topk_dynamic_shapes_cpu,pass,,0.040
+inductor/test_torchinductor,test_transpose_add_cpu,pass,,0.021
+inductor/test_torchinductor,test_transpose_add_dynamic_shapes_cpu,pass,,0.068
+inductor/test_torchinductor,test_transpose_cpu,pass,,0.030
+inductor/test_torchinductor,test_transpose_dynamic_shapes_cpu,pass,,0.084
+inductor/test_torchinductor,test_transposed_propagates_cpu,pass,,0.016
+inductor/test_torchinductor,test_transposed_propagates_dynamic_shapes_cpu,pass,,0.083
+inductor/test_torchinductor,test_triu_cpu,pass,,0.102
+inductor/test_torchinductor,test_triu_dynamic_shapes_cpu,pass,,0.217
+inductor/test_torchinductor,test_unbind_cpu,pass,,0.020
+inductor/test_torchinductor,test_unbind_dynamic_shapes_cpu,pass,,0.218
+inductor/test_torchinductor,test_unroll_small_reduction_cpu,pass,,0.132
+inductor/test_torchinductor,test_unroll_small_reduction_dynamic_shapes_cpu,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_unspec_inputs_cpu,skipped,segfault with CPU backend,0.001
+inductor/test_torchinductor,test_unspec_inputs_dynamic_shapes_cpu,skipped,segfault with CPU backend,0.000
+inductor/test_torchinductor,test_unsqueeze_cpu,pass,,0.041
+inductor/test_torchinductor,test_unsqueeze_dynamic_shapes_cpu,pass,,0.129
+inductor/test_torchinductor,test_unsqueeze_inplace_cpu,pass,,0.033
+inductor/test_torchinductor,test_unsqueeze_inplace_dynamic_shapes_cpu,pass,,0.085
+inductor/test_torchinductor,test_upsample_bicubic2d_cpu,pass,,0.702
+inductor/test_torchinductor,test_upsample_bicubic2d_dynamic_shapes_cpu,pass,,1.817
+inductor/test_torchinductor,test_upsample_bilinear2d_a_cpu,pass,,0.510
+inductor/test_torchinductor,test_upsample_bilinear2d_a_dynamic_shapes_cpu,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_upsample_bilinear2d_b_cpu,pass,,0.268
+inductor/test_torchinductor,test_upsample_bilinear2d_b_dynamic_shapes_cpu,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_upsample_cat_conv_cpu,pass,,0.092
+inductor/test_torchinductor,test_upsample_cat_conv_dynamic_shapes_cpu,pass,,0.389
+inductor/test_torchinductor,test_upsample_nearest1d_cpu,pass,,0.170
+inductor/test_torchinductor,test_upsample_nearest1d_dynamic_shapes_cpu,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_upsample_nearest2d_backward_cpu,pass,,4.370
+inductor/test_torchinductor,test_upsample_nearest2d_backward_dynamic_shapes_cpu,skipped,Skipped!,0.002
+inductor/test_torchinductor,test_upsample_nearest2d_cpu,pass,,0.649
+inductor/test_torchinductor,test_upsample_nearest2d_dynamic_shapes_cpu,skipped,Skipped!,0.002
+inductor/test_torchinductor,test_upsample_nearest3d_cpu,pass,,0.494
+inductor/test_torchinductor,test_upsample_nearest3d_dynamic_shapes_cpu,skipped,Skipped!,0.001
+inductor/test_torchinductor,test_var_mean_cpu,pass,,0.066
+inductor/test_torchinductor,test_var_mean_dynamic_shapes_cpu,pass,,0.162
+inductor/test_torchinductor,test_vdd_clamp_cpu,pass,,0.027
+inductor/test_torchinductor,test_vdd_clamp_dynamic_shapes_cpu,pass,,0.051
+inductor/test_torchinductor,test_vertical_fusion1_cpu,pass,,0.067
+inductor/test_torchinductor,test_vertical_fusion1_dynamic_shapes_cpu,pass,,0.155
+inductor/test_torchinductor,test_view_detach_cpu,pass,,0.017
+inductor/test_torchinductor,test_view_detach_dynamic_shapes_cpu,pass,,0.029
+inductor/test_torchinductor,test_views1_cpu,pass,,0.694
+inductor/test_torchinductor,test_views1_dynamic_shapes_cpu,pass,,3.783
+inductor/test_torchinductor,test_views2_cpu,pass,,0.107
+inductor/test_torchinductor,test_views2_dynamic_shapes_cpu,pass,,0.974
+inductor/test_torchinductor,test_views3_cpu,pass,,0.063
+inductor/test_torchinductor,test_views3_dynamic_shapes_cpu,pass,,0.080
+inductor/test_torchinductor,test_views4_cpu,pass,,0.220
+inductor/test_torchinductor,test_views4_dynamic_shapes_cpu,pass,,0.504
+inductor/test_torchinductor,test_where_broadcast_cpu,pass,,0.040
+inductor/test_torchinductor,test_where_broadcast_dynamic_shapes_cpu,pass,,0.061
+inductor/test_torchinductor,test_where_with_logical_op_cpu,pass,,0.060
+inductor/test_torchinductor,test_where_with_logical_op_dynamic_shapes_cpu,pass,,0.114
+inductor/test_torchinductor,test_zero_dim_reductions_cpu,pass,,0.106
+inductor/test_torchinductor,test_zero_dim_reductions_dynamic_shapes_cpu,pass,,0.152
+# inductor/test_torchinductor,test_zeros_cpu,failed,"###fixed in new version torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised SyntaxError: keyword argument repeated (cbovawi6jbrbmsgcmhewyxzppihshgj4q4zlxtp63iq6t77q3nqo.py, line 115)",0.071
+# inductor/test_torchinductor,test_zeros_dynamic_shapes_cpu,failed,"###fixed in new version torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised SyntaxError: keyword argument repeated (cbovawi6jbrbmsgcmhewyxzppihshgj4q4zlxtp63iq6t77q3nqo.py, line 115)",0.048
+inductor/test_torchinductor,test_auto_simd,pass,,0.001
+inductor/test_torchinductor,test_channel_shuffle_cl_output,pass,,0.220
+inductor/test_torchinductor,test_complex_memory_overlap,pass,,0.001
+inductor/test_torchinductor,test_conv_stride_constraints,pass,,0.028
+inductor/test_torchinductor,test_cpp_kernel_profile,pass,,0.016
+inductor/test_torchinductor,test_cpp_vec_constant_checker,pass,,0.002
+inductor/test_torchinductor,test_cpp_vec_index_expr_checker,pass,,0.119
+inductor/test_torchinductor,test_cpu_vec_cosim,pass,,0.000
+inductor/test_torchinductor,test_inplace_add_alpha,pass,,0.009
+inductor/test_torchinductor,test_inplace_squeeze_needed,pass,,0.100
+inductor/test_torchinductor,test_load_same_bool_tensor_twice,pass,,0.031
+inductor/test_torchinductor,test_masked_fill_softmax,pass,,0.067
+inductor/test_torchinductor,test_maxpool2d_cpu_only,pass,,1.387
+inductor/test_torchinductor,test_new_vec_op_cpu_only,pass,,0.013
+inductor/test_torchinductor,test_no_op_squeeze,pass,,0.012
+inductor/test_torchinductor,test_parallel_num_threads,pass,,0.063
+inductor/test_torchinductor,test_sigmoid_with_reduction,pass,,0.038
+inductor/test_torchinductor,test_sign_cpu_only,pass,,0.017
+inductor/test_torchinductor,test_timed_cpu_only,pass,,0.001
+inductor/test_torchinductor,test_transpose_copy,pass,,0.362
+inductor/test_torchinductor,test_transpose_non_contiguous,pass,,0.210
+inductor/test_torchinductor,test_transpose_with_norm,skipped,too slow,0.000
+inductor/test_torchinductor,test_vec_compare_op_cpu_only,pass,,0.171
+inductor/test_torchinductor,test_vec_cpu_only_for_all_available_isa,pass,,0.018
+inductor/test_torchinductor,test_vec_dynamic_shapes,pass,,0.079
+inductor/test_torchinductor,test_vec_kernel_cpu_only,pass,,0.140
+inductor/test_torchinductor,test_abs_cuda,pass,,0.137
+inductor/test_torchinductor,test_abs_dynamic_shapes_cuda,pass,,0.227
+inductor/test_torchinductor,test_adaptive_avg_pool2d1_cuda,pass,,1.420
+inductor/test_torchinductor,test_adaptive_avg_pool2d1_dynamic_shapes_cuda,pass,,2.105
+inductor/test_torchinductor,test_adaptive_avg_pool2d2_cuda,pass,,0.024
+inductor/test_torchinductor,test_adaptive_avg_pool2d2_dynamic_shapes_cuda,pass,,0.078
+inductor/test_torchinductor,test_add_const_float_cuda,pass,,0.201
+inductor/test_torchinductor,test_add_const_float_dynamic_shapes_cuda,pass,,0.237
+inductor/test_torchinductor,test_add_const_int_cuda,pass,,0.118
+inductor/test_torchinductor,test_add_const_int_dynamic_shapes_cuda,pass,,0.108
+inductor/test_torchinductor,test_add_inplace_permuted_cuda,pass,,0.124
+inductor/test_torchinductor,test_add_inplace_permuted_dynamic_shapes_cuda,pass,,0.251
+inductor/test_torchinductor,test_addmm_cuda,pass,,0.267
+inductor/test_torchinductor,test_addmm_dynamic_shapes_cuda,pass,,0.206
+inductor/test_torchinductor,test_alexnet_prefix_cuda,pass,,1.061
+inductor/test_torchinductor,test_alexnet_prefix_dynamic_shapes_cuda,skipped,Skipped!,0.000
+# inductor/test_torchinductor,test_any_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised CompilationError: at 19:34:",0.068
+# inductor/test_torchinductor,test_any_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised CompilationError: at 17:34:",0.092
+inductor/test_torchinductor,test_arange1_cuda,pass,,0.109
+inductor/test_torchinductor,test_arange1_dynamic_shapes_cuda,pass,,0.128
+inductor/test_torchinductor,test_arange2_cuda,pass,,0.023
+inductor/test_torchinductor,test_arange2_dynamic_shapes_cuda,pass,,0.031
+inductor/test_torchinductor,test_arange3_cuda,pass,,0.067
+inductor/test_torchinductor,test_arange3_dynamic_shapes_cuda,pass,,0.107
+inductor/test_torchinductor,test_arange4_cuda,pass,,0.064
+inductor/test_torchinductor,test_arange4_dynamic_shapes_cuda,pass,,0.090
+inductor/test_torchinductor,test_arange5_cuda,pass,,0.058
+inductor/test_torchinductor,test_arange5_dynamic_shapes_cuda,pass,,0.082
+inductor/test_torchinductor,test_arange6_cuda,pass,,0.193
+inductor/test_torchinductor,test_arange6_dynamic_shapes_cuda,pass,,0.174
+inductor/test_torchinductor,test_argmax_argmin1_cuda,pass,,0.163
+inductor/test_torchinductor,test_argmax_argmin1_dynamic_shapes_cuda,pass,,0.194
+inductor/test_torchinductor,test_argmax_argmin2_cuda,pass,,0.231
+inductor/test_torchinductor,test_argmax_argmin2_dynamic_shapes_cuda,pass,,0.231
+inductor/test_torchinductor,test_argmax_argmin3_cuda,skipped,"
+        FIXME: In the case of having equally max/min elements, our implementation returns
+        the last index instead of the first one",0.001
+inductor/test_torchinductor,test_argmax_argmin3_dynamic_shapes_cuda,skipped,"
+        FIXME: In the case of having equally max/min elements, our implementation returns
+        the last index instead of the first one",0.000
+# inductor/test_torchinductor,test_argmax_min_int32_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A process in the process pool was terminated abruptly while the future was running or pending.",0.216
+# inductor/test_torchinductor,test_argmax_min_int32_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.241
+# inductor/test_torchinductor,test_as_strided_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.037
+# inductor/test_torchinductor,test_as_strided_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.068
+# inductor/test_torchinductor,test_as_strided_scatter_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.050
+# inductor/test_torchinductor,test_as_strided_scatter_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.214
+# inductor/test_torchinductor,test_avg_pool2d1_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.184
+# inductor/test_torchinductor,test_avg_pool2d1_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.174
+# inductor/test_torchinductor,test_avg_pool2d2_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.045
+# inductor/test_torchinductor,test_avg_pool2d2_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.249
+# inductor/test_torchinductor,test_avg_pool2d3_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.056
+# inductor/test_torchinductor,test_avg_pool2d3_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.129
+# inductor/test_torchinductor,test_avg_pool2d4_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.040
+# inductor/test_torchinductor,test_avg_pool2d4_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.185
+# inductor/test_torchinductor,test_avg_pool2d5_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.074
+# inductor/test_torchinductor,test_avg_pool2d5_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.144
+# inductor/test_torchinductor,test_avg_pool2d6_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.046
+# inductor/test_torchinductor,test_avg_pool2d6_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.106
+inductor/test_torchinductor,test_avg_pool2d7_cuda,pass,,0.031
+inductor/test_torchinductor,test_avg_pool2d7_dynamic_shapes_cuda,pass,,0.168
+# inductor/test_torchinductor,test_avg_pool2d_backward2_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.070
+# inductor/test_torchinductor,test_avg_pool2d_backward2_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.099
+# inductor/test_torchinductor,test_avg_pool2d_backward3_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.098
+# inductor/test_torchinductor,test_avg_pool2d_backward3_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.195
+inductor/test_torchinductor,test_avg_pool2d_backward4_cuda,pass,,0.018
+inductor/test_torchinductor,test_avg_pool2d_backward4_dynamic_shapes_cuda,pass,,0.089
+# inductor/test_torchinductor,test_avg_pool2d_backward_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.036
+# inductor/test_torchinductor,test_avg_pool2d_backward_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.192
+# inductor/test_torchinductor,test_baddbmm_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.024
+inductor/test_torchinductor,test_baddbmm_dynamic_shapes_cuda,skipped,Skipped!,0.000
+# inductor/test_torchinductor,test_batch_norm_2d_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.087
+# inductor/test_torchinductor,test_batch_norm_2d_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.237
+# inductor/test_torchinductor,test_bernoulli1_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.018
+# inductor/test_torchinductor,test_bernoulli1_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.024
+# inductor/test_torchinductor,test_bernoulli2_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.017
+# inductor/test_torchinductor,test_bernoulli2_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.023
+# inductor/test_torchinductor,test_bitwise2_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.025
+# inductor/test_torchinductor,test_bitwise2_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.051
+# inductor/test_torchinductor,test_bitwise_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.022
+# inductor/test_torchinductor,test_bitwise_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.040
+# inductor/test_torchinductor,test_bmm1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.025
+# inductor/test_torchinductor,test_bmm1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.057
+inductor/test_torchinductor,test_bmm2_cuda,pass,,0.014
+inductor/test_torchinductor,test_bmm2_dynamic_shapes_cuda,pass,,0.031
+# inductor/test_torchinductor,test_bool_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.038
+# inductor/test_torchinductor,test_bool_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.063
+inductor/test_torchinductor,test_both_scalars_cuda,pass,,0.092
+inductor/test_torchinductor,test_both_scalars_dynamic_shapes_cuda,pass,,0.091
+# inductor/test_torchinductor,test_cat_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.043
+# inductor/test_torchinductor,test_cat_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.121
+# inductor/test_torchinductor,test_cat_extern_kernel_cuda,failed,"###result error. mma related. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.087
+# inductor/test_torchinductor,test_cat_extern_kernel_dynamic_shapes_cuda,failed,"###result error. mma related. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.090
+inductor/test_torchinductor,test_cat_inplace_cuda,pass,,0.018
+inductor/test_torchinductor,test_cat_inplace_dynamic_shapes_cuda,pass,,0.029
+inductor/test_torchinductor,test_cat_of_loops_and_extern_kernel_cuda,pass,,0.058
+inductor/test_torchinductor,test_cat_of_loops_and_extern_kernel_dynamic_shapes_cuda,pass,,0.377
+# inductor/test_torchinductor,test_cat_upcasting_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.024
+# inductor/test_torchinductor,test_cat_upcasting_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.064
+# inductor/test_torchinductor,test_cauchy_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.026
+# inductor/test_torchinductor,test_cauchy_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.054
+# inductor/test_torchinductor,test_clamp_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.028
+# inductor/test_torchinductor,test_clamp_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.100
+# inductor/test_torchinductor,test_clamp_type_promotion_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.023
+# inductor/test_torchinductor,test_clamp_type_promotion_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.056
+# inductor/test_torchinductor,test_clone_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.025
+# inductor/test_torchinductor,test_clone_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.051
+# inductor/test_torchinductor,test_concat_add_inplace_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.027
+# inductor/test_torchinductor,test_concat_add_inplace_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.190
+# inductor/test_torchinductor,test_constant_pad_1d_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.034
+# inductor/test_torchinductor,test_constant_pad_1d_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.105
+# inductor/test_torchinductor,test_constant_pad_2d_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.037
+# inductor/test_torchinductor,test_constant_pad_2d_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.134
+# inductor/test_torchinductor,test_constant_pad_3d_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.049
+# inductor/test_torchinductor,test_constant_pad_3d_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.248
+# inductor/test_torchinductor,test_constant_pad_fill_dtype_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.030
+# inductor/test_torchinductor,test_constant_pad_fill_dtype_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.069
+# inductor/test_torchinductor,test_constant_pad_float64_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_constant_pad_float64_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.074
+# inductor/test_torchinductor,test_conv2d_backward_channels_last_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.038
+# inductor/test_torchinductor,test_conv2d_backward_channels_last_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.193
+inductor/test_torchinductor,test_conv2d_binary_cuda,skipped,too slow,0.001
+inductor/test_torchinductor,test_conv2d_binary_dynamic_shapes_cuda,skipped,too slow,0.000
+inductor/test_torchinductor,test_conv2d_channels_last_cuda,skipped,only support cpu conv2d channels_last,0.000
+inductor/test_torchinductor,test_conv2d_channels_last_dynamic_shapes_cuda,skipped,only support cpu conv2d channels_last,0.000
+inductor/test_torchinductor,test_conv2d_packed_cuda,skipped,only support cpu conv2d packed test,0.000
+inductor/test_torchinductor,test_conv2d_packed_dynamic_shapes_cuda,skipped,only support cpu conv2d packed test,0.000
+inductor/test_torchinductor,test_conv2d_unary_cuda,skipped,too slow,0.000
+inductor/test_torchinductor,test_conv2d_unary_dynamic_shapes_cuda,skipped,too slow,0.001
+inductor/test_torchinductor,test_conv3d_channels_last_cuda,skipped,only support cpu conv3d channels_last,0.000
+inductor/test_torchinductor,test_conv3d_channels_last_dynamic_shapes_cuda,skipped,only support cpu conv3d channels_last,0.000
+inductor/test_torchinductor,test_conv_backward_cuda,pass,,0.132
+inductor/test_torchinductor,test_conv_backward_dynamic_shapes_cuda,pass,,0.622
+inductor/test_torchinductor,test_conv_bn_fuse_cuda,skipped,too slow,0.001
+inductor/test_torchinductor,test_conv_bn_fuse_dynamic_shapes_cuda,skipped,too slow,0.000
+inductor/test_torchinductor,test_conv_functional_bn_fuse_cuda,skipped,only support cpu conv bn test,0.000
+inductor/test_torchinductor,test_conv_functional_bn_fuse_dynamic_shapes_cuda,skipped,only support cpu conv bn test,0.000
+inductor/test_torchinductor,test_conv_transpose2d_packed_cuda,skipped,only support cpu conv_transpose2d packed test,0.000
+inductor/test_torchinductor,test_conv_transpose2d_packed_dynamic_shapes_cuda,skipped,only support cpu conv_transpose2d packed test,0.000
+inductor/test_torchinductor,test_conv_transpose2d_unary_cuda,skipped,only support cpu conv_transpose2d unary test,0.000
+inductor/test_torchinductor,test_conv_transpose2d_unary_dynamic_shapes_cuda,skipped,only support cpu conv_transpose2d unary test,0.000
+# inductor/test_torchinductor,test_convolution1_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.057
+# inductor/test_torchinductor,test_convolution1_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.361
+# inductor/test_torchinductor,test_convolution2_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.025
+# inductor/test_torchinductor,test_convolution2_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.098
+# inductor/test_torchinductor,test_cos_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.026
+# inductor/test_torchinductor,test_cos_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.053
+inductor/test_torchinductor,test_cpp_wrapper_cuda,skipped,cpp_wrapper only supports cpu,0.001
+inductor/test_torchinductor,test_cpp_wrapper_dynamic_shapes_cuda,skipped,cpp_wrapper only supports cpu,0.000
+inductor/test_torchinductor,test_cudnn_rnn_cuda,pass,,1.739
+inductor/test_torchinductor,test_cudnn_rnn_dynamic_shapes_cuda,skipped,Skipped!,0.001
+# inductor/test_torchinductor,test_dense_mask_index_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.061
+# inductor/test_torchinductor,test_dense_mask_index_dynamic_shapes_cuda,failed,"###passed during single test.torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.062
+# inductor/test_torchinductor,test_div1_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.068
+# inductor/test_torchinductor,test_div1_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.355
+# inductor/test_torchinductor,test_div2_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.077
+# inductor/test_torchinductor,test_div2_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.254
+# inductor/test_torchinductor,test_div3_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.043
+# inductor/test_torchinductor,test_div3_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.141
+# inductor/test_torchinductor,test_div4_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.042
+# inductor/test_torchinductor,test_div4_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.142
+# inductor/test_torchinductor,test_div5_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.041
+# inductor/test_torchinductor,test_div5_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.140
+# inductor/test_torchinductor,test_div6_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.042
+# inductor/test_torchinductor,test_div6_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.150
+# inductor/test_torchinductor,test_div7_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.043
+# inductor/test_torchinductor,test_div7_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.140
+inductor/test_torchinductor,test_div8_cuda,pass,,0.053
+inductor/test_torchinductor,test_div8_dynamic_shapes_cuda,pass,,0.052
+# inductor/test_torchinductor,test_div_prim_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.016
+# inductor/test_torchinductor,test_div_prim_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.040
+# inductor/test_torchinductor,test_div_zero_dim_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.073
+# inductor/test_torchinductor,test_div_zero_dim_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.261
+# inductor/test_torchinductor,test_dropout_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.022
+# inductor/test_torchinductor,test_dropout_deterministic_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.295
+# inductor/test_torchinductor,test_dropout_deterministic_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.035
+# inductor/test_torchinductor,test_dropout_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.033
+inductor/test_torchinductor,test_dtype_mismatch_issue_cuda,pass,,0.057
+inductor/test_torchinductor,test_dtype_mismatch_issue_dynamic_shapes_cuda,pass,,0.108
+# inductor/test_torchinductor,test_elu_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.042
+# inductor/test_torchinductor,test_elu_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.091
+inductor/test_torchinductor,test_embedding_bag_cuda,pass,,0.040
+inductor/test_torchinductor,test_embedding_bag_dynamic_shapes_cuda,pass,,0.082
+# inductor/test_torchinductor,test_embedding_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.036
+# inductor/test_torchinductor,test_embedding_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.078
+inductor/test_torchinductor,test_empty1_cuda,pass,,0.016
+inductor/test_torchinductor,test_empty1_dynamic_shapes_cuda,pass,,0.014
+inductor/test_torchinductor,test_empty2_cuda,pass,,0.021
+inductor/test_torchinductor,test_empty2_dynamic_shapes_cuda,pass,,0.021
+inductor/test_torchinductor,test_empty_strided_cuda,pass,,0.021
+inductor/test_torchinductor,test_empty_strided_dynamic_shapes_cuda,pass,,0.022
+# inductor/test_torchinductor,test_exp2_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.029
+# inductor/test_torchinductor,test_exp2_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.064
+# inductor/test_torchinductor,test_exp_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.018
+# inductor/test_torchinductor,test_exp_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.044
+# inductor/test_torchinductor,test_expand_as_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.032
+# inductor/test_torchinductor,test_expand_as_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.091
+# inductor/test_torchinductor,test_expand_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.033
+# inductor/test_torchinductor,test_expand_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.052
+# inductor/test_torchinductor,test_expanded_reduction_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.074
+# inductor/test_torchinductor,test_expanded_reduction_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.085
+# inductor/test_torchinductor,test_expm1_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.017
+# inductor/test_torchinductor,test_expm1_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.038
+# inductor/test_torchinductor,test_fill1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_fill1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.040
+# inductor/test_torchinductor,test_fill2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.021
+# inductor/test_torchinductor,test_fill2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.041
+# inductor/test_torchinductor,test_flip_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.028
+# inductor/test_torchinductor,test_flip_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.083
+# inductor/test_torchinductor,test_fmod_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.023
+# inductor/test_torchinductor,test_fmod_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.069
+# inductor/test_torchinductor,test_fmod_zero_dim_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.013
+# inductor/test_torchinductor,test_fmod_zero_dim_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.022
+# inductor/test_torchinductor,test_forced_buffer_realize_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.021
+# inductor/test_torchinductor,test_forced_buffer_realize_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.028
+# inductor/test_torchinductor,test_full_like_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.014
+# inductor/test_torchinductor,test_full_like_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_full_truncation_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.014
+# inductor/test_torchinductor,test_full_truncation_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.021
+# inductor/test_torchinductor,test_fuse_tiled_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_fuse_tiled_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.052
+# inductor/test_torchinductor,test_gather1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.030
+# inductor/test_torchinductor,test_gather1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.086
+inductor/test_torchinductor,test_gather2_cuda,pass,,0.001
+inductor/test_torchinductor,test_gather2_dynamic_shapes_cuda,pass,,0.001
+# inductor/test_torchinductor,test_gather_scatter_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.040
+# inductor/test_torchinductor,test_gather_scatter_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.095
+# inductor/test_torchinductor,test_gelu_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.039
+# inductor/test_torchinductor,test_gelu_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.076
+# inductor/test_torchinductor,test_glu_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.052
+# inductor/test_torchinductor,test_glu_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.530
+# inductor/test_torchinductor,test_grid_sampler_2d_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.669
+inductor/test_torchinductor,test_grid_sampler_2d_dynamic_shapes_cuda,skipped,Skipped!,0.000
+# inductor/test_torchinductor,test_hardsigmoid_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.042
+# inductor/test_torchinductor,test_hardsigmoid_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.111
+# inductor/test_torchinductor,test_hardswish_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.046
+# inductor/test_torchinductor,test_hardswish_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.119
+# inductor/test_torchinductor,test_hardtanh_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.030
+# inductor/test_torchinductor,test_hardtanh_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.095
+# inductor/test_torchinductor,test_horizonal_fusion1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.026
+# inductor/test_torchinductor,test_horizonal_fusion1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.092
+# inductor/test_torchinductor,test_horizonal_fusion2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.023
+# inductor/test_torchinductor,test_horizonal_fusion2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.054
+inductor/test_torchinductor,test_in_out_buffer_cuda,skipped,test in_out_ptr for CppKernel,0.001
+inductor/test_torchinductor,test_in_out_buffer_dynamic_shapes_cuda,skipped,test in_out_ptr for CppKernel,0.000
+# inductor/test_torchinductor,test_index1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.022
+# inductor/test_torchinductor,test_index1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.043
+# inductor/test_torchinductor,test_index2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.035
+# inductor/test_torchinductor,test_index2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.105
+inductor/test_torchinductor,test_index3_cuda,pass,,0.038
+inductor/test_torchinductor,test_index3_dynamic_shapes_cuda,pass,,0.195
+# inductor/test_torchinductor,test_index_put1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.109
+# inductor/test_torchinductor,test_index_put1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.292
+# inductor/test_torchinductor,test_index_put2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.081
+# inductor/test_torchinductor,test_index_put2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.151
+# inductor/test_torchinductor,test_index_put3_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.063
+# inductor/test_torchinductor,test_index_put3_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.095
+# inductor/test_torchinductor,test_index_put_as_masked_fill_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.021
+# inductor/test_torchinductor,test_index_put_as_masked_fill_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.049
+# inductor/test_torchinductor,test_index_put_fallback1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.019
+# inductor/test_torchinductor,test_index_put_fallback1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.031
+# inductor/test_torchinductor,test_index_put_fallback2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_index_put_fallback2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.039
+# inductor/test_torchinductor,test_index_select_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.038
+# inductor/test_torchinductor,test_index_select_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.108
+# inductor/test_torchinductor,test_indirect_load_broadcast_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.021
+# inductor/test_torchinductor,test_indirect_load_broadcast_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.051
+# inductor/test_torchinductor,test_inf_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.022
+# inductor/test_torchinductor,test_inf_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.025
+# inductor/test_torchinductor,test_inplace_activations_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.095
+# inductor/test_torchinductor,test_inplace_activations_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.191
+# inductor/test_torchinductor,test_inplace_add_alpha_autotune,failed,"###passed during single test. concurrent.futures.process.BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.016
+# inductor/test_torchinductor,test_inplace_add_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.015
+# inductor/test_torchinductor,test_inplace_add_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.035
+# inductor/test_torchinductor,test_inplace_buffer_autotune,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.019
+# inductor/test_torchinductor,test_inplace_mixed_dtype_ops_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.024
+# inductor/test_torchinductor,test_inplace_mixed_dtype_ops_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.337
+# inductor/test_torchinductor,test_input_mutation1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.021
+# inductor/test_torchinductor,test_input_mutation1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.034
+# inductor/test_torchinductor,test_input_mutation2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx raised BrokenProcessPool: Atest_like_rands_ child process terminated abruptly, the process pool is not usable anymore",0.039
+# inductor/test_torchinductor,test_input_mutation2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.072
+# inductor/test_torchinductor,test_input_mutation3_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.041
+# inductor/test_torchinductor,test_input_mutation3_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.083
+# inductor/test_torchinductor,test_input_mutation4_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.013
+# inductor/test_torchinductor,test_input_mutation4_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.028
+# inductor/test_torchinductor,test_invalid_operand_issue1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.262
+# inductor/test_torchinductor,test_invalid_operand_issue1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.526
+# inductor/test_torchinductor,test_isinf2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.024
+# inductor/test_torchinductor,test_isinf2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.042
+# inductor/test_torchinductor,test_isinf_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.023
+# inductor/test_torchinductor,test_isinf_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.026
+# inductor/test_torchinductor,test_kernel_names_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.011
+# inductor/test_torchinductor,test_kernel_names_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.017
+inductor/test_torchinductor,test_kwargs_cuda,skipped,histogramdd only supports cpu,0.001
+inductor/test_torchinductor,test_kwargs_dynamic_shapes_cuda,skipped,histogramdd only supports cpu,0.000
+# inductor/test_torchinductor,test_l1_loss_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.033
+# inductor/test_torchinductor,test_l1_loss_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.093
+# inductor/test_torchinductor,test_layer_norm_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.055
+# inductor/test_torchinductor,test_layer_norm_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.117
+# inductor/test_torchinductor,test_leaky_relu_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.033
+# inductor/test_torchinductor,test_leaky_relu_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.071
+inductor/test_torchinductor,test_lerp_cuda,pass,,0.060
+inductor/test_torchinductor,test_lerp_dynamic_shapes_cuda,pass,,0.212
+# inductor/test_torchinductor,test_lgamma_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.028
+# inductor/test_torchinductor,test_lgamma_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.052
+# inductor/test_torchinductor,test_like_rands_cuda,failed,"###fixed in new version torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised SyntaxError: keyword argument repeated (ctvwn3ffrgbccvel5orrjc7p6iv3utibpzoypx7neaxqnmxhreq6.py, line 28)",0.016
+# inductor/test_torchinductor,test_like_rands_dynamic_shapes_cuda,failed,"###fixed in new version torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised SyntaxError: keyword argument repeated (caadnnvkxdojkqjl7iyozyzzbittmrqrosfqmntvgo2zwwxszxui.py, line 30)",0.028
+# inductor/test_torchinductor,test_linear1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.033
+# inductor/test_torchinductor,test_linear1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.065
+# inductor/test_torchinductor,test_linear2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.101
+# inductor/test_torchinductor,test_linear2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.177
+# inductor/test_torchinductor,test_linear_binary_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.034
+# inductor/test_torchinductor,test_linear_binary_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.090
+inductor/test_torchinductor,test_linear_buffer_reuse_cuda,pass,,0.070
+inductor/test_torchinductor,test_linear_buffer_reuse_dynamic_shapes_cuda,pass,,0.088
+# inductor/test_torchinductor,test_linear_packed_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.162
+# inductor/test_torchinductor,test_linear_packed_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.354
+inductor/test_torchinductor,test_linear_permute_fusion,pass,,0.003
+# inductor/test_torchinductor,test_linear_unary_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.035
+# inductor/test_torchinductor,test_linear_unary_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.087
+# inductor/test_torchinductor,test_linspace1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.025
+# inductor/test_torchinductor,test_linspace1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.033
+# inductor/test_torchinductor,test_linspace2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.014
+# inductor/test_torchinductor,test_linspace2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.018
+inductor/test_torchinductor,test_linspace3_cuda,pass,,0.019
+inductor/test_torchinductor,test_linspace3_dynamic_shapes_cuda,pass,,0.017
+# inductor/test_torchinductor,test_list_clearing_cuda,failed,"###passed during single test. concurrent.futures.process.BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.009
+# inductor/test_torchinductor,test_list_clearing_dynamic_shapes_cuda,failed,"###passed during single test. concurrent.futures.process.BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.012
+# inductor/test_torchinductor,test_log1p_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.017
+# inductor/test_torchinductor,test_log1p_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.038
+# inductor/test_torchinductor,test_log2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_log2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.329
+# inductor/test_torchinductor,test_log_fp64_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.016
+# inductor/test_torchinductor,test_log_fp64_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.027
+# inductor/test_torchinductor,test_log_softmax_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.063
+# inductor/test_torchinductor,test_log_softmax_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.125
+# inductor/test_torchinductor,test_logsumexp_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.045
+# inductor/test_torchinductor,test_logsumexp_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.107
+# inductor/test_torchinductor,test_long_tensor_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.027
+# inductor/test_torchinductor,test_long_tensor_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.045
+# inductor/test_torchinductor,test_lowmem_dropout1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.018
+inductor/test_torchinductor,test_lowmem_dropout1_dynamic_shapes_cuda,skipped,Skipped!,0.001
+# inductor/test_torchinductor,test_lowmem_dropout2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.108
+inductor/test_torchinductor,test_lowmem_dropout2_dynamic_shapes_cuda,skipped,Skipped!,0.001
+# inductor/test_torchinductor,test_masked_fill_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.054
+# inductor/test_torchinductor,test_masked_fill_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.116
+# inductor/test_torchinductor,test_masked_fill_promotion_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.021
+# inductor/test_torchinductor,test_masked_fill_promotion_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.048
+# inductor/test_torchinductor,test_max_min_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.016
+# inductor/test_torchinductor,test_max_min_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.027
+# inductor/test_torchinductor,test_max_pool2d1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.060
+# inductor/test_torchinductor,test_max_pool2d1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.204
+# inductor/test_torchinductor,test_max_pool2d2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.070
+# inductor/test_torchinductor,test_max_pool2d2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.241
+# inductor/test_torchinductor,test_max_pool2d3_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.090
+# inductor/test_torchinductor,test_max_pool2d3_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.173
+# inductor/test_torchinductor,test_max_pool2d4_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.061
+# inductor/test_torchinductor,test_max_pool2d4_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.214
+# inductor/test_torchinductor,test_max_pool2d5_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.071
+# inductor/test_torchinductor,test_max_pool2d5_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.201
+inductor/test_torchinductor,test_max_pool2d6_cuda,pass,,0.044
+inductor/test_torchinductor,test_max_pool2d6_dynamic_shapes_cuda,pass,,0.209
+# inductor/test_torchinductor,test_max_pool2d_with_indices_backward2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.069
+# inductor/test_torchinductor,test_max_pool2d_with_indices_backward2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.273
+# inductor/test_torchinductor,test_max_pool2d_with_indices_backward3_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.130
+# inductor/test_torchinductor,test_max_pool2d_with_indices_backward3_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.384
+# inductor/test_torchinductor,test_max_pool2d_with_indices_backward4_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.165
+# inductor/test_torchinductor,test_max_pool2d_with_indices_backward4_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.228
+inductor/test_torchinductor,test_max_pool2d_with_indices_backward5_cuda,pass,,0.041
+inductor/test_torchinductor,test_max_pool2d_with_indices_backward5_dynamic_shapes_cuda,pass,,0.232
+# inductor/test_torchinductor,test_max_pool2d_with_indices_backward_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.044
+# inductor/test_torchinductor,test_max_pool2d_with_indices_backward_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.230
+# inductor/test_torchinductor,test_mean_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.039
+# inductor/test_torchinductor,test_mean_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.115
+# inductor/test_torchinductor,test_min_max_reduction_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.025
+# inductor/test_torchinductor,test_min_max_reduction_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.064
+# inductor/test_torchinductor,test_misaligned_address_issue1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.016
+# inductor/test_torchinductor,test_misaligned_address_issue1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.023
+inductor/test_torchinductor,test_mm_views_cuda,pass,,0.015
+inductor/test_torchinductor,test_mm_views_dynamic_shapes_cuda,pass,,0.047
+# inductor/test_torchinductor,test_move_arange_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.017
+# inductor/test_torchinductor,test_move_arange_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.031
+# inductor/test_torchinductor,test_multi_device_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.052
+# inductor/test_torchinductor,test_multi_device_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.106
+inductor/test_torchinductor,test_multi_gpu_device_cuda,skipped,requires multiple cuda devices,0.001
+inductor/test_torchinductor,test_multi_gpu_device_dynamic_shapes_cuda,skipped,requires multiple cuda devices,0.000
+# inductor/test_torchinductor,test_multilayer_low_prec_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.115
+# inductor/test_torchinductor,test_multilayer_low_prec_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.192
+inductor/test_torchinductor,test_nan_to_num_cuda,skipped,Skipping due to op bugs,0.001
+inductor/test_torchinductor,test_nan_to_num_dynamic_shapes_cuda,skipped,Skipping due to op bugs,0.001
+# inductor/test_torchinductor,test_narrow_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.041
+# inductor/test_torchinductor,test_narrow_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.087
+# inductor/test_torchinductor,test_neg_max_uint8_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.024
+# inductor/test_torchinductor,test_neg_max_uint8_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.027
+inductor/test_torchinductor,test_new_empty_cuda,pass,,0.028
+inductor/test_torchinductor,test_new_empty_dynamic_shapes_cuda,pass,,0.033
+inductor/test_torchinductor,test_new_empty_strided_cuda,pass,,0.025
+inductor/test_torchinductor,test_new_empty_strided_dynamic_shapes_cuda,pass,,0.032
+# inductor/test_torchinductor,test_new_ones_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.021
+# inductor/test_torchinductor,test_new_ones_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.027
+# inductor/test_torchinductor,test_nll_loss_backward_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.045
+# inductor/test_torchinductor,test_nll_loss_backward_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.074
+# inductor/test_torchinductor,test_nll_loss_forward_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.043
+inductor/test_torchinductor,test_nll_loss_forward_dynamic_shapes_cuda,skipped,Skipped!,0.006
+# inductor/test_torchinductor,test_no_mega_fusion_during_lowering_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.165
+# inductor/test_torchinductor,test_no_mega_fusion_during_lowering_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.265
+# inductor/test_torchinductor,test_no_op_reduction_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.017
+# inductor/test_torchinductor,test_no_op_reduction_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.031
+# inductor/test_torchinductor,test_output_strides_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_output_strides_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.125
+# inductor/test_torchinductor,test_permute1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.025
+# inductor/test_torchinductor,test_permute1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.220
+inductor/test_torchinductor,test_permute2_cuda,pass,,0.027
+inductor/test_torchinductor,test_permute2_dynamic_shapes_cuda,pass,,0.112
+inductor/test_torchinductor,test_permute_bmm_fusion,pass,,0.002
+inductor/test_torchinductor,test_permute_fusion,pass,,0.038
+inductor/test_torchinductor,test_permute_linear_fusion,pass,,0.003
+inductor/test_torchinductor,test_pixel_shuffle_channels_last_cuda,skipped,Requires AVX2,0.000
+inductor/test_torchinductor,test_pixel_shuffle_channels_last_dynamic_shapes_cuda,skipped,Requires AVX2,0.000
+# inductor/test_torchinductor,test_pow1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.144
+# inductor/test_torchinductor,test_pow1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.516
+# inductor/test_torchinductor,test_pow2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.023
+# inductor/test_torchinductor,test_pow2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.045
+# inductor/test_torchinductor,test_pow3_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.016
+# inductor/test_torchinductor,test_pow3_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.016
+inductor/test_torchinductor,test_profiler_mark_wrapper_call_cuda,pass,,0.017
+inductor/test_torchinductor,test_profiler_mark_wrapper_call_dynamic_shapes_cuda,pass,,0.025
+# inductor/test_torchinductor,test_rand_like_deterministic_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.022
+inductor/test_torchinductor,test_rand_like_deterministic_dynamic_shapes_cuda,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_randn_generator_cuda,pass,,0.022
+inductor/test_torchinductor,test_randn_generator_dynamic_shapes_cuda,pass,,0.025
+inductor/test_torchinductor,test_randn_like_empty_cuda,pass,,0.027
+inductor/test_torchinductor,test_randn_like_empty_dynamic_shapes_cuda,skipped,Skipped!,0.000
+inductor/test_torchinductor,test_recompile_on_index_cuda,skipped,requires multiple cuda devices,0.000
+inductor/test_torchinductor,test_recompile_on_index_dynamic_shapes_cuda,skipped,Skipped!,0.000
+# inductor/test_torchinductor,test_reduction1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_reduction1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.027
+# inductor/test_torchinductor,test_reduction2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.019
+# inductor/test_torchinductor,test_reduction2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.024
+# inductor/test_torchinductor,test_reduction3_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.019
+# inductor/test_torchinductor,test_reduction3_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.024
+# inductor/test_torchinductor,test_reduction4_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.014
+# inductor/test_torchinductor,test_reduction4_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.021
+# inductor/test_torchinductor,test_reduction5_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_reduction5_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.024
+# inductor/test_torchinductor,test_reflection_pad2d_backward_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_reflection_pad2d_backward_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.043
+# inductor/test_torchinductor,test_reflection_pad2d_cuda,failed,"###CUDA error: an illegal memory access was encountered. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.033
+# inductor/test_torchinductor,test_reflection_pad2d_dynamic_shapes_cuda,failed,"###CUDA error: an illegal memory access was encountered. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.071
+# inductor/test_torchinductor,test_relu_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.021
+# inductor/test_torchinductor,test_relu_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.056
+# inductor/test_torchinductor,test_remainder_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.027
+# inductor/test_torchinductor,test_remainder_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.047
+# inductor/test_torchinductor,test_repeat_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.042
+# inductor/test_torchinductor,test_repeat_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.189
+inductor/test_torchinductor,test_roi_align_cuda,skipped,requires torchvision,0.001
+inductor/test_torchinductor,test_roi_align_dynamic_shapes_cuda,skipped,Skipped!,0.000
+# inductor/test_torchinductor,test_roll_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.073
+# inductor/test_torchinductor,test_roll_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.726
+inductor/test_torchinductor,test_round_correctness_cuda,skipped,need to debug tl.libdevice on A100/V100,0.001
+inductor/test_torchinductor,test_round_correctness_dynamic_shapes_cuda,skipped,need to debug tl.libdevice on A100/V100,0.001
+# inductor/test_torchinductor,test_round_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.023
+# inductor/test_torchinductor,test_round_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.051
+# inductor/test_torchinductor,test_rsqrt_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.019
+# inductor/test_torchinductor,test_rsqrt_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.082
+# inductor/test_torchinductor,test_scatter1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.022
+# inductor/test_torchinductor,test_scatter1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.036
+inductor/test_torchinductor,test_scatter2_cuda,skipped,unstable on sm86,0.001
+inductor/test_torchinductor,test_scatter2_dynamic_shapes_cuda,skipped,unstable on sm86,0.000
+# inductor/test_torchinductor,test_scatter3_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_scatter3_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.042
+# inductor/test_torchinductor,test_scatter4_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.019
+# inductor/test_torchinductor,test_scatter4_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.039
+inductor/test_torchinductor,test_scatter_add1_cuda,skipped,"Flaky test, needs debugging",0.001
+inductor/test_torchinductor,test_scatter_add1_dynamic_shapes_cuda,skipped,"Flaky test, needs debugging",0.000
+# inductor/test_torchinductor,test_scatter_add2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.022
+# inductor/test_torchinductor,test_scatter_add2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.037
+# inductor/test_torchinductor,test_scatter_add3_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.019
+# inductor/test_torchinductor,test_scatter_add3_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.046
+# inductor/test_torchinductor,test_scatter_reduce1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.019
+# inductor/test_torchinductor,test_scatter_reduce1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.045
+# inductor/test_torchinductor,test_scatter_reduce2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.022
+# inductor/test_torchinductor,test_scatter_reduce2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.041
+# inductor/test_torchinductor,test_scheduler_vertical_fusion1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.073
+# inductor/test_torchinductor,test_scheduler_vertical_fusion1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.208
+# inductor/test_torchinductor,test_select_scatter_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.033
+# inductor/test_torchinductor,test_select_scatter_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.063
+# inductor/test_torchinductor,test_sgn_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.018
+# inductor/test_torchinductor,test_sgn_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.030
+# inductor/test_torchinductor,test_sgn_extremal_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.012
+# inductor/test_torchinductor,test_sgn_extremal_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.019
+# inductor/test_torchinductor,test_shape_prop_torch_ones_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.114
+# inductor/test_torchinductor,test_shape_prop_torch_ones_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.144
+# inductor/test_torchinductor,test_sigmoid_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_sigmoid_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.063
+# inductor/test_torchinductor,test_signbit_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.022
+# inductor/test_torchinductor,test_signbit_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.089
+# inductor/test_torchinductor,test_silu_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.015
+# inductor/test_torchinductor,test_silu_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.045
+# inductor/test_torchinductor,test_simplify_dims,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_simplify_loops_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.018
+# inductor/test_torchinductor,test_simplify_loops_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.159
+# inductor/test_torchinductor,test_sin_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.027
+# inductor/test_torchinductor,test_sin_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.052
+# inductor/test_torchinductor,test_single_elem_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.011
+# inductor/test_torchinductor,test_single_elem_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.017
+# inductor/test_torchinductor,test_single_elem_indirect_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.016
+# inductor/test_torchinductor,test_single_elem_indirect_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.019
+inductor/test_torchinductor,test_sink_cat_after_pointwise,pass,,0.005
+# inductor/test_torchinductor,test_sizehint_issue1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.070
+inductor/test_torchinductor,test_sizehint_issue1_dynamic_shapes_cuda,skipped,Skipped!,0.000
+# inductor/test_torchinductor,test_slice1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.041
+# inductor/test_torchinductor,test_slice1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.131
+# inductor/test_torchinductor,test_slice2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.038
+# inductor/test_torchinductor,test_slice2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.155
+# inductor/test_torchinductor,test_slice_mutation1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.047
+# inductor/test_torchinductor,test_slice_mutation1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.108
+# inductor/test_torchinductor,test_slice_mutation2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.056
+# inductor/test_torchinductor,test_slice_mutation2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.094
+# inductor/test_torchinductor,test_slice_scatter2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.022
+# inductor/test_torchinductor,test_slice_scatter2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.083
+# inductor/test_torchinductor,test_slice_scatter_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.065
+# inductor/test_torchinductor,test_slice_scatter_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.142
+# inductor/test_torchinductor,test_softmax_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.058
+# inductor/test_torchinductor,test_softmax_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.113
+# inductor/test_torchinductor,test_softmax_one_kernel_loop_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.026
+# inductor/test_torchinductor,test_softmax_one_kernel_loop_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.057
+# inductor/test_torchinductor,test_softmax_one_kernel_persist_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.024
+# inductor/test_torchinductor,test_softmax_one_kernel_persist_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.055
+inductor/test_torchinductor,test_sort_cuda,pass,,0.026
+inductor/test_torchinductor,test_sort_dynamic_shapes_cuda,pass,,0.082
+# inductor/test_torchinductor,test_split_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.055
+# inductor/test_torchinductor,test_split_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.235
+# inductor/test_torchinductor,test_split_with_sizes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.038
+# inductor/test_torchinductor,test_split_with_sizes_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.160
+# inductor/test_torchinductor,test_squeeze1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.022
+# inductor/test_torchinductor,test_squeeze1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.051
+# inductor/test_torchinductor,test_squeeze2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.024
+# inductor/test_torchinductor,test_squeeze2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.139
+# inductor/test_torchinductor,test_stack_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.023
+# inductor/test_torchinductor,test_stack_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.041
+# inductor/test_torchinductor,test_std_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.096
+# inductor/test_torchinductor,test_std_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.216
+# inductor/test_torchinductor,test_strided_inputs_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.014
+# inductor/test_torchinductor,test_strided_inputs_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.038
+# inductor/test_torchinductor,test_sum1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.016
+# inductor/test_torchinductor,test_sum1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.029
+# inductor/test_torchinductor,test_sum2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.031
+# inductor/test_torchinductor,test_sum2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.122
+# inductor/test_torchinductor,test_sum3_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.035
+# inductor/test_torchinductor,test_sum3_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.067
+# inductor/test_torchinductor,test_sum4_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.045
+# inductor/test_torchinductor,test_sum4_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.113
+# inductor/test_torchinductor,test_sum5_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.026
+# inductor/test_torchinductor,test_sum5_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.059
+# inductor/test_torchinductor,test_sum_dtype_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.026
+# inductor/test_torchinductor,test_sum_dtype_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.057
+# inductor/test_torchinductor,test_sum_int_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_sum_int_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.034
+# inductor/test_torchinductor,test_sum_keepdims_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.016
+# inductor/test_torchinductor,test_sum_keepdims_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.030
+# inductor/test_torchinductor,test_tan_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.026
+# inductor/test_torchinductor,test_tan_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.052
+# inductor/test_torchinductor,test_tanh_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.026
+# inductor/test_torchinductor,test_tanh_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.052
+# inductor/test_torchinductor,test_tensor1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.019
+# inductor/test_torchinductor,test_tensor1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.023
+# inductor/test_torchinductor,test_tensor2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.016
+# inductor/test_torchinductor,test_tensor2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.017
+# inductor/test_torchinductor,test_tensor3_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.031
+# inductor/test_torchinductor,test_tensor3_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.037
+# inductor/test_torchinductor,test_tmp_not_defined_issue1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.081
+# inductor/test_torchinductor,test_tmp_not_defined_issue1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.128
+# inductor/test_torchinductor,test_tmp_not_defined_issue2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.075
+# inductor/test_torchinductor,test_tmp_not_defined_issue2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.137
+# inductor/test_torchinductor,test_to_device_constant_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.038
+# inductor/test_torchinductor,test_to_device_constant_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.044
+# inductor/test_torchinductor,test_to_device_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.036
+# inductor/test_torchinductor,test_to_device_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.073
+# inductor/test_torchinductor,test_to_dtype_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.037
+# inductor/test_torchinductor,test_to_dtype_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.066
+# inductor/test_torchinductor,test_to_memory_format_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.021
+# inductor/test_torchinductor,test_to_memory_format_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.062
+inductor/test_torchinductor,test_topk_cuda,pass,,0.026
+inductor/test_torchinductor,test_topk_dynamic_shapes_cuda,pass,,0.069
+# inductor/test_torchinductor,test_transpose_add_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.015
+# inductor/test_torchinductor,test_transpose_add_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.046
+# inductor/test_torchinductor,test_transpose_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.026
+# inductor/test_torchinductor,test_transpose_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.059
+# inductor/test_torchinductor,test_transposed_propagates_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.014
+# inductor/test_torchinductor,test_transposed_propagates_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.116
+# inductor/test_torchinductor,test_triu_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.056
+# inductor/test_torchinductor,test_triu_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.165
+inductor/test_torchinductor,test_unbind_cuda,pass,,0.039
+inductor/test_torchinductor,test_unbind_dynamic_shapes_cuda,pass,,0.357
+# inductor/test_torchinductor,test_unroll_small_reduction_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.066
+inductor/test_torchinductor,test_unroll_small_reduction_dynamic_shapes_cuda,skipped,Skipped!,0.000
+# inductor/test_torchinductor,test_unspec_inputs_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.021
+# inductor/test_torchinductor,test_unspec_inputs_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.039
+# inductor/test_torchinductor,test_unsqueeze_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.034
+# inductor/test_torchinductor,test_unsqueeze_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.121
+# inductor/test_torchinductor,test_unsqueeze_inplace_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.028
+# inductor/test_torchinductor,test_unsqueeze_inplace_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.081
+# inductor/test_torchinductor,test_upsample_bicubic2d_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.616
+# inductor/test_torchinductor,test_upsample_bicubic2d_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",1.489
+# inductor/test_torchinductor,test_upsample_bilinear2d_a_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.285
+# inductor/test_torchinductor,test_upsample_bilinear2d_a_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.619
+# inductor/test_torchinductor,test_upsample_bilinear2d_b_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.134
+# inductor/test_torchinductor,test_upsample_bilinear2d_b_dynamic_shapes_cuda,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.361
+inductor/test_torchinductor,test_upsample_cat_conv_cuda,skipped,only support cpu upsample_cat_conv test,0.001
+inductor/test_torchinductor,test_upsample_cat_conv_dynamic_shapes_cuda,skipped,only support cpu upsample_cat_conv test,0.000
+# inductor/test_torchinductor,test_upsample_nearest1d_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.123
+# inductor/test_torchinductor,test_upsample_nearest1d_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.268
+# inductor/test_torchinductor,test_upsample_nearest2d_backward_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.285
+inductor/test_torchinductor,test_upsample_nearest2d_backward_dynamic_shapes_cuda,skipped,Skipped!,0.000
+# inductor/test_torchinductor,test_upsample_nearest2d_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.188
+# inductor/test_torchinductor,test_upsample_nearest2d_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.387
+# inductor/test_torchinductor,test_upsample_nearest3d_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.266
+# inductor/test_torchinductor,test_upsample_nearest3d_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.556
+# inductor/test_torchinductor,test_var_mean_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.037
+# inductor/test_torchinductor,test_var_mean_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.094
+# inductor/test_torchinductor,test_vdd_clamp_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.020
+# inductor/test_torchinductor,test_vdd_clamp_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.042
+# inductor/test_torchinductor,test_vertical_fusion1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.044
+# inductor/test_torchinductor,test_vertical_fusion1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.582
+inductor/test_torchinductor,test_view_detach_cuda,pass,,0.041
+inductor/test_torchinductor,test_view_detach_dynamic_shapes_cuda,pass,,0.070
+# inductor/test_torchinductor,test_views1_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.024
+# inductor/test_torchinductor,test_views1_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.055
+# inductor/test_torchinductor,test_views2_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.014
+# inductor/test_torchinductor,test_views2_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.127
+# inductor/test_torchinductor,test_views3_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.049
+# inductor/test_torchinductor,test_views3_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.070
+# inductor/test_torchinductor,test_views4_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.183
+# inductor/test_torchinductor,test_views4_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.483
+# inductor/test_torchinductor,test_where_broadcast_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.016
+# inductor/test_torchinductor,test_where_broadcast_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.050
+# inductor/test_torchinductor,test_where_with_logical_op_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.019
+# inductor/test_torchinductor,test_where_with_logical_op_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.040
+# inductor/test_torchinductor,test_zero_dim_reductions_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.039
+# inductor/test_torchinductor,test_zero_dim_reductions_dynamic_shapes_cuda,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.057
+# inductor/test_torchinductor,test_zeros_cuda,failed,"###fixed in new version torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised SyntaxError: keyword argument repeated (cw7zexamyv72etqabo5auw4oyw5yagutknbeysyardsibbvzgs7b.py, line 103)",0.036
+# inductor/test_torchinductor,test_zeros_dynamic_shapes_cuda,failed,"###fixed in new version torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised SyntaxError: keyword argument repeated (cok46bs6xrc73pcbdengqarmiypxm3nlvgj5n4sqsbppduhqbenb.py, line 100)",0.046
+inductor/test_torchinductor,test_accuracy_issue1,pass,,0.115
+inductor/test_torchinductor,test_autotune_inplace_kernel,pass,,2.388
+# inductor/test_torchinductor,test_backward_context,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: debug_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.027
+# inductor/test_torchinductor,test_dtype_factory_issue,failed,"  File "###fixed in new version torch."/tmp/torchinductor_sw/wu/cwuyw66kbpgj3zpsubu6m66lhtdxjewa4lqqqef7lsjrjcvk7nw3.py"", line 26",0.011
+inductor/test_torchinductor,test_dynamic_shapes,pass,,0.052
+# inductor/test_torchinductor,test_expanded_inputs_cudagraphs,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.041
+# inductor/test_torchinductor,test_expanded_inputs_cudagraphs_no_size_asserts,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.024
+# inductor/test_torchinductor,test_index_put_issue,failed,"###passed during single test. concurrent.futures.process.BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.038
+# inductor/test_torchinductor,test_indirect_indexing_dense_mask,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.077
+inductor/test_torchinductor,test_inductor_output_aliases_intermediate,pass,,0.002
+inductor/test_torchinductor,test_inplace_updates_cudagraphs,pass,,0.043
+# inductor/test_torchinductor,test_input_channels_last,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: compile_fx_wrapper raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.073
+# inductor/test_torchinductor,test_scalar_triton_index,failed,"###passed during single test. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.023
+inductor/test_torchinductor,test_sort_stride_issue,pass,,0.012
+# inductor/test_torchinductor,test_tune_layout,failed,"###result error. conv related. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.025
+inductor/test_torchinductor,test_unspec_inputs_interop,pass,,0.013
+# inductor/test_torchinductor,test_cant_optimize_compute,failed,"###passed during single test.",0.085
+# inductor/test_torchinductor,test_divisibile_by_16_covers_numel_args,failed,"###passed during single test. concurrent.futures.process.BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.029
+# inductor/test_torchinductor,test_not_materialize_pointwise_reduction,failed,"###passed during single test.",0.045
+# inductor/test_torchinductor,test_optimize_compute,failed,"###passed during single test.",0.025
+# inductor/test_torchinductor,test_optimize_indexing_dtype,failed,"###triton error. torch._dynamo.exc.BackendCompilerFailed: inductor raised BrokenProcessPool: A child process terminated abruptly, the process pool is not usable anymore",0.155
+inductor/test_torchinductor,test_split_op_with_sym,pass,,0.112
+inductor/test_torchinductor,test_print_floor,pass,,0.001
+inductor/test_torchinductor,test_print_pow,pass,,0.002
+inductor/test_torchinductor,test_rnn_compile_safe,pass,,0.031

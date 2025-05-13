@@ -1,0 +1,6 @@
+test_filename,test_case_name,status,err_info,used_time
+dynamo/test_verify_correctness,test_example_inputs,pass,,0.126
+dynamo/test_verify_correctness,test_incorrect_verify_false,pass,,0.016
+dynamo/test_verify_correctness,test_incorrect_verify_true,pass,,0.016
+dynamo/test_verify_correctness,test_ipex_fp32,skipped,requires ipex,0.001
+dynamo/test_verify_correctness,test_torchscript,pass,,0.084

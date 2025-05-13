@@ -1,0 +1,55 @@
+test_filename,test_case_name,status,err_info,used_time
+test_jit_cuda_fuser,test__softmax_function,pass,,0.295
+test_jit_cuda_fuser,test__softmax_function_half_to_float,pass,,0.168
+test_jit_cuda_fuser,test_addcmul_ops,pass,,0.494
+test_jit_cuda_fuser,test_bfloat,pass,,1.310
+test_jit_cuda_fuser,test_binary_bitwise,pass,,127.209
+test_jit_cuda_fuser,test_binary_ops,pass,,1160.711
+test_jit_cuda_fuser,test_binary_ops_channels_last_with_bcast,pass,,1.390
+test_jit_cuda_fuser,test_binary_ops_complex,skipped,see issue https://github.com/csarofeen/pytorch/issues/1730,0.000
+test_jit_cuda_fuser,test_binary_ops_permutation,pass,,199.443
+test_jit_cuda_fuser,test_broadcasting_0,pass,,1.396
+test_jit_cuda_fuser,test_broadcasting_1,pass,,1.397
+test_jit_cuda_fuser,test_broadcasting_2,pass,,1.409
+test_jit_cuda_fuser,test_broadcasting_3,pass,,1.387
+test_jit_cuda_fuser,test_broadcasting_multiple_output,skipped,broadcast on branches can't be resolved yet,0.000
+test_jit_cuda_fuser,test_broadcasting_multiple_output_shape,skipped,Broadcast with different output not supported yet,0.000
+test_jit_cuda_fuser,test_broadcasting_partition_logic_0,pass,,1.437
+test_jit_cuda_fuser,test_broadcasting_partition_logic_1,pass,,1.409
+test_jit_cuda_fuser,test_category_rule,pass,,8.466
+test_jit_cuda_fuser,test_chunk,pass,,1.402
+test_jit_cuda_fuser,test_const,pass,,1.379
+test_jit_cuda_fuser,test_dynamic_size,pass,,1.404
+test_jit_cuda_fuser,test_half,pass,,1.450
+test_jit_cuda_fuser,test_layer_norm_autodiff,pass,,18.707
+test_jit_cuda_fuser,test_layer_norm_parser,pass,,1.516
+test_jit_cuda_fuser,test_layer_norm_trivial_reduce_dim,pass,,4.680
+test_jit_cuda_fuser,test_native_layer_norm,pass,,28.642
+test_jit_cuda_fuser,test_native_layer_norm_bfloat,pass,,14.872
+test_jit_cuda_fuser,test_native_layer_norm_half,pass,,15.623
+test_jit_cuda_fuser,test_norm,pass,,57.321
+test_jit_cuda_fuser,test_norm_bfloat,pass,,59.460
+test_jit_cuda_fuser,test_norm_channels_last,pass,,14.039
+test_jit_cuda_fuser,test_norm_half,pass,,64.013
+test_jit_cuda_fuser,test_norm_half_layer,pass,,14.399
+test_jit_cuda_fuser,test_norm_large,skipped,for get_debug_state,0.000
+test_jit_cuda_fuser,test_normalization_partition,pass,,3.378
+test_jit_cuda_fuser,test_random_topo,pass,,1.552
+test_jit_cuda_fuser,test_reduction,pass,,154.779
+test_jit_cuda_fuser,test_reduction_dtypes_axis,pass,,68.783
+test_jit_cuda_fuser,test_reduction_empty_axes,pass,,2.982
+test_jit_cuda_fuser,test_reduction_multiple_output,pass,,4.523
+test_jit_cuda_fuser,test_reduction_permutation,pass,,634.366
+test_jit_cuda_fuser,test_reduction_sizes_op,pass,,0.008
+test_jit_cuda_fuser,test_rsub,pass,,1.527
+test_jit_cuda_fuser,test_scalar_input,pass,,1.539
+test_jit_cuda_fuser,test_softmax_bfloat,pass,single run pass,0.002
+test_jit_cuda_fuser,test_softmax_dtype,pass,single run pass,0.002
+test_jit_cuda_fuser,test_softmax_half,pass,single run pass,0.002
+test_jit_cuda_fuser,test_ternary_ops,pass,single run pass,0.002
+test_jit_cuda_fuser,test_ternary_ops_integer_compatibility,pass,single run pass,0.002
+test_jit_cuda_fuser,test_ternary_ops_type_promotion,pass,single run pass,0.002
+test_jit_cuda_fuser,test_type_as_op,pass,single run pass,0.002
+test_jit_cuda_fuser,test_unary_bitwise,pass,single run pass,0.002
+test_jit_cuda_fuser,test_variance,pass,single run pass,0.002
+test_jit_cuda_fuser,test_variance_profiling,pass,single run pass,0.002

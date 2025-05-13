@@ -1,0 +1,8 @@
+test_filename,test_case_name,status,err_info,used_time
+dynamo/test_replay_record,test_fn_call_args,skipped,requires dill,0.001
+dynamo/test_replay_record,test_local_module,skipped,requires dill,0.000
+dynamo/test_replay_record,test_nonlocal_fn_call,skipped,requires dill,0.000
+dynamo/test_replay_record,test_nonlocal_module_class,skipped,requires dill,0.000
+dynamo/test_replay_record,test_nonlocal_module_fn_call,skipped,requires dill,0.000
+dynamo/test_replay_record,test_successful_inline,skipped,requires dill,0.000
+dynamo/test_replay_record,test_unsuccessful_inline,skipped,requires dill,0.000

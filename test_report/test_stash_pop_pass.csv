@@ -1,0 +1,8 @@
+test_filename,test_case_name,status,err_info,used_time
+distributed/pipeline/sync/skip/test_stash_pop,test_stash_not_declared,pass,,0.003
+distributed/pipeline/sync/skip/test_stash_pop,test_declare_but_not_use,pass,,0.033
+distributed/pipeline/sync/skip/test_stash_pop,test_pop,pass,,0.009
+distributed/pipeline/sync/skip/test_stash_pop,test_stash,pass,,0.010
+distributed/pipeline/sync/skip/test_stash_pop,test_pop_not_stashed,pass,,0.001
+distributed/pipeline/sync/skip/test_stash_pop,test_pop_not_declared,pass,,0.002
+distributed/pipeline/sync/skip/test_stash_pop,test_stash_none,pass,,0.001

@@ -1,0 +1,6 @@
+test_filename,test_case_name,status,err_info,used_time
+inductor/test_pattern_matcher,test_addmm,pass,,0.341
+inductor/test_pattern_matcher,test_cat_addmm,pass,,0.027
+inductor/test_pattern_matcher,test_cat_mm,pass,,0.016
+inductor/test_pattern_matcher,test_cat_slice_cat,pass,,1.880
+inductor/test_pattern_matcher,test_mm_plus_mm,pass,,0.021

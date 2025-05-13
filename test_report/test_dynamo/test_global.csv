@@ -1,0 +1,12 @@
+test_filename,test_case_name,status,err_info,used_time
+dynamo/test_global,test_store_global_1,pass,,0.089
+dynamo/test_global,test_store_global_2,pass,,0.009
+dynamo/test_global,test_store_global_cross_file,pass,,0.009
+dynamo/test_global,test_store_global_dict,pass,,0.006
+dynamo/test_global,test_store_global_dict_2,pass,,0.007
+dynamo/test_global,test_store_global_inline_1,pass,,0.009
+dynamo/test_global,test_store_global_inline_2,pass,,0.010
+dynamo/test_global,test_store_global_list,pass,,0.006
+dynamo/test_global,test_store_global_list_2,pass,,0.007
+dynamo/test_global,test_store_global_new,pass,,0.005
+dynamo/test_global,test_store_global_object,pass,,0.006

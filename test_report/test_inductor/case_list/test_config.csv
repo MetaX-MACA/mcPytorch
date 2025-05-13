@@ -1,0 +1,10 @@
+test_filename,test_case_name
+inductor/test_config,test_set
+inductor/test_config,test_save_load
+inductor/test_config,test_hasattr
+inductor/test_config,test_invalid_names
+inductor/test_config,test_patch
+inductor/test_config,test_log_level_property
+inductor/test_config,test_compile_api
+inductor/test_config,test_compile_api_passes_config
+inductor/test_config,test_inductor_config_changes_warning

@@ -1,0 +1,199 @@
+test_filename,test_case_name,status,err_info,used_time
+#test_nn,test_Conv1d,pass,,0.423
+test_nn,test_Conv1d_circular_stride2_pad2,pass,,0.019
+test_nn,test_Conv1d_circular_stride2_pad2_cuda_fp32,pass,,0.086
+test_nn,test_Conv1d_circular_stride2_pad2_cuda_tf32,pass,,0.027
+test_nn,test_Conv1d_cuda_fp32,pass,,0.021
+#test_nn,test_Conv1d_dilated,pass,,0.036
+test_nn,test_Conv1d_dilated_cuda_fp32,pass,,0.015
+test_nn,test_Conv1d_groups,pass,,0.026
+test_nn,test_Conv1d_groups_cuda_fp32,pass,,0.012
+test_nn,test_Conv1d_groups_cuda_tf32,pass,,0.019
+#test_nn,test_Conv1d_pad1,pass,,0.035
+test_nn,test_Conv1d_pad1_cuda_fp32,pass,,0.013
+test_nn,test_Conv1d_pad1size1,pass,,0.034
+test_nn,test_Conv1d_pad1size1_cuda_fp32,pass,,0.019
+test_nn,test_Conv1d_pad1size1_cuda_tf32,pass,,0.019
+#test_nn,test_Conv1d_pad2,pass,,0.037
+test_nn,test_Conv1d_pad2_cuda_fp32,pass,,0.020
+test_nn,test_Conv1d_pad2size1,pass,,0.040
+test_nn,test_Conv1d_pad2size1_cuda_fp32,pass,,0.018
+test_nn,test_Conv1d_pad2size1_cuda_tf32,pass,,0.019
+#test_nn,test_Conv1d_pad_same,pass,,0.023
+#test_nn,test_Conv1d_pad_same2,pass,,0.026
+test_nn,test_Conv1d_pad_same2_cuda_fp32,pass,,0.023
+test_nn,test_Conv1d_pad_same_cuda_fp32,pass,,0.020
+#test_nn,test_Conv1d_pad_same_dilated,pass,,0.028
+test_nn,test_Conv1d_pad_same_dilated_cuda_fp32,pass,,0.021
+#test_nn,test_Conv1d_pad_valid,pass,,0.038
+test_nn,test_Conv1d_pad_valid_cuda_fp32,pass,,0.021
+test_nn,test_Conv1d_reflect_stride2_pad2,pass,,0.034
+test_nn,test_Conv1d_reflect_stride2_pad2_cuda_fp32,pass,,0.015
+test_nn,test_Conv1d_reflect_stride2_pad2_cuda_tf32,pass,,0.014
+test_nn,test_Conv1d_replicate_stride2_pad2,pass,,0.029
+test_nn,test_Conv1d_replicate_stride2_pad2_cuda_fp32,pass,,0.014
+test_nn,test_Conv1d_replicate_stride2_pad2_cuda_tf32,pass,,0.017
+#test_nn,test_Conv1d_stride,pass,,0.028
+test_nn,test_Conv1d_stride_cuda_fp32,pass,,0.013
+test_nn,test_Conv1d_zero_batch,pass,,0.012
+test_nn,test_Conv1d_zero_batch_cuda_fp32,pass,,0.009
+test_nn,test_Conv1d_zero_batch_cuda_tf32,pass,,0.009
+test_nn,test_Conv1d_zeros_stride2_pad2,pass,,0.029
+test_nn,test_Conv1d_zeros_stride2_pad2_cuda_fp32,pass,,0.013
+test_nn,test_Conv1d_zeros_stride2_pad2_cuda_tf32,pass,,0.013
+#test_nn,test_Conv2d,pass,,0.028
+test_nn,test_Conv2d_circular_stride2_pad2,pass,,0.043
+test_nn,test_Conv2d_circular_stride2_pad2_cuda_fp32,pass,,0.032
+test_nn,test_Conv2d_circular_stride2_pad2_cuda_tf32,pass,,0.031
+test_nn,test_Conv2d_cuda_fp32,pass,,0.019
+#test_nn,test_Conv2d_depthwise,pass,,0.564
+test_nn,test_Conv2d_depthwise_cuda_fp32,pass,,0.019
+#test_nn,test_Conv2d_depthwise_dilated,pass,,0.026
+test_nn,test_Conv2d_depthwise_dilated_cuda_fp32,pass,,0.025
+#test_nn,test_Conv2d_depthwise_padded,pass,,0.039
+test_nn,test_Conv2d_depthwise_padded_cuda_fp32,pass,,0.025
+#test_nn,test_Conv2d_depthwise_strided,pass,,0.033
+test_nn,test_Conv2d_depthwise_strided_cuda_fp32,pass,,0.023
+#test_nn,test_Conv2d_depthwise_with_multiplier,pass,,0.030
+test_nn,test_Conv2d_depthwise_with_multiplier_cuda_fp32,pass,,0.023
+#test_nn,test_Conv2d_dilated,pass,,0.023
+test_nn,test_Conv2d_dilated_cuda_fp32,pass,,0.022
+test_nn,test_Conv2d_dilated_with_long_tensor,pass,,0.002
+test_nn,test_Conv2d_dilated_with_long_tensor_cuda_fp32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_Conv2d_dilated_with_long_tensor_cuda_tf32,skipped,Excluded from CUDA tests,0.001
+#test_nn,test_Conv2d_groups,pass,,0.027
+test_nn,test_Conv2d_groups_cuda_fp32,pass,,0.023
+#test_nn,test_Conv2d_groups_thnn,pass,,0.026
+test_nn,test_Conv2d_groups_thnn_cuda_fp32,pass,,0.023
+test_nn,test_Conv2d_groups_thnn_with_long_tensor,pass,,0.002
+test_nn,test_Conv2d_groups_thnn_with_long_tensor_cuda_fp32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_Conv2d_groups_thnn_with_long_tensor_cuda_tf32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_Conv2d_groups_with_long_tensor,pass,,0.001
+test_nn,test_Conv2d_groups_with_long_tensor_cuda_fp32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_Conv2d_groups_with_long_tensor_cuda_tf32,skipped,Excluded from CUDA tests,0.001
+#test_nn,test_Conv2d_no_bias,pass,,0.017
+test_nn,test_Conv2d_no_bias_cuda_fp32,pass,,0.018
+test_nn,test_Conv2d_no_bias_with_long_tensor,pass,,0.001
+test_nn,test_Conv2d_no_bias_with_long_tensor_cuda_fp32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_Conv2d_no_bias_with_long_tensor_cuda_tf32,skipped,Excluded from CUDA tests,0.001
+#test_nn,test_Conv2d_pad_same,pass,,0.029
+test_nn,test_Conv2d_pad_same_cuda_fp32,pass,,0.024
+#test_nn,test_Conv2d_pad_same_dilated,pass,,0.026
+test_nn,test_Conv2d_pad_same_dilated_cuda_fp32,pass,,0.017
+#test_nn,test_Conv2d_pad_valid,pass,,0.024
+test_nn,test_Conv2d_pad_valid_cuda_fp32,pass,,0.023
+#test_nn,test_Conv2d_padding,pass,,0.028
+test_nn,test_Conv2d_padding_cuda_fp32,pass,,0.022
+test_nn,test_Conv2d_padding_with_long_tensor,pass,,0.001
+test_nn,test_Conv2d_padding_with_long_tensor_cuda_fp32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_Conv2d_padding_with_long_tensor_cuda_tf32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_Conv2d_reflect_stride2_pad2,pass,,0.028
+test_nn,test_Conv2d_reflect_stride2_pad2_cuda_fp32,pass,,0.018
+test_nn,test_Conv2d_reflect_stride2_pad2_cuda_tf32,pass,,0.015
+test_nn,test_Conv2d_replicate_stride2_pad2,pass,,0.030
+test_nn,test_Conv2d_replicate_stride2_pad2_cuda_fp32,pass,,0.016
+test_nn,test_Conv2d_replicate_stride2_pad2_cuda_tf32,pass,,0.015
+#test_nn,test_Conv2d_strided,pass,,0.024
+test_nn,test_Conv2d_strided_cuda_fp32,pass,,0.014
+test_nn,test_Conv2d_strided_with_long_tensor,pass,,0.001
+test_nn,test_Conv2d_strided_with_long_tensor_cuda_fp32,skipped,Excluded from CUDA tests,0.000
+test_nn,test_Conv2d_strided_with_long_tensor_cuda_tf32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_Conv2d_with_long_tensor,pass,,0.001
+test_nn,test_Conv2d_with_long_tensor_cuda_fp32,skipped,Excluded from CUDA tests,0.000
+test_nn,test_Conv2d_with_long_tensor_cuda_tf32,skipped,Excluded from CUDA tests,0.000
+test_nn,test_Conv2d_zero_batch,pass,,0.025
+test_nn,test_Conv2d_zero_batch_cuda_fp32,pass,,0.012
+test_nn,test_Conv2d_zero_batch_cuda_tf32,pass,,0.014
+test_nn,test_Conv2d_zero_batch_with_long_tensor,pass,,0.001
+test_nn,test_Conv2d_zero_batch_with_long_tensor_cuda_fp32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_Conv2d_zero_batch_with_long_tensor_cuda_tf32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_Conv2d_zeros_stride2_pad2,pass,,0.023
+test_nn,test_Conv2d_zeros_stride2_pad2_cuda_fp32,pass,,0.026
+test_nn,test_Conv2d_zeros_stride2_pad2_cuda_tf32,pass,,0.021
+#test_nn,test_ConvTranspose1d,pass,,0.036
+test_nn,test_ConvTranspose1d_cuda_fp32,pass,,0.021
+#test_nn,test_ConvTranspose1d_dilated,pass,,0.038
+test_nn,test_ConvTranspose1d_dilated_cuda_fp32,pass,,0.020
+#test_nn,test_ConvTranspose1d_groups,pass,,0.027
+test_nn,test_ConvTranspose1d_groups_cuda_fp32,pass,,0.023
+#test_nn,test_ConvTranspose1d_no_bias,pass,,0.027
+test_nn,test_ConvTranspose1d_no_bias_cuda_fp32,pass,,0.027
+#test_nn,test_ConvTranspose2d,pass,,0.045
+test_nn,test_ConvTranspose2d_cuda_fp32,pass,,0.023
+#test_nn,test_ConvTranspose2d_dilated,pass,,0.032
+test_nn,test_ConvTranspose2d_dilated_cuda_fp32,pass,,0.018
+test_nn,test_ConvTranspose2d_dilated_with_long_tensor,pass,,0.002
+test_nn,test_ConvTranspose2d_dilated_with_long_tensor_cuda_fp32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_ConvTranspose2d_dilated_with_long_tensor_cuda_tf32,skipped,Excluded from CUDA tests,0.001
+#test_nn,test_ConvTranspose2d_groups,pass,,0.025
+test_nn,test_ConvTranspose2d_groups_cuda_fp32,pass,,0.023
+test_nn,test_ConvTranspose2d_groups_with_long_tensor,pass,,0.002
+test_nn,test_ConvTranspose2d_groups_with_long_tensor_cuda_fp32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_ConvTranspose2d_groups_with_long_tensor_cuda_tf32,skipped,Excluded from CUDA tests,0.001
+#test_nn,test_ConvTranspose2d_no_bias,pass,,0.018
+test_nn,test_ConvTranspose2d_no_bias_cuda_fp32,pass,,0.019
+test_nn,test_ConvTranspose2d_no_bias_with_long_tensor,pass,,0.001
+test_nn,test_ConvTranspose2d_no_bias_with_long_tensor_cuda_fp32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_ConvTranspose2d_no_bias_with_long_tensor_cuda_tf32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_ConvTranspose2d_with_long_tensor,pass,,0.002
+test_nn,test_ConvTranspose2d_with_long_tensor_cuda_fp32,skipped,Excluded from CUDA tests,0.001
+test_nn,test_ConvTranspose2d_with_long_tensor_cuda_tf32,skipped,Excluded from CUDA tests,0.002
+test_nn,test_BatchNorm_empty_cuda,pass,,0.006
+test_nn,test_Bilinear_empty_cuda,pass,,0.002
+test_nn,test_activations_bfloat16_cpu_cuda,skipped,Only runs on cpu,0.001
+test_nn,test_activations_bfloat16_cuda,pass,,0.012
+test_nn,test_affine_2d_rotate0_cuda,pass,,0.003
+test_nn,test_affine_2d_rotate45_cuda,pass,,0.002
+test_nn,test_batchnorm_affine_cuda_bfloat16,pass,,0.010
+test_nn,test_batchnorm_affine_cuda_float32,pass,,0.010
+test_nn,test_batchnorm_affine_mixed_cuda_bfloat16,pass,,0.005
+test_nn,test_batchnorm_affine_mixed_cuda_float16,pass,,0.004
+test_nn,test_batchnorm_eval_cuda_bfloat16,pass,,0.009
+test_nn,test_batchnorm_eval_cuda_float32,pass,,0.008
+test_nn,test_batchnorm_eval_mixed_cuda_bfloat16,pass,,0.009
+test_nn,test_batchnorm_eval_mixed_cuda_float16,pass,,0.009
+test_nn,test_batchnorm_grad_cuda,pass,,0.102
+test_nn,test_batchnorm_large_batch_cuda_float16,pass,,0.141
+test_nn,test_batchnorm_large_batch_cuda_float32,pass,,1.466
+test_nn,test_batchnorm_simple_average_cuda_bfloat16,pass,,0.014
+test_nn,test_batchnorm_simple_average_cuda_float32,pass,,0.010
+test_nn,test_batchnorm_simple_average_mixed_cuda_bfloat16,pass,,0.010
+test_nn,test_batchnorm_simple_average_mixed_cuda_float16,pass,,0.009
+test_nn,test_batchnorm_update_stats_cuda,pass,,0.004
+test_nn,test_clip_grad_norm_error_if_nonfinite_cuda,pass,,0.209
+test_nn,test_clip_grad_norm_foreach_False_norm_type_0_5_cuda,pass,,0.004
+test_nn,test_clip_grad_norm_foreach_False_norm_type_1_5_cuda,pass,,0.003
+test_nn,test_clip_grad_norm_foreach_False_norm_type_2_cuda,pass,,0.003
+test_nn,test_clip_grad_norm_foreach_False_norm_type_4_cuda,pass,,0.003
+test_nn,test_clip_grad_norm_foreach_False_norm_type_inf_cuda,pass,,0.003
+test_nn,test_clip_grad_norm_foreach_True_norm_type_0_5_cuda,pass,,0.003
+test_nn,test_clip_grad_norm_foreach_True_norm_type_1_5_cuda,pass,,0.003
+test_nn,test_clip_grad_norm_foreach_True_norm_type_2_cuda,pass,,0.003
+test_nn,test_clip_grad_norm_foreach_True_norm_type_4_cuda,pass,,0.003
+test_nn,test_clip_grad_norm_foreach_True_norm_type_inf_cuda,pass,,0.003
+test_nn,test_clip_grad_norm_multi_device_foreach_False_cuda,skipped,fewer than 2 devices detected,0.000
+test_nn,test_clip_grad_norm_multi_device_foreach_True_cuda,skipped,fewer than 2 devices detected,0.000
+test_nn,test_clip_grad_value_foreach_False_cuda,pass,,0.003
+test_nn,test_clip_grad_value_foreach_True_cuda,pass,,0.001
+test_nn,test_conv_empty_input_cuda_complex128,pass,,0.008
+test_nn,test_conv_empty_input_cuda_float16,pass,,0.006
+test_nn,test_conv_empty_input_cuda_float32,pass,,0.006
+test_nn,test_conv_empty_input_cuda_float64,pass,,0.006
+test_nn,test_cross_entropy_label_smoothing_consistent_index_target_and_probs_cuda,pass,,0.524
+test_nn,test_cross_entropy_label_smoothing_errors_cuda,pass,,0.005
+test_nn,test_cross_entropy_label_smoothing_weight_ignore_indices_cuda,pass,,0.025
+test_nn,test_cross_entropy_label_smoothing_with_probs_cuda,pass,,0.011
+test_nn,test_cross_entropy_large_tensor_reduction_mean_cuda,skipped,Insufficient cpu memory,0.046
+test_nn,test_cross_entropy_large_tensor_reduction_none_cuda,skipped,Insufficient cpu memory,0.038
+test_nn,test_cross_entropy_large_tensor_reduction_sum_cuda,skipped,Insufficient cpu memory,0.038
+test_nn,test_cross_entropy_loss_index_target_unit_weights_cuda,pass,,0.006
+test_nn,test_cross_entropy_loss_one_hot_target_cuda,pass,,0.007
+test_nn,test_cross_entropy_loss_prob_target_all_reductions_cuda,pass,,0.011
+test_nn,test_cross_entropy_loss_prob_target_no_batch_dim_reduction_mean_weighted_False_cuda,pass,,0.001
+test_nn,test_cross_entropy_loss_prob_target_no_batch_dim_reduction_mean_weighted_True_cuda,pass,,0.001
+test_nn,test_cross_entropy_loss_prob_target_no_batch_dim_reduction_none_weighted_False_cuda,pass,,0.001
+test_nn,test_cross_entropy_loss_prob_target_no_batch_dim_reduction_none_weighted_True_cuda,pass,,0.001
+test_nn,test_cross_entropy_loss_prob_target_no_batch_dim_reduction_sum_weighted_False_cuda,pass,,0.001
+test_nn,test_cross_entropy_loss_prob_target_no_batch_dim_reduction_sum_weighted_True_cuda,pass,,0.001
+test_nn,test_cross_entropy_loss_prob_target_unit_weights_cuda,pass,,0.006
+test_nn,test_ctc_loss_cuda,skipped,"Test is flaky on Linux and Windows, typical error message:

@@ -1,0 +1,10 @@
+test_filename,test_case_name,status,err_info,used_time
+inductor/test_config,test_compile_api,pass,,3.287
+inductor/test_config,test_compile_api_passes_config,pass,,0.006
+inductor/test_config,test_hasattr,pass,,0.001
+inductor/test_config,test_inductor_config_changes_warning,pass,,4.925
+inductor/test_config,test_invalid_names,pass,,0.001
+inductor/test_config,test_log_level_property,pass,,0.001
+inductor/test_config,test_patch,pass,,0.001
+inductor/test_config,test_save_load,pass,,0.001
+inductor/test_config,test_set,pass,,0.001

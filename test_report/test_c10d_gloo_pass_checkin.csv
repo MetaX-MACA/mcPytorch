@@ -1,0 +1,7 @@
+test_filename,test_case_name
+distributed/test_c10d_gloo,test_broadcast_checks,pass,,6.826
+distributed/test_c10d_gloo,test_allreduce_checks,pass,,6.876
+distributed/test_c10d_gloo,test_scatter_checks,pass,,6.693
+distributed/test_c10d_gloo,test_allgather_checks,pass,,6.850
+distributed/test_c10d_gloo,test_reduce_checks,pass,,6.347
+distributed/test_c10d_gloo,test_gather_checks,pass,,6.902

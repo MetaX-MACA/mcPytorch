@@ -1,0 +1,7 @@
+test_filename,test_case_name,status,err_info,used_time
+dynamo/test_recompile_ux,test_drop_cache_on_skip,pass,,0.079
+dynamo/test_recompile_ux,test_dynamic_input,pass,,0.005
+dynamo/test_recompile_ux,test_loop_torture,pass,,0.171
+dynamo/test_recompile_ux,test_mismatched_type,pass,,0.011
+dynamo/test_recompile_ux,test_nvfuser_guards,pass,,0.015
+dynamo/test_recompile_ux,test_verbose_tensor_check,pass,,0.015

@@ -1,0 +1,5 @@
+peewee
+mysql-connector-python==8.0.28
+pytz
+protobuf==3.19.6
+mysql-connector-python-rf==2.2.2

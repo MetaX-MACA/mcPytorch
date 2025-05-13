@@ -1,0 +1,4 @@
+test_filename,test_case_name,status,err_info,used_time
+dynamo/test_interop,test_fx_fn,pass,,0.119
+dynamo/test_interop,test_script_fn,pass,,0.009
+dynamo/test_interop,test_trace_fn,pass,,0.008

@@ -1,0 +1,281 @@
+test_filename,test_case_name,status,err_info
+test_nn,test_activations_bfloat16_cuda,pass,,302.170
+test_nn,test_adaptive_avg_pool2d_output_size_one_cuda,pass,,198.183
+test_nn,test_adaptive_avg_pool3d_output_size_one_cuda,pass,,30.503
+test_nn,test_AdaptiveMaxPool1d_indices_cuda_bfloat16,pass,,71.516
+test_nn,test_AdaptiveMaxPool1d_indices_cuda_float16,pass,,28.415
+test_nn,test_AdaptiveMaxPool1d_indices_cuda_float32,pass,,67.852
+test_nn,test_AdaptiveMaxPool1d_indices_cuda_float64,pass,,38.418
+test_nn,test_AdaptiveMaxPool2d_indices_cuda_bfloat16,pass,,83.894
+test_nn,test_AdaptiveMaxPool2d_indices_cuda_float16,pass,,23.516
+test_nn,test_AdaptiveMaxPool2d_indices_cuda_float32,pass,,29.503
+test_nn,test_AdaptiveMaxPool2d_indices_cuda_float64,pass,,24.035
+test_nn,test_AdaptiveMaxPool3d_indices_cuda_bfloat16,pass,,31.330
+test_nn,test_AdaptiveMaxPool3d_indices_cuda_float16,pass,,35.141
+test_nn,test_AdaptiveMaxPool3d_indices_cuda_float32,pass,,8.346
+test_nn,test_AdaptiveMaxPool3d_indices_cuda_float64,pass,,29.707
+test_nn,test_AdaptiveMaxPool_zero_batch_dim_cuda,pass,,9.119
+test_nn,test_adaptive_pooling_no_suppot_input_cuda_int16,pass,,16.360
+test_nn,test_adaptive_pooling_no_suppot_input_cuda_int32,pass,,17.846
+test_nn,test_adaptive_pooling_no_suppot_input_cuda_int64,pass,,17.921
+test_nn,test_adaptive_pooling_no_suppot_input_cuda_int8,pass,,18.013
+test_nn,test_adaptive_pooling_no_suppot_input_cuda_uint8,pass,,34.712
+test_nn,test_adaptive_pooling_zero_batch_cuda_float32,pass,,0.680
+test_nn,test_adaptive_pooling_zero_batch_cuda_float64,pass,,0.680
+test_nn,test_affine_2d_rotate0_cuda,pass,,51.146
+test_nn,test_affine_2d_rotate45_cuda,pass,,40.156
+test_nn,test_affine_2d_rotate90_cuda,pass,,394.879
+test_nn,test_affine_2d_rotateRandom_cuda,pass,,1789.532
+test_nn,test_AvgPool2d_empty_cuda,pass,,24.510
+test_nn,test_AvgPool3d_backward_after_cat_dim1_device_cuda,pass,,19.717
+test_nn,test_batchnorm_affine_cuda_bfloat16,pass,,546.471
+test_nn,test_batchnorm_affine_cuda_float32,pass,,491.780
+test_nn,test_batchnorm_affine_mixed_cuda_bfloat16,pass,,97.007
+test_nn,test_batchnorm_affine_mixed_cuda_float16,pass,,96.206
+test_nn,test_BatchNorm_empty_cuda,pass,,90.690
+test_nn,test_batchnorm_eval_cuda_bfloat16,pass,,255.772
+test_nn,test_batchnorm_eval_cuda_float32,pass,,235.963
+test_nn,test_batchnorm_eval_mixed_cuda_bfloat16,pass,,170.158
+test_nn,test_batchnorm_eval_mixed_cuda_float16,pass,,294.053
+test_nn,test_batchnorm_grad_cuda,pass,,2134.424
+test_nn,test_batchnorm_simple_average_cuda_bfloat16,pass,,477.707
+test_nn,test_batchnorm_simple_average_cuda_float32,pass,,280.357
+test_nn,test_batchnorm_simple_average_mixed_cuda_bfloat16,pass,,371.247
+test_nn,test_batchnorm_simple_average_mixed_cuda_float16,pass,,401.419
+test_nn,test_batchnorm_update_stats_cuda,pass,,171.214
+test_nn,test_Bilinear_empty_cuda,pass,,31.160
+test_nn,test_clip_grad_norm_multi_device_cuda,pass,,93.501
+test_nn,test_cross_entropy_label_smoothing_consistent_index_target_and_probs_cuda,pass,,2030.078
+test_nn,test_cross_entropy_label_smoothing_errors_cuda,pass,,31.665
+test_nn,test_cross_entropy_label_smoothing_with_probs_cuda,pass,,442.083
+test_nn,test_cross_entropy_loss_index_target_unit_weights_cuda,pass,,458.682
+test_nn,test_cross_entropy_loss_one_hot_target_cuda,pass,,850.914
+test_nn,test_cross_entropy_loss_prob_target_all_reductions_cuda,pass,,861.137
+test_nn,test_cross_entropy_loss_prob_target_unit_weights_cuda,pass,,459.489
+test_nn,test_CTCLoss_empty_target_cuda,pass,,737.347
+test_nn,test_device_mask_cuda,pass,,4.777
+#test_nn,test_Dropout2d_cuda,pass,,481.152
+test_nn,test_elu_inplace_overlap_cuda,pass,,3.017
+test_nn,test_embedding_backward_cuda_float16,pass,,100.754
+test_nn,test_embedding_backward_cuda_float64,pass,,134.185
+test_nn,test_embedding_bag_bfloat16_cuda_int32_int32,pass,,3492.161
+test_nn,test_embedding_bag_bfloat16_cuda_int32_int64,pass,,3171.372
+#test_nn,test_embedding_bag_bfloat16_cuda_int64_int32,pass,,3414.653
+test_nn,test_embedding_bag_bfloat16_cuda_int64_int64,pass,,3371.128
+test_nn,test_embedding_bag_empty_input_cuda_int32_int32,pass,,418.328
+test_nn,test_embedding_bag_empty_input_cuda_int32_int64,pass,,237.242
+test_nn,test_embedding_bag_empty_input_cuda_int64_int32,pass,,466.905
+test_nn,test_embedding_bag_empty_input_cuda_int64_int64,pass,,458.062
+test_nn,test_EmbeddingBag_empty_per_sample_weights_and_offsets_cuda_int32_int32_float16,pass,,454.502
+test_nn,test_EmbeddingBag_empty_per_sample_weights_and_offsets_cuda_int32_int32_float32,pass,,903.953
+test_nn,test_EmbeddingBag_empty_per_sample_weights_and_offsets_cuda_int32_int32_float64,pass,,322.863
+test_nn,test_EmbeddingBag_empty_per_sample_weights_and_offsets_cuda_int32_int64_float16,pass,,493.430
+test_nn,test_EmbeddingBag_empty_per_sample_weights_and_offsets_cuda_int32_int64_float32,pass,,401.008
+test_nn,test_EmbeddingBag_empty_per_sample_weights_and_offsets_cuda_int32_int64_float64,pass,,523.546
+test_nn,test_EmbeddingBag_empty_per_sample_weights_and_offsets_cuda_int64_int32_float16,pass,,285.243
+test_nn,test_EmbeddingBag_empty_per_sample_weights_and_offsets_cuda_int64_int32_float32,pass,,775.638
+test_nn,test_EmbeddingBag_empty_per_sample_weights_and_offsets_cuda_int64_int32_float64,pass,,228.533
+test_nn,test_EmbeddingBag_empty_per_sample_weights_and_offsets_cuda_int64_int64_float16,pass,,228.809
+test_nn,test_EmbeddingBag_empty_per_sample_weights_and_offsets_cuda_int64_int64_float32,pass,,704.900
+test_nn,test_EmbeddingBag_empty_per_sample_weights_and_offsets_cuda_int64_int64_float64,pass,,197.689
+test_nn,test_embedding_bag_non_contiguous_weight_cuda_int32_int32_float16,pass,,96.899
+test_nn,test_embedding_bag_non_contiguous_weight_cuda_int32_int32_float32,pass,,116.275
+test_nn,test_embedding_bag_non_contiguous_weight_cuda_int32_int32_float64,pass,,98.587
+test_nn,test_embedding_bag_non_contiguous_weight_cuda_int32_int64_float16,pass,,178.435
+test_nn,test_embedding_bag_non_contiguous_weight_cuda_int32_int64_float32,pass,,91.515
+test_nn,test_embedding_bag_non_contiguous_weight_cuda_int32_int64_float64,pass,,170.498
+test_nn,test_embedding_bag_non_contiguous_weight_cuda_int64_int32_float16,pass,,107.060
+test_nn,test_embedding_bag_non_contiguous_weight_cuda_int64_int32_float32,pass,,118.906
+test_nn,test_embedding_bag_non_contiguous_weight_cuda_int64_int32_float64,pass,,94.299
+test_nn,test_embedding_bag_non_contiguous_weight_cuda_int64_int64_float16,pass,,179.142
+test_nn,test_embedding_bag_non_contiguous_weight_cuda_int64_int64_float32,pass,,113.678
+test_nn,test_embedding_bag_non_contiguous_weight_cuda_int64_int64_float64,pass,,138.099
+test_nn,test_EmbeddingBag_per_sample_weights_and_new_offsets_cuda_int32_int32_float16,pass,,1928.720
+test_nn,test_EmbeddingBag_per_sample_weights_and_new_offsets_cuda_int32_int32_float32,pass,,1809.338
+test_nn,test_EmbeddingBag_per_sample_weights_and_new_offsets_cuda_int32_int32_float64,pass,,1861.770
+test_nn,test_EmbeddingBag_per_sample_weights_and_new_offsets_cuda_int32_int64_float16,pass,,2754.449
+test_nn,test_EmbeddingBag_per_sample_weights_and_new_offsets_cuda_int32_int64_float32,pass,,2735.951
+test_nn,test_EmbeddingBag_per_sample_weights_and_new_offsets_cuda_int32_int64_float64,pass,,2669.443
+test_nn,test_EmbeddingBag_per_sample_weights_and_new_offsets_cuda_int64_int32_float16,pass,,2792.080
+test_nn,test_EmbeddingBag_per_sample_weights_and_new_offsets_cuda_int64_int32_float32,pass,,2666.344
+test_nn,test_EmbeddingBag_per_sample_weights_and_new_offsets_cuda_int64_int32_float64,pass,,2583.695
+test_nn,test_EmbeddingBag_per_sample_weights_and_new_offsets_cuda_int64_int64_float16,pass,,2676.905
+test_nn,test_EmbeddingBag_per_sample_weights_and_new_offsets_cuda_int64_int64_float32,pass,,2324.257
+test_nn,test_EmbeddingBag_per_sample_weights_and_new_offsets_cuda_int64_int64_float64,pass,,2249.331
+test_nn,test_EmbeddingBag_per_sample_weights_and_offsets_cuda_int32_int32_float16,pass,,306.846
+test_nn,test_EmbeddingBag_per_sample_weights_and_offsets_cuda_int32_int32_float64,pass,,274.631
+test_nn,test_EmbeddingBag_per_sample_weights_and_offsets_cuda_int32_int64_float16,pass,,486.014
+test_nn,test_EmbeddingBag_per_sample_weights_and_offsets_cuda_int32_int64_float32,pass,,477.502
+test_nn,test_EmbeddingBag_per_sample_weights_and_offsets_cuda_int32_int64_float64,pass,,482.630
+test_nn,test_EmbeddingBag_per_sample_weights_and_offsets_cuda_int64_int32_float16,pass,,411.303
+test_nn,test_EmbeddingBag_per_sample_weights_and_offsets_cuda_int64_int32_float32,pass,,495.921
+test_nn,test_EmbeddingBag_per_sample_weights_and_offsets_cuda_int64_int32_float64,pass,,462.659
+test_nn,test_EmbeddingBag_per_sample_weights_and_offsets_cuda_int64_int64_float16,pass,,409.454
+test_nn,test_EmbeddingBag_per_sample_weights_and_offsets_cuda_int64_int64_float32,pass,,360.197
+test_nn,test_EmbeddingBag_per_sample_weights_and_offsets_cuda_int64_int64_float64,pass,,452.116
+test_nn,test_EmbeddingBag_per_sample_weights_and_offsets_cuka_int32_int32_float32,pass,,333.819
+test_nn,test_EmbeddingBag_per_sample_weights_failures_cuda_int32_int32,pass,,15.568
+test_nn,test_EmbeddingBag_per_sample_weights_failures_cuda_int32_int64,pass,,17.351
+test_nn,test_EmbeddingBag_per_sample_weights_failures_cuda_int64_int32,pass,,25.966
+test_nn,test_EmbeddingBag_per_sample_weights_failures_cuda_int64_int64,pass,,14.103
+test_nn,test_embedding_dense_grad_cuda,pass,,832.638
+test_nn,test_embedding_max_norm_device_cuda_float16,pass,,46.698
+test_nn,test_embedding_max_norm_device_cuda_float32,pass,,45.662
+test_nn,test_embedding_max_norm_device_cuda_float64,pass,,46.567
+test_nn,test_embedding_padding_idx_cuda_float16,pass,,572.075
+test_nn,test_embedding_padding_idx_cuda_float32,pass,,677.710
+test_nn,test_embedding_padding_idx_cuda_float64,pass,,695.771
+test_nn,test_embedding_scalar_weight_error_cuda,pass,,18.753
+test_nn,test_empty_dropout_cuda,pass,,13.312
+test_nn,test_fold_cuda,pass,,995.762
+test_nn,test_fractional_max_pool2d_cuda,pass,,139.526
+test_nn,test_FractionalMaxPool2d_zero_batch_cuda,pass,,8.176
+test_nn,test_fractional_max_pool3d_cuda,pass,,2117.380
+test_nn,test_FractionalMaxPool3d_zero_batch_cuda,pass,,1.067
+test_nn,test_fractional_max_pool_nan_inf_cuda_float16,pass,,382.948
+test_nn,test_fractional_max_pool_nan_inf_cuda_float32,pass,,420.043
+test_nn,test_fractional_max_pool_nan_inf_cuda_float64,pass,,53.196
+test_nn,test_grid_sample_nan_inf_cuda_float32,pass,,53.441
+test_nn,test_grid_sample_nan_inf_cuda_float64,pass,,52.834
+test_nn,test_GroupNorm_empty_cuda,pass,,27.614
+test_nn,test_GroupNorm_general_cuda,pass,,294.095
+test_nn,test_GroupNorm_raises_error_if_one_value_per_group_cuda,pass,,9.571
+test_nn,test_gumbel_softmax_cuda_float16,pass,,1612.336
+test_nn,test_gumbel_softmax_cuda_float32,pass,,728.546
+test_nn,test_gumbel_softmax_cuda_float64,pass,,973.368
+test_nn,test_hardsigmoid_grad_cuda,pass,,146.181
+test_nn,test_hardswish_grad_cuda,pass,,137.600
+test_nn,test_hardswish_inplace_overlap_cuda,pass,,6.895
+test_nn,test_InstanceNorm1d_general_cuda,pass,,220.396
+test_nn,test_InstanceNorm2d_general_cuda,pass,,295.700
+test_nn,test_InstanceNorm3d_general_cuda,pass,,87.215
+test_nn,test_instancenorm_raises_error_for_single_spatial_element_during_training_cuda,pass,,27.967
+test_nn,test_instancenorm_raises_error_if_less_than_one_value_per_channel_cuda,pass,,0.370
+test_nn,test_invalid_reduction_strings_cuda,pass,,215.068
+#test_nn,test_LayerNorm_general_cuda,pass,,287.072
+test_nn,test_leaky_relu_inplace_overlap_cuda,pass,,4.042
+test_nn,test_linear_empty_cuda,pass,,14.125
+test_nn,test_LocalResponseNorm_empty_cuda,pass,,12.426
+test_nn,test_logsigmoid_out_cuda,pass,,29.962
+test_nn,test_log_softmax_big_cuda_float32,pass,,53.357
+test_nn,test_MarginLoss_empty_cuda_float32,pass,,16.521
+test_nn,test_MarginLoss_empty_cuda_float64,pass,,34.679
+test_nn,test_MaxPool1d_indices_cuda_bfloat16,pass,,37.490
+test_nn,test_MaxPool1d_indices_cuda_float16,pass,,19.974
+test_nn,test_MaxPool1d_indices_cuda_float32,pass,,25.240
+test_nn,test_MaxPool1d_indices_cuda_float64,pass,,36.159
+test_nn,test_MaxPool2d_indices_cuda_bfloat16,pass,,11.095
+test_nn,test_MaxPool2d_indices_cuda_float16,pass,,8.467
+test_nn,test_MaxPool2d_indices_cuda_float32,pass,,22.779
+test_nn,test_MaxPool2d_indices_cuda_float64,pass,,23.043
+test_nn,test_max_pool2d_indices_cuda,pass,,25.604
+test_nn,test_MaxPool3d_indices_cuda_bfloat16,pass,,33.411
+test_nn,test_MaxPool3d_indices_cuda_float16,pass,,9.037
+test_nn,test_MaxPool3d_indices_cuda_float32,pass,,46.351
+test_nn,test_MaxPool3d_indices_cuda_float64,pass,,32.568
+test_nn,test_maxpool_indices_no_batch_dim_cuda_bfloat16,pass,,30.380
+test_nn,test_maxpool_indices_no_batch_dim_cuda_float16,pass,,29.915
+test_nn,test_maxpool_indices_no_batch_dim_cuda_float32,pass,,29.048
+test_nn,test_maxpool_indices_no_batch_dim_cuda_float64,pass,,34.329
+test_nn,test_max_pool_nan_inf_cuda_float16,pass,,139.959
+test_nn,test_max_pool_nan_inf_cuda_float32,pass,,157.578
+test_nn,test_max_pool_nan_inf_cuda_float64,pass,,158.267
+test_nn,test_MaxPool_zero_batch_dim_cuda,pass,,0.775
+test_nn,test_MaxUnpool_zero_batch_dim_cuda,pass,,14.532
+test_nn,test_mish_inplace_overlap_cuda,pass,,1.616
+test_nn,test_module_to_empty_cuda_float32,pass,,12.702
+test_nn,test_module_to_empty_cuda_float64,pass,,38.425
+test_nn,test_multihead_attention_dtype_cuda_float32,pass,,190.324
+test_nn,test_multihead_attention_dtype_cuda_float64,pass,,345.504
+test_nn,test_multi_margin_loss_errors_cuda,pass,,3.190
+test_nn,test_nll_loss_byte_target_matches_long_cuda,pass,,181.243
+test_nn,test_nll_loss_empty_tensor_reduction_mean_cuda,pass,,24.302
+test_nn,test_nll_loss_empty_tensor_reduction_none_cuda,pass,,3.881
+test_nn,test_nll_loss_empty_tensor_reduction_sum_cuda,pass,,47.929
+test_nn,test_nll_loss_invalid_target_dim_cuda,pass,,3.258
+test_nn,test_nll_loss_invalid_weights_cuda,pass,,13.963
+test_nn,test_nll_loss_mismatched_batch_cuda,pass,,3.633
+test_nn,test_nll_loss_out_of_bounds_ignore_index_cuda,pass,,28.074
+test_nn,test_nll_loss_total_weight_is_zero_cuda,pass,,20.644
+test_nn,test_nn_scalars_cuda,pass,,55.682
+test_nn,test_nn_scalars_reductions_cuda,pass,,346.174
+test_nn,test_nonlinearity_propagate_nan_cuda,pass,,9.377
+test_nn,test_one_hot_cuda,pass,,44.710
+test_nn,test_overwrite_module_params_on_conversion_cpu_device_cuda,pass,,1.950
+test_nn,test_pad_cuda_complex128,pass,,83.078
+test_nn,test_pad_cuda_float64,pass,,64.578
+test_nn,test_pool3d_size_one_feature_dim_cuda,pass,,16.966
+#test_nn,test_pooling_bfloat16_cuda,pass,,767.706
+#test_nn,test_pooling_shape_cuda,pass,,77.173
+test_nn,test_pooling_size_empty_cuda,pass,,2.583
+test_nn,test_pooling_zero_stride_cuda,pass,,1.975
+test_nn,test_pool_invalid_size_cuda_bfloat16,pass,,1.679
+test_nn,test_pool_invalid_size_cuda_float16,pass,,3.307
+test_nn,test_pool_invalid_size_cuda_float32,pass,,1.976
+test_nn,test_pool_invalid_size_cuda_float64,pass,,1.980
+test_nn,test_ReflectionPad_empty_cuda_complex64,pass,,19.914
+test_nn,test_ReflectionPad_empty_cuda_float32,pass,,1.273
+test_nn,test_ReplicationPad_empty_cuda_complex128,pass,,2.751
+test_nn,test_ReplicationPad_empty_cuda_float64,pass,,2.816
+test_nn,test_save_lstm_compatibility_cuda,pass,,10.892
+test_nn,test_silu_inplace_overlap_cuda,pass,,18.338
+test_nn,test_skip_init_cuda,pass,,9.501
+test_nn,test_smooth_l1_loss_vs_huber_loss_cuda,pass,,856.904
+test_nn,test_softmax_bfloat16_cuda,pass,,3543.085
+test_nn,test_softmax_cuda_float16,pass,,50.810
+test_nn,test_softmax_cuda_float32,pass,,58.011
+test_nn,test_softplus_inplace_overlap_cuda,pass,,16.608
+test_nn,test_softplus_low_threshold_cuda,pass,,65.857
+test_nn,test_softshrink_inplace_overlap_cuda,pass,,3.185
+test_nn,test_softshrink_negative_cuda,pass,,4.302
+test_nn,test_threshold_inplace_overlap_cuda,pass,,5.370
+test_nn,test_to_complex_cuda,pass,,8.139
+test_nn,test_TransformerDecoderLayer_empty_cuda,pass,,868.025
+test_nn,test_TransformerEncoderLayer_empty_cuda,pass,,2357.061
+test_nn,test_Unfold_empty_cuda,pass,,0.722
+test_nn,test_upsamplingBilinear2d_cuda,pass,,611.421
+test_nn,test_upsamplingNearest2d_cuda,pass,,1805.144
+#test_nn,test_upsamplingNearest2d_launch_config_cuda,pass,,2885.430
+test_nn,test_rnn_fused_cuda_float32,pass,,2122.558
+test_nn,test_rnn_fused_cuda_float64,pass,,2963.470
+#test_nn,test_clip_grad_norm_error_if_nonfinite_cuda,pass,,2954.99
+test_nn,test_Dropout3d_cuda,pass,,1507.49
+test_nn,test_multihead_attention_dtype_cuda_float16,pass,,55.774
+test_nn,test_log_softmax_big_cuda_float16,pass,,11.850
+test_nn,test_affine_3d_rotateRandom_cuda,pass,,1440.376
+# too slow
+# test_nn,test_Dropout_cuda,pass,,10389.749
+# test_nn,test_embedding_bag_1D_padding_idx_cuda_bfloat16,pass,,130434.663
+# test_nn,test_embedding_bag_1D_padding_idx_cuda_float16,pass,,159793.858
+# test_nn,test_embedding_bag_2D_padding_idx_cuda_bfloat16,pass,,9506.400
+# test_nn,test_embedding_bag_2D_padding_idx_cuda_float16,pass,,10650.180
+# test_nn,test_embedding_bag_device_cuda_int32_int32_float32,pass,,30841.013
+# test_nn,test_embedding_bag_device_cuda_int32_int32_float64,pass,,31584.439
+# test_nn,test_embedding_bag_device_cuda_int32_int64_float32,pass,,28696.776
+# test_nn,test_embedding_bag_device_cuda_int32_int64_float64,pass,,12260.314
+# test_nn,test_embedding_bag_device_cuda_int64_int32_float32,pass,,39091.925
+# test_nn,test_embedding_bag_device_cuda_int64_int32_float64,pass,,15438.200
+# test_nn,test_embedding_bag_device_cuda_int64_int64_float32,pass,,15883.949
+# test_nn,test_embedding_bag_device_cuda_int64_int64_float64,pass,,42046.534
+# test_nn,test_grid_sample_large_index_2d_cuda_float32,pass,,46853.741
+# test_nn,test_GroupNorm_numeric_cuda,pass,,42391.814
+# test_nn,test_ReflectionPad2d_large_cuda,pass,,9456.142
+# test_nn,test_ReflectionPad3d_large_cuda,pass,,5787.701
+# test_nn,test_ReplicationPad1d_large_cuda,pass,,4217.332
+# test_nn,test_ReplicationPad2d_large_cuda,pass,,51420.318
+# test_nn,test_ReplicationPad3d_large_cuda,pass,,150116.983
+# test_nn,test_softmax_results_cuda_float32,pass,,12504.940
+# test_nn,test_TransformerDecoder_empty_cuda,pass,,9377.179
+# test_nn,test_Transformer_empty_cuda,pass,,18245.738
+# test_nn,test_TransformerEncoder_empty_cuda,pass,,11310.606
+# test_nn,test_triplet_margin_with_distance_loss_default_parity_cuda,pass,,6220.811
+# test_nn,test_rnn_retain_variables_cuda_float32,pass,,8664.011
+# test_nn,test_rnn_retain_variables_cuda_float64,pass,,12895.986
+# test_nn,test_rnn_retain_variables_cuda_float16,pass,,3663.846
+# test_nn,test_embedding_bag_device_cuda_int32_int32_float16,pass,,6224.579
+# test_nn,test_embedding_bag_device_cuda_int32_int64_float16,pass,,6254.826
+# test_nn,test_embedding_bag_device_cuda_int64_int32_float16,pass,,8200.690
+# test_nn,test_embedding_bag_device_cuda_int64_int64_float16,pass,,8148.929
+# test_nn,test_variable_sequence_cuda_float16,pass,,23141.018
+# test_nn,test_variable_sequence_cuda_float32,pass,,23449.084
+# test_nn,test_variable_sequence_cuda_float64,pass,,20135.307

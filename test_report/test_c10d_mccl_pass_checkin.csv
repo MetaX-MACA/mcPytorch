@@ -1,0 +1,4 @@
+test_filename,test_case_name,status,err_info,used_time
+#distributed/test_c10d_nccl,test_empty_tensors,pass,,6.506
+distributed/test_c10d_nccl,test_ddp_with_lazy_parameters,pass,,6.003
+distributed/test_c10d_nccl,test_pass_default_pg,pass,,6.050

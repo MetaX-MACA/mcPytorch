@@ -1,0 +1,8 @@
+test_filename,test_case_name,status,err_info,used_time
+dynamo/test_skip_non_tensor,test_add_skip,pass,,0.034
+dynamo/test_skip_non_tensor,test_add_tensor1,pass,,0.046
+dynamo/test_skip_non_tensor,test_add_tensor2,pass,,0.003
+dynamo/test_skip_non_tensor,test_add_tensor_dict,pass,,0.003
+dynamo/test_skip_non_tensor,test_add_tensor_list,pass,,0.003
+dynamo/test_skip_non_tensor,test_custom_list,pass,,0.001
+dynamo/test_skip_non_tensor,test_recursive_list,pass,,0.001

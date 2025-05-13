@@ -1,0 +1,18 @@
+test_filename,test_case_name,status,err_info,used_time
+dynamo/test_backends,test_aot_cudagraphs,pass,,0.146
+dynamo/test_backends,test_aot_eager,pass,,0.038
+dynamo/test_backends,test_aot_eager_decomp_partition,pass,,0.184
+dynamo/test_backends,test_aot_ts,pass,,0.057
+dynamo/test_backends,test_aot_ts_nvfuser,pass,,0.057
+dynamo/test_backends,test_eager,pass,,0.010
+dynamo/test_backends,test_example_inputs,pass,,0.005
+dynamo/test_backends,test_example_inputs_runtime_use,pass,,0.004
+dynamo/test_backends,test_ipex_bf16,skipped,requires ipex,0.000
+dynamo/test_backends,test_ipex_fp32,skipped,requires ipex,0.000
+dynamo/test_backends,test_list_backends,pass,,0.001
+dynamo/test_backends,test_nvprims_aten,pass,,0.280
+dynamo/test_backends,test_nvprims_nvfuser,pass,,0.340
+dynamo/test_backends,test_onnxrt,skipped,requires onnxruntime,0.000
+dynamo/test_backends,test_torchscript,pass,,0.025
+dynamo/test_backends,test_tvm,skipped,requires tvm,0.000
+dynamo/test_backends,test_inplace_normalize,pass,,0.012

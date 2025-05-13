@@ -1,0 +1,13 @@
+test_filename,test_case_name,status,err_info,used_time
+dynamo/test_unspec,test_builtin_functions_on_cuda,pass,,0.118
+dynamo/test_unspec,test_builtin_getitem,skipped,,0.006
+dynamo/test_unspec,test_builtin_max_min,pass,,0.011
+dynamo/test_unspec,test_feed_random_values_into_graph_only,pass,,0.009
+dynamo/test_unspec,test_multiple_consecutive_random_calls_before_graph,pass,,0.039
+dynamo/test_unspec,test_no_recompilations,pass,,0.007
+dynamo/test_unspec,test_numpy_correctness,pass,,0.034
+dynamo/test_unspec,test_random_call_with_while_loop,pass,,0.019
+dynamo/test_unspec,test_random_values_with_graph_break,pass,,0.021
+dynamo/test_unspec,test_specializing_numpy_float_in_control_flow,pass,,0.013
+dynamo/test_unspec,test_unspec_control_flow,pass,,0.017
+dynamo/test_unspec,test_unspec_float_precision,pass,,0.039

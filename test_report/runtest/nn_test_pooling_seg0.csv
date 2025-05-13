@@ -1,0 +1,198 @@
+test_filename,test_case_name,status,err_info
+nn/test_pooling,test_avg_pool1d_ceil_mode,pass,
+nn/test_pooling,test_avg_pool2d_ceil_mode,pass,
+nn/test_pooling,test_avg_pool3d_ceil_mode,pass,
+nn/test_pooling,test_doubletensor_avg_pool2d,pass,
+nn/test_pooling,test_doubletensor_avg_pool2d_with_divisor,pass,
+nn/test_pooling,test_doubletensor_avg_pool3d,pass,
+nn/test_pooling,test_doubletensor_avg_pool3d_with_divisor,pass,
+nn/test_pooling,test_MaxUnpool2d_output_size,pass,
+nn/test_pooling,test_adaptive_pooling_avg_nhwc,pass,
+nn/test_pooling,test_adaptive_pooling_avg_nhwc_launch_config_backward,pass,
+nn/test_pooling,test_adaptive_pooling_avg_nhwc_launch_config_forward,pass,
+nn/test_pooling,test_adaptive_pooling_avg_nhwc_non_contiguous,pass,
+nn/test_pooling,test_adaptive_pooling_bfloat16,pass,
+nn/test_pooling,test_adaptive_pooling_size_none,pass,
+nn/test_pooling,test_adaptive_pooling_size_overflow,pass,
+nn/test_pooling,test_max_unpool,pass,
+nn/test_pooling,test_max_unpool2d_nhwc_cpu,pass,
+nn/test_pooling,test_max_unpool3d_input_check,pass,
+nn/test_pooling,test_AdaptiveMaxPool1d_indices_cpu_float32,pass,
+nn/test_pooling,test_AdaptiveMaxPool2d_indices_cpu_float32,pass,
+nn/test_pooling,test_AdaptiveMaxPool3d_indices_cpu_float32,pass,
+nn/test_pooling,test_AdaptiveMaxPool_zero_batch_dim_cpu,pass,
+nn/test_pooling,test_AvgPool2d_empty_cpu,pass,
+nn/test_pooling,test_AvgPool3d_backward_after_cat_dim1_device_cpu,skipped,Only runs on cuda
+nn/test_pooling,test_FractionalMaxPool2d_zero_batch_cpu,pass,
+nn/test_pooling,test_FractionalMaxPool2d_zero_out_size_cpu,pass,
+nn/test_pooling,test_FractionalMaxPool2d_zero_samples_cpu,pass,
+nn/test_pooling,test_FractionalMaxPool3d_zero_batch_cpu,pass,
+nn/test_pooling,test_FractionalMaxPool3d_zero_out_size_cpu,pass,
+nn/test_pooling,test_FractionalMaxPool3d_zero_samples_cpu,pass,
+nn/test_pooling,test_MaxPool1d_indices_cpu_float32,pass,
+nn/test_pooling,test_MaxPool2d_indices_cpu_float32,pass,
+nn/test_pooling,test_MaxPool3d_indices_cpu_float32,pass,
+nn/test_pooling,test_MaxPool_zero_batch_dim_cpu,pass,
+nn/test_pooling,test_MaxUnpool_index_errors_case10_cpu,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case1_cpu,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case2_cpu,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case3_cpu,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case4_cpu,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case5_cpu,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case6_cpu,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case7_cpu,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case8_cpu,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case9_cpu,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_zero_batch_dim_cpu,pass,
+nn/test_pooling,test_adaptive_avg_pool2d_output_size_one_cpu,pass,
+nn/test_pooling,test_adaptive_avg_pool3d_output_size_one_cpu,pass,
+nn/test_pooling,test_adaptive_pool_odd_size_cpu,skipped,test is slow; run wi
+nn/test_pooling,test_adaptive_pooling_empty_output_size_cpu_float32,pass,
+nn/test_pooling,test_adaptive_pooling_empty_output_size_cpu_float64,pass,
+nn/test_pooling,test_adaptive_pooling_max_nhwc_cpu_float32,pass,
+nn/test_pooling,test_adaptive_pooling_max_nhwc_cpu_float64,pass,
+nn/test_pooling,test_adaptive_pooling_no_suppot_input_cpu_int16,pass,
+nn/test_pooling,test_adaptive_pooling_no_suppot_input_cpu_int32,pass,
+nn/test_pooling,test_adaptive_pooling_no_suppot_input_cpu_int64,pass,
+nn/test_pooling,test_adaptive_pooling_no_suppot_input_cpu_int8,pass,
+nn/test_pooling,test_adaptive_pooling_no_suppot_input_cpu_uint8,pass,
+nn/test_pooling,test_adaptive_pooling_zero_batch_cpu_float32,pass,
+nn/test_pooling,test_adaptive_pooling_zero_batch_cpu_float64,pass,
+nn/test_pooling,test_avg_pool2d_bfloat16_cpu,pass,
+nn/test_pooling,test_avg_pool2d_nhwc_cpu_float32,pass,
+nn/test_pooling,test_avg_pool2d_nhwc_cpu_float64,pass,
+nn/test_pooling,test_fractional_max_pool2d_cpu,pass,
+nn/test_pooling,test_fractional_max_pool3d_cpu,pass,
+nn/test_pooling,test_fractional_max_pool_nan_inf_cpu_float32,pass,
+nn/test_pooling,test_max_pool1d_corner_cases_cpu_float32,pass,
+nn/test_pooling,test_max_pool1d_corner_cases_cpu_float64,pass,
+nn/test_pooling,test_max_pool1d_cpu_float32,pass,
+nn/test_pooling,test_max_pool1d_cpu_float64,pass,
+nn/test_pooling,test_max_pool2d_bfloat16_cpu,pass,
+nn/test_pooling,test_max_pool2d_cpu,skipped,Only runs on cuda
+nn/test_pooling,test_max_pool2d_indices_cpu,skipped,Only runs on cuda
+nn/test_pooling,test_max_pool2d_nhwc_cpu_float32,pass,
+nn/test_pooling,test_max_pool2d_nhwc_cpu_float64,pass,
+nn/test_pooling,test_max_pool3d_ndhwc_cpu_float16,skipped,Only runs on cuda
+nn/test_pooling,test_max_pool3d_ndhwc_cpu_float32,skipped,Only runs on cuda
+nn/test_pooling,test_max_pool3d_ndhwc_cpu_float64,skipped,Only runs on cuda
+nn/test_pooling,test_max_pool_nan_inf_cpu_float32,pass,
+nn/test_pooling,test_maxpool3d_non_square_backward_cpu,pass,
+nn/test_pooling,test_maxpool_indices_no_batch_dim_cpu_float32,pass,
+nn/test_pooling,test_pool3d_large_size_int64_cpu,skipped,Only runs on cuda
+nn/test_pooling,test_pool3d_size_one_feature_dim_cpu,skipped,Only runs on cuda
+nn/test_pooling,test_pool_invalid_size_cpu_float32,pass,
+nn/test_pooling,test_pool_large_size_cpu_float32,pass,
+nn/test_pooling,test_pooling_bfloat16_cpu,skipped,Only runs on cuda
+nn/test_pooling,test_pooling_large_cpu,skipped,Only runs on cuda
+nn/test_pooling,test_pooling_max_nhwc_cpu_float32,pass,
+nn/test_pooling,test_pooling_max_nhwc_cpu_float64,pass,
+nn/test_pooling,test_pooling_shape_cpu,pass,
+nn/test_pooling,test_pooling_zero_stride_cpu,pass,
+nn/test_pooling,test_AdaptiveMaxPool1d_indices_cuda_bfloat16,pass,
+nn/test_pooling,test_AdaptiveMaxPool1d_indices_cuda_float16,pass,
+nn/test_pooling,test_AdaptiveMaxPool1d_indices_cuda_float32,pass,
+nn/test_pooling,test_AdaptiveMaxPool1d_indices_cuda_float64,pass,
+nn/test_pooling,test_AdaptiveMaxPool2d_indices_cuda_bfloat16,pass,
+nn/test_pooling,test_AdaptiveMaxPool2d_indices_cuda_float16,pass,
+nn/test_pooling,test_AdaptiveMaxPool2d_indices_cuda_float32,pass,
+nn/test_pooling,test_AdaptiveMaxPool2d_indices_cuda_float64,pass,
+nn/test_pooling,test_AdaptiveMaxPool3d_indices_cuda_bfloat16,pass,
+nn/test_pooling,test_AdaptiveMaxPool3d_indices_cuda_float16,pass,
+nn/test_pooling,test_AdaptiveMaxPool3d_indices_cuda_float32,pass,
+nn/test_pooling,test_AdaptiveMaxPool3d_indices_cuda_float64,pass,
+nn/test_pooling,test_AdaptiveMaxPool_zero_batch_dim_cuda,pass,
+nn/test_pooling,test_AvgPool2d_empty_cuda,pass,
+nn/test_pooling,test_AvgPool3d_backward_after_cat_dim1_device_cuda,pass,
+nn/test_pooling,test_FractionalMaxPool2d_zero_batch_cuda,pass,
+nn/test_pooling,test_FractionalMaxPool2d_zero_out_size_cuda,pass,
+nn/test_pooling,test_FractionalMaxPool2d_zero_samples_cuda,pass,
+nn/test_pooling,test_FractionalMaxPool3d_zero_batch_cuda,pass,
+nn/test_pooling,test_FractionalMaxPool3d_zero_out_size_cuda,pass,
+nn/test_pooling,test_FractionalMaxPool3d_zero_samples_cuda,pass,
+nn/test_pooling,test_MaxPool1d_indices_cuda_bfloat16,pass,
+nn/test_pooling,test_MaxPool1d_indices_cuda_float16,pass,
+nn/test_pooling,test_MaxPool1d_indices_cuda_float32,pass,
+nn/test_pooling,test_MaxPool1d_indices_cuda_float64,pass,
+nn/test_pooling,test_MaxPool2d_indices_cuda_bfloat16,pass,
+nn/test_pooling,test_MaxPool2d_indices_cuda_float16,pass,
+nn/test_pooling,test_MaxPool2d_indices_cuda_float32,pass,
+nn/test_pooling,test_MaxPool2d_indices_cuda_float64,pass,
+nn/test_pooling,test_MaxPool3d_indices_cuda_bfloat16,pass,
+nn/test_pooling,test_MaxPool3d_indices_cuda_float16,pass,
+nn/test_pooling,test_MaxPool3d_indices_cuda_float32,pass,
+nn/test_pooling,test_MaxPool3d_indices_cuda_float64,pass,
+nn/test_pooling,test_MaxPool_zero_batch_dim_cuda,pass,
+nn/test_pooling,test_MaxUnpool_index_errors_case10_cuda,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case1_cuda,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case2_cuda,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case3_cuda,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case4_cuda,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case5_cuda,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case6_cuda,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case7_cuda,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case8_cuda,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_index_errors_case9_cuda,skipped,test is slow; run wi
+nn/test_pooling,test_MaxUnpool_zero_batch_dim_cuda,pass,
+nn/test_pooling,test_adaptive_avg_pool2d_output_size_one_cuda,pass,
+nn/test_pooling,test_adaptive_avg_pool3d_output_size_one_cuda,pass,
+nn/test_pooling,test_adaptive_pool_odd_size_cuda,skipped,test is slow; run wi
+nn/test_pooling,test_adaptive_pooling_empty_output_size_cuda_bfloat16,pass,
+nn/test_pooling,test_adaptive_pooling_empty_output_size_cuda_float16,pass,
+nn/test_pooling,test_adaptive_pooling_empty_output_size_cuda_float32,pass,
+nn/test_pooling,test_adaptive_pooling_empty_output_size_cuda_float64,pass,
+nn/test_pooling,test_adaptive_pooling_max_nhwc_cuda_float32,pass,
+nn/test_pooling,test_adaptive_pooling_max_nhwc_cuda_float64,pass,
+nn/test_pooling,test_adaptive_pooling_no_suppot_input_cuda_int16,pass,
+nn/test_pooling,test_adaptive_pooling_no_suppot_input_cuda_int32,pass,
+nn/test_pooling,test_adaptive_pooling_no_suppot_input_cuda_int64,pass,
+nn/test_pooling,test_adaptive_pooling_no_suppot_input_cuda_int8,pass,
+nn/test_pooling,test_adaptive_pooling_no_suppot_input_cuda_uint8,pass,
+nn/test_pooling,test_adaptive_pooling_zero_batch_cuda_float32,pass,
+nn/test_pooling,test_adaptive_pooling_zero_batch_cuda_float64,pass,
+nn/test_pooling,test_avg_pool2d_bfloat16_cuda,skipped,Only runs on cpu
+nn/test_pooling,test_avg_pool2d_nhwc_cuda_float16,pass,
+nn/test_pooling,test_avg_pool2d_nhwc_cuda_float32,pass,
+nn/test_pooling,test_avg_pool2d_nhwc_cuda_float64,pass,
+nn/test_pooling,test_fractional_max_pool2d_cuda,pass,
+nn/test_pooling,test_fractional_max_pool3d_cuda,pass,
+nn/test_pooling,test_fractional_max_pool_nan_inf_cuda_float16,pass,
+nn/test_pooling,test_fractional_max_pool_nan_inf_cuda_float32,pass,
+nn/test_pooling,test_fractional_max_pool_nan_inf_cuda_float64,pass,
+nn/test_pooling,test_max_pool1d_corner_cases_cuda_float32,skipped,Only runs on cpu
+nn/test_pooling,test_max_pool1d_corner_cases_cuda_float64,skipped,Only runs on cpu
+nn/test_pooling,test_max_pool1d_cuda_float32,skipped,Only runs on cpu
+nn/test_pooling,test_max_pool1d_cuda_float64,skipped,Only runs on cpu
+nn/test_pooling,test_max_pool2d_bfloat16_cuda,skipped,Only runs on cpu
+nn/test_pooling,test_max_pool2d_cuda,pass,
+nn/test_pooling,test_max_pool2d_indices_cuda,pass,
+nn/test_pooling,test_max_pool2d_nhwc_cuda_float16,pass,
+nn/test_pooling,test_max_pool2d_nhwc_cuda_float32,pass,
+nn/test_pooling,test_max_pool2d_nhwc_cuda_float64,pass,
+nn/test_pooling,test_max_pool3d_ndhwc_cuda_float16,pass,
+nn/test_pooling,test_max_pool3d_ndhwc_cuda_float32,pass,
+nn/test_pooling,test_max_pool3d_ndhwc_cuda_float64,pass,
+nn/test_pooling,test_max_pool_nan_inf_cuda_float16,pass,
+nn/test_pooling,test_max_pool_nan_inf_cuda_float32,pass,
+nn/test_pooling,test_max_pool_nan_inf_cuda_float64,pass,
+nn/test_pooling,test_maxpool3d_non_square_backward_cuda,pass,
+nn/test_pooling,test_maxpool_indices_no_batch_dim_cuda_bfloat16,pass,
+nn/test_pooling,test_maxpool_indices_no_batch_dim_cuda_float16,pass,
+nn/test_pooling,test_maxpool_indices_no_batch_dim_cuda_float32,pass,
+nn/test_pooling,test_maxpool_indices_no_batch_dim_cuda_float64,pass,
+nn/test_pooling,test_pool3d_large_size_int64_cuda,skipped,Insufficient cpu mem
+nn/test_pooling,test_pool3d_size_one_feature_dim_cuda,pass,
+nn/test_pooling,test_pool_invalid_size_cuda_bfloat16,pass,
+nn/test_pooling,test_pool_invalid_size_cuda_float16,pass,
+nn/test_pooling,test_pool_invalid_size_cuda_float32,pass,
+nn/test_pooling,test_pool_invalid_size_cuda_float64,pass,
+nn/test_pooling,test_pool_large_size_cuda_bfloat16,pass,
+nn/test_pooling,test_pool_large_size_cuda_float16,pass,
+nn/test_pooling,test_pool_large_size_cuda_float32,pass,
+nn/test_pooling,test_pool_large_size_cuda_float64,pass,
+nn/test_pooling,test_pooling_bfloat16_cuda,pass,
+nn/test_pooling,test_pooling_large_cuda,pass,
+nn/test_pooling,test_pooling_max_nhwc_cuda_float32,pass,
+nn/test_pooling,test_pooling_max_nhwc_cuda_float64,pass,
+nn/test_pooling,test_pooling_shape_cuda,pass,
+nn/test_pooling,test_pooling_zero_stride_cuda,pass,

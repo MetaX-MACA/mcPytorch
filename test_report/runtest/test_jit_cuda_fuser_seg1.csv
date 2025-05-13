@@ -1,0 +1,52 @@
+test_filename,test_case_name,status,err_info,used_time
+test_jit_cuda_fuser,test_autocast_1,pass,,3.222
+test_jit_cuda_fuser,test_autocast_1_bfloat,pass,,2.923
+test_jit_cuda_fuser,test_autocast_2,pass,,3.079
+test_jit_cuda_fuser,test_autocast_2_bfloat,pass,,3.033
+test_jit_cuda_fuser,test_backward_type,pass,,9.709
+test_jit_cuda_fuser,test_batch_norm_half,pass,,24.463
+test_jit_cuda_fuser,test_batch_norm_impl_index_correctness,pass,,1170.644
+test_jit_cuda_fuser,test_batch_norm_impl_index_inner_bcast,pass,,36.451
+test_jit_cuda_fuser,test_branches,pass,,1.642
+test_jit_cuda_fuser,test_channels_last_with_broadcast,pass,,6.553
+test_jit_cuda_fuser,test_conv2d_bias,pass,,2.012
+test_jit_cuda_fuser,test_conv2d_symbolic_shapes,pass,,0.009
+test_jit_cuda_fuser,test_dropout_inference_fusion,pass,,1.668
+test_jit_cuda_fuser,test_dropout_train_nograd_fusion,pass,,1.867
+test_jit_cuda_fuser,test_dropout_train_nograd_prob_check,pass,,1.798
+test_jit_cuda_fuser,test_dropout_training_fusion,pass,,17.608
+test_jit_cuda_fuser,test_dropout_training_prob_check,pass,,1.758
+test_jit_cuda_fuser,test_gelu,pass,,6.751
+test_jit_cuda_fuser,test_grad_sum_to_size,pass,,5.131
+test_jit_cuda_fuser,test_graph_for_with_missing_optimized_engine,pass,,1.636
+test_jit_cuda_fuser,test_inplace_removal,pass,single run pass,0.010
+test_jit_cuda_fuser,test_linear,pass,single run pass,0.007
+test_jit_cuda_fuser,test_linear_symbolic_shapes,pass,single run pass,0.007
+test_jit_cuda_fuser,test_multiple_device_pw,skipped,requires multiple CUDA device,0.001
+test_jit_cuda_fuser,test_normalization_partition,pass,single run pass,0.007
+test_jit_cuda_fuser,test_permutation_preservation,pass,single run pass,0.007
+test_jit_cuda_fuser,test_permutation_preservation_edge_case_0,pass,single run pass,0.007
+test_jit_cuda_fuser,test_permutation_preservation_edge_case_1_broken,pass,single run pass,0.007
+test_jit_cuda_fuser,test_permutation_preservation_edge_case_2,pass,single run pass,0.007
+test_jit_cuda_fuser,test_profile_ivalue,pass,single run pass,0.007
+test_jit_cuda_fuser,test_profile_ivalue_multiple_profiles,pass,single run pass,0.007
+test_jit_cuda_fuser,test_profiling_node,skipped,Skipped due to rand_like behavior change,0.001
+test_jit_cuda_fuser,test_pw_single_reduction_partition,pass,single run pass,0.007
+test_jit_cuda_fuser,test_reduction_multiple_output,pass,single run pass,0.007
+test_jit_cuda_fuser,test_reduction_permutation,pass,single run pass,0.007
+test_jit_cuda_fuser,test_reduction_sizes_op,pass,single run pass,0.007
+test_jit_cuda_fuser,test_scalar_tensor,pass,single run pass,0.007
+test_jit_cuda_fuser,test_scalar_tensor_permuted,pass,single run pass,0.007
+test_jit_cuda_fuser,test_single_reduction_broadcast,pass,single run pass,0.007
+test_jit_cuda_fuser,test_softmax_bfloat,pass,single run pass,0.007
+test_jit_cuda_fuser,test_softplus_fuser,pass,single run pass,0.007
+test_jit_cuda_fuser,test_sum_to_one,pass,single run pass,0.007
+test_jit_cuda_fuser,test_to_dtype_bf16_to_bf16,pass,single run pass,0.007
+test_jit_cuda_fuser,test_to_dtype_bf16_to_fp32,pass,single run pass,0.007
+test_jit_cuda_fuser,test_to_dtype_fp16_to_fp16,pass,single run pass,0.007
+test_jit_cuda_fuser,test_to_dtype_fp16_to_fp32,pass,single run pass,0.007
+test_jit_cuda_fuser,test_to_dtype_fp32_to_bf16,pass,single run pass,0.007
+test_jit_cuda_fuser,test_to_dtype_fp32_to_fp16,pass,single run pass,0.007
+test_jit_cuda_fuser,test_trivial_reduction,pass,single run pass,0.007
+test_jit_cuda_fuser,test_sum_to_size,pass,
+test_jit_cuda_fuser,test_unary_ops,pass,single run pass,0.002

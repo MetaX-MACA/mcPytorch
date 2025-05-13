@@ -1,0 +1,4 @@
+test_filename,test_case_name
+inductor/test_smoke,test_mlp
+inductor/test_smoke,test_compile_decorator
+inductor/test_smoke,test_compile_invalid_options

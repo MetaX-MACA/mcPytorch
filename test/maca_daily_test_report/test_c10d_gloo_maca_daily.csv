@@ -1,0 +1,6 @@
+test_filename,test_case_name
+distributed/test_c10d_gloo,test_logging_init
+distributed/test_c10d_gloo,test_multi_device_constructor
+distributed/test_c10d_gloo,test_empty_tensors
+distributed/test_c10d_gloo,test_broadcast_checks
+distributed/test_c10d_gloo,test_broadcast_basics_cuda

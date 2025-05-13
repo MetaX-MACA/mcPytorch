@@ -1,0 +1,11 @@
+test_filename,test_case_name,status,err_info,used_time
+onnx/test_onnx_opset,test_opset_fallback,pass,,0.104
+onnx/test_onnx_opset,test_interpolate,pass,,0.399
+onnx/test_onnx_opset,test_flip,pass,,0.114
+onnx/test_onnx_opset,test_cast_constant,pass,,0.116
+onnx/test_onnx_opset,test_slice,pass,,0.564
+onnx/test_onnx_opset,test_full,pass,,0.103
+onnx/test_onnx_opset,test_dropout,pass,,0.046
+onnx/test_onnx_opset,test_upsample,pass,,0.034
+onnx/test_onnx_opset,test_topk,pass,,0.088
+onnx/test_onnx_opset,test_maxpool,pass,,0.108

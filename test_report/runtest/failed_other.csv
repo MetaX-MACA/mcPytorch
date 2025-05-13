@@ -1,0 +1,5 @@
+test_filename,test_case_name,status,err_info
+test_nn,test_ctc_loss_cudnn_cuda,failed, Jira: ACL-11417
+test_nn,test_interpolate_nearest_2d_launch_configs_cuda,failed, 由于4维tensor to cuda的时候会进行非连续转换，导致本应该调用upsample_nearest2d_out_frame，但却调用了upsample_nearest2d_nhwc_out_frame。结果精度是没有问题，但是这个case会check结果是否连续，导致报错。
+functorch/test_vmap,test_view,pass,,0.088    #host2device layout convert, no contiguous Tensor can view. this cast expect failed.
+functorch/test_vmap,test_view_as,pass,,0.089  #host2device layout convert, no contiguous Tensor can view. this cast expect failed.

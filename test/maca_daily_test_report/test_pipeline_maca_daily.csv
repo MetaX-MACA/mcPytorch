@@ -1,0 +1,8 @@
+test_filename,test_case_name,status,err_info,used_time
+distributed/pipeline/sync/test_pipe,test_pipe_without_rpc,pass,,0.028
+distributed/pipeline/sync/test_pipe,test_batch_size_small,pass,,0.093
+distributed/pipeline/sync/test_pipe,test_checkpoint_mode_when_chunks_1,pass,,0.090
+distributed/pipeline/sync/test_pipe,test_sequential_like,pass,,0.089
+distributed/pipeline/sync/test_pipe,test_parameters,pass,,0.072
+distributed/pipeline/sync/test_pipe,test_chunks_less_than_1,pass,,0.063
+distributed/pipeline/sync/test_pipe,test_checkpoint_eval,pass,,0.073

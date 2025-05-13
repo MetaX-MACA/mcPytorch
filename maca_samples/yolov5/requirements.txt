@@ -1,0 +1,6 @@
+pyyaml
+matplotlib
+tqdm
+requests
+numpy
+thop

@@ -1,0 +1,5 @@
+# mkl related, no package for arm platform
+mkl-include==2024.0.0
+mkl-static==2024.0.0
+# mkl
+# mkl-devel

@@ -1,0 +1,13 @@
+test_suitename,test_case_name
+StreamEventTest,NonBlockingCopy
+StreamEventTest,EventWait
+StreamEventTest,EventSynchronize
+StreamEventTest,EventRecod
+StreamEventTest,StreamCreateBeforeSync
+StreamEventTest,EventSync
+StreamEventTest,EventDisableTiming
+StreamEventTest,StreamWaitEvent
+DeviceCopyTest,DeviceEnablePeerAccess
+DeviceCopyTest,D2DCopy
+DeviceCopyTest,DeviceSyncWithoutKernel
+-StreamEventTest,EventsMultiGpuElapsedTime

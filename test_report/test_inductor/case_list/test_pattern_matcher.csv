@@ -1,0 +1,6 @@
+test_filename,test_case_name
+inductor/test_pattern_matcher,test_mm_plus_mm
+inductor/test_pattern_matcher,test_addmm
+inductor/test_pattern_matcher,test_cat_mm
+inductor/test_pattern_matcher,test_cat_addmm
+inductor/test_pattern_matcher,test_cat_slice_cat

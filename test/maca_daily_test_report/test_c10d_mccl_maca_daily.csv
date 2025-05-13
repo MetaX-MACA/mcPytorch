@@ -1,0 +1,3 @@
+test_filename,test_case_name,status,err_info,used_time
+distributed/test_c10d_nccl,test_common_errors,pass,,0.016
+distributed/test_c10d_nccl,test_reduce_scatter_base_basics,pass,,0.043

@@ -1,0 +1,9 @@
+test_filename,test_case_name,status,err_info,used_time
+dynamo/test_model_output,test_pretrained,skipped,requires HuggingFace,0.001
+dynamo/test_model_output,test_mo_assign,skipped,requires HuggingFace,0.000
+dynamo/test_model_output,test_mo_create,skipped,requires HuggingFace,0.000
+dynamo/test_model_output,test_mo_getattr,skipped,requires HuggingFace,0.000
+dynamo/test_model_output,test_mo_getitem,skipped,requires HuggingFace,0.000
+dynamo/test_model_output,test_mo_index,skipped,requires HuggingFace,0.000
+dynamo/test_model_output,test_mo_init,skipped,requires HuggingFace,0.000
+dynamo/test_model_output,test_mo_tuple,skipped,requires HuggingFace,0.000

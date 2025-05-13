@@ -1,0 +1,172 @@
+#test_ops,test_complex_half_reference_testing_fft_fft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_complex_half_reference_testing_fft_fft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_complex_half_reference_testing_fft_fftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_complex_half_reference_testing_fft_hfft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_complex_half_reference_testing_fft_hfft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_complex_half_reference_testing_fft_hfftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_complex_half_reference_testing_fft_ifft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_complex_half_reference_testing_fft_ifft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_complex_half_reference_testing_fft_ifftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_complex_half_reference_testing_fft_irfft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_complex_half_reference_testing_fft_irfft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_complex_half_reference_testing_fft_irfftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_dtypes_fft_fft2_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_fft_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_fftn_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_hfft2_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_hfft_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_hfftn_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_ifft2_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_ifft_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_ifftn_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_ihfft2_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_ihfft_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_ihfftn_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_irfft2_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_irfft_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_irfftn_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_rfft2_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_rfft_cuda,failed,AssertionError: The 
+#test_ops,test_dtypes_fft_rfftn_cuda,failed,AssertionError: The 
+#test_ops,test_fake_fft_fft2_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_fft_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_fftn_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_fftshift_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_hfft2_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_hfft_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_hfftn_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_ifft2_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_ifft_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_ifftn_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_ifftshift_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_ihfft2_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_ihfft_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_ihfftn_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_irfft2_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_irfft_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_irfftn_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_rfft2_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_rfft_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_fake_fft_rfftn_cuda_float32,failed,RuntimeError: CUDA e
+#test_ops,test_python_ref_executor__refs_fft_fft2_executor_aten_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_fft2_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_fft_executor_aten_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_fft_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_fftn_executor_aten_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_fftn_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_hfft2_executor_aten_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_hfft2_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_hfft_executor_aten_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_hfft_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_hfftn_executor_aten_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_hfftn_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_ifft2_executor_aten_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_ifft2_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_ifft_executor_aten_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_ifft_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_ifftn_executor_aten_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_ifftn_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_ihfft2_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_ihfft_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_ihfftn_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_irfft2_executor_aten_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_irfft2_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_irfft_executor_aten_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_irfft_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_irfftn_executor_aten_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_irfftn_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_rfft2_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_rfft_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_executor__refs_fft_rfftn_executor_aten_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_fft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_fft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_fft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_fft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_fftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_fftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_hfft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_hfft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_hfft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_hfft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_hfftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_hfftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_ifft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_ifft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_ifft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_ifft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_ifftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_ifftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_ihfft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_ihfft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_ihfftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_irfft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_irfft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_irfft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_irfft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_irfftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_irfftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_rfft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_rfft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_meta__refs_fft_rfftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_fft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_fft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_fft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_fft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_fftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_fftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_hfft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_hfft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_hfft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_hfft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_hfftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_hfftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_ifft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_ifft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_ifft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_ifft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_ifftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_ifftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_ihfft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_ihfft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_ihfftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_irfft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_irfft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_irfft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_irfft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_irfftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_irfftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_rfft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_rfft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref__refs_fft_rfftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_fft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_fft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_fft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_fft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_fftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_fftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_hfft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_hfft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_hfft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_hfft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_hfftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_hfftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_ifft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_ifft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_ifft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_ifft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_ifftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_ifftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_ihfft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_ihfft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_ihfftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_irfft2_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_irfft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_irfft_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_irfft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_irfftn_cuda_complex32,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_irfftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_rfft2_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_rfft_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_rfftn_cuda_float16,failed,RuntimeError: cuFFT 
+#test_ops,test_python_ref_torch_fallback__refs_fft_hfftn_cpu_uint8,failed,
+#test_ops,test_python_ref__refs_fft_hfftn_cpu_uint8,failed,

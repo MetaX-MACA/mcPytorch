@@ -1,0 +1,4 @@
+test_filename,test_case_name,status,err_info,used_time
+inductor/test_smoke,test_compile_decorator,pass,,2.985
+inductor/test_smoke,test_compile_invalid_options,pass,,0.002
+inductor/test_smoke,test_mlp,pass,,1.204

@@ -1,0 +1,115 @@
+test_filename,test_case_name,status,err_info,used_time
+test_spectral_ops,test_fftfreq_numpy_cpu_float64,pass,,0.062
+test_spectral_ops,test_empty_fft_fft_fft_cpu_float64,pass,,0.014
+test_spectral_ops,test_fft_plan_repeatable_cpu,pass,,0.114
+test_spectral_ops,test_batch_istft_cpu,pass,,0.015
+test_spectral_ops,test_fft2_fftn_equivalence_cpu_complex64,pass,,0.261
+test_spectral_ops,test_complex_istft_real_equiv_cpu_complex128,pass,,0.124
+test_spectral_ops,test_fftfreq_out_cpu_float32,pass,,0.006
+test_spectral_ops,test_fftfreq_out_cpu_float64,pass,,0.004
+test_spectral_ops,test_fftn_round_trip_cpu_complex128,pass,,1.144
+test_spectral_ops,test_fft_round_trip_cpu_complex128,pass,,0.033
+test_spectral_ops,test_complex_stft_definition_cpu_complex128,pass,,0.122
+test_spectral_ops,test_fft_round_trip_cpu_complex64,pass,,0.038
+test_spectral_ops,test_fft_round_trip_cpu_float32,pass,,0.098
+test_spectral_ops,test_complex_stft_onesided_cpu,pass,,0.032
+test_spectral_ops,test_fft2_fftn_equivalence_cpu_float32,pass,,0.351
+test_spectral_ops,test_fft_round_trip_cpu_float64,pass,,0.090
+test_spectral_ops,test_complex_stft_real_equiv_cpu_complex128,pass,,3.623
+test_spectral_ops,test_fft_type_promotion_cpu_complex128,pass,,0.001
+test_spectral_ops,test_fft_type_promotion_cpu_complex64,pass,,0.001
+test_spectral_ops,test_fft_type_promotion_cpu_float32,pass,,0.001
+test_spectral_ops,test_fft_type_promotion_cpu_float64,pass,,0.001
+test_spectral_ops,test_fft_type_promotion_cpu_int8,pass,,0.001
+test_spectral_ops,test_fftfreq_numpy_cpu_float32,pass,,0.057
+test_spectral_ops,test_fftshift_numpy_cpu_float32,pass,,0.028
+test_spectral_ops,test_fftshift_numpy_cpu_float64,pass,,0.025
+test_spectral_ops,test_istft_linearity_cpu_float64,pass,,2.233
+test_spectral_ops,test_fft2_invalid_cpu,pass,,0.171
+test_spectral_ops,test_fft2_numpy_cpu_complex128,pass,,1.642
+test_spectral_ops,test_fftn_round_trip_cpu_complex64,pass,,1.271
+test_spectral_ops,test_fft2_numpy_cpu_float64,pass,,1.601
+test_spectral_ops,test_fftn_round_trip_cpu_float32,pass,,3.846
+test_spectral_ops,test_istft_of_sine_cpu_float64,pass,,0.022
+test_spectral_ops,test_istft_round_trip_simple_cases_cpu_float64,pass,,0.005
+test_spectral_ops,test_istft_round_trip_various_params_cpu_float64,pass,,12.704
+test_spectral_ops,test_complex_stft_roundtrip_cpu_complex128,pass,,2.779
+test_spectral_ops,test_fft_half_and_bfloat16_errors_fft_fft_cpu_bfloat16,pass,,0.011
+test_spectral_ops,test_fft_half_and_bfloat16_errors_fft_fft_cpu_float16,pass,,0.011
+test_spectral_ops,test_fft_ifft_rfft_irfft_cpu_float64,pass,,19.159
+test_spectral_ops,test_fftn_round_trip_cpu_float64,pass,,4.618
+test_spectral_ops,test_complex_stft_roundtrip_cpu_float64,pass,,4.439
+test_spectral_ops,test_fftshift_frequencies_cpu_float32,pass,,0.014
+test_spectral_ops,test_fftshift_frequencies_cpu_float64,pass,,0.011
+test_spectral_ops,test_fftshift_numpy_cpu_complex128,pass,,0.031
+test_spectral_ops,test_fftshift_numpy_cpu_complex64,pass,,0.032
+test_spectral_ops,test_batch_istft_cuda,pass,,22.659
+test_spectral_ops,test_empty_fft_fft_fft_cpu_complex128,pass,,0.010
+test_spectral_ops,test_empty_fft_fft_fft_cpu_complex64,pass,,0.010
+test_spectral_ops,test_empty_fft_fft_fft_cpu_float32,pass,,0.009
+test_spectral_ops,test_reference_1d_fft_fft_cpu_float32,pass,,0.200
+test_spectral_ops,test_reference_1d_fft_fft_cpu_float64,pass,,0.177
+test_spectral_ops,test_stft_requires_complex_cpu,pass,,0.001
+test_spectral_ops,test_stft_roundtrip_complex_window_cpu_complex128,pass,,1.583
+test_spectral_ops,test_stft_roundtrip_complex_window_cpu_float64,pass,,1.819
+test_spectral_ops,test_complex_stft_onesided_cuda,pass,,9.169
+test_spectral_ops,test_istft_round_trip_with_padding_cpu_float64,pass,,1.022
+test_spectral_ops,test_istft_throws_cpu,pass,,0.032
+test_spectral_ops,test_reference_1d_fft_fft_cpu_complex128,pass,,0.154
+test_spectral_ops,test_reference_1d_fft_fft_cpu_complex64,pass,,0.165
+test_spectral_ops,test_empty_fft_fft_fft_cuda_complex128,pass,,1.897
+test_spectral_ops,test_empty_fft_fft_fft_cuda_complex64,pass,,0.109
+test_spectral_ops,test_empty_fft_fft_fft_cuda_float32,pass,,0.109
+test_spectral_ops,test_empty_fft_fft_fft_cuda_float64,pass,,0.108
+# test_spectral_ops,test_fft2_fftn_equivalence_cuda_complex64,pass,,780.442
+test_spectral_ops,test_fft_input_modification_cpu,pass,,0.005
+test_spectral_ops,test_fft_invalid_dtypes_cpu,pass,,0.025
+test_spectral_ops,test_fft_half_and_bfloat16_errors_fft_fft_cuda_bfloat16,pass,,2.645
+# test_spectral_ops,test_complex_stft_real_equiv_cuda_complex128,pass,,4912.081
+test_spectral_ops,test_fft_half_and_bfloat16_errors_fft_fft_cuda_float16,pass,,0.557
+# test_spectral_ops,test_fft_ifft_rfft_irfft_cuda_float64,pass,,12231.295
+# test_spectral_ops,test_complex_istft_real_equiv_cuda_complex128,pass,,520.040
+# test_spectral_ops,test_complex_stft_definition_cuda_complex128,pass,,273.154
+# test_spectral_ops,test_fft2_fftn_equivalence_cuda_float32,pass,,1152.208
+test_spectral_ops,test_fft_invalid_dtypes_cuda,pass,,0.469
+# test_spectral_ops,test_fft_plan_repeatable_cuda,pass,,99.645
+# test_spectral_ops,test_fft_round_trip_cuda_complex128,pass,,132.754
+# test_spectral_ops,test_fft_round_trip_cuda_complex64,pass,,127.067
+# test_spectral_ops,test_fft_round_trip_cuda_float32,pass,,408.708
+# test_spectral_ops,test_fft_round_trip_cuda_float64,pass,,430.284
+test_spectral_ops,test_fft2_invalid_cuda,pass,,0.546
+# test_spectral_ops,test_fft2_numpy_cuda_complex128,pass,,358.047
+test_spectral_ops,test_fft_type_promotion_cuda_complex128,pass,,1.942
+test_spectral_ops,test_fft_type_promotion_cuda_complex64,pass,,1.743
+test_spectral_ops,test_fft_type_promotion_cuda_float32,pass,,3.324
+test_spectral_ops,test_fft_type_promotion_cuda_float64,pass,,3.575
+test_spectral_ops,test_fft_type_promotion_cuda_int8,pass,,3.603
+test_spectral_ops,test_fftfreq_numpy_cuda_float32,pass,,11.564
+test_spectral_ops,test_fftfreq_numpy_cuda_float64,pass,,11.443
+test_spectral_ops,test_fftfreq_out_cuda_float32,pass,,4.604
+test_spectral_ops,test_fftfreq_out_cuda_float64,pass,,4.698
+# test_spectral_ops,test_fftn_round_trip_cuda_complex128,pass,,1216.752
+# test_spectral_ops,test_fft2_numpy_cuda_float64,pass,,576.404
+# test_spectral_ops,test_fftn_round_trip_cuda_float64,pass,,3465.003
+# test_spectral_ops,test_fftn_round_trip_cuda_complex64,pass,,1316.337
+# test_spectral_ops,test_fftn_round_trip_cuda_float32,pass,,3671.821
+# test_spectral_ops,test_complex_stft_roundtrip_cuda_complex128,pass,,2754.647
+test_spectral_ops,test_fftshift_frequencies_cuda_float32,pass,,54.064
+test_spectral_ops,test_fftshift_numpy_cuda_complex128,pass,,23.571
+test_spectral_ops,test_fftshift_numpy_cuda_complex64,pass,,24.720
+test_spectral_ops,test_fftshift_numpy_cuda_float32,pass,,19.317
+test_spectral_ops,test_fftshift_numpy_cuda_float64,pass,,19.220
+# test_spectral_ops,test_istft_linearity_cuda_float64,pass,,8191.387
+# test_spectral_ops,test_complex_stft_roundtrip_cuda_float64,pass,,5389.908
+test_spectral_ops,test_fftshift_frequencies_cuda_float64,pass,,36.307
+test_spectral_ops,test_istft_round_trip_simple_cases_cuda_float64,pass,,12.385
+test_spectral_ops,test_fft_input_modification_cuda,pass,,11.347
+test_spectral_ops,test_istft_throws_cuda,pass,,3.935
+test_spectral_ops,test_reference_1d_fft_fft_cuda_complex128,pass,,63.490
+test_spectral_ops,test_reference_1d_fft_fft_cuda_complex64,pass,,59.230
+# test_spectral_ops,test_reference_1d_fft_fft_cuda_float32,pass,,189.708
+# test_spectral_ops,test_reference_1d_fft_fft_cuda_float64,pass,,193.014
+test_spectral_ops,test_stft_requires_complex_cuda,pass,,0.107
+# test_spectral_ops,test_cufft_plan_cache_cuda_float64,pass,,35359.628
+test_spectral_ops,test_istft_of_sine_cuda_float64,pass,,42.020
+# test_spectral_ops,test_istft_round_trip_with_padding_cuda_float64,pass,,2767.269

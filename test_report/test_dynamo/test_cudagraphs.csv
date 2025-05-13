@@ -1,0 +1,9 @@
+test_filename,test_case_name,status,err_info,used_time
+dynamo/test_cudagraphs,test_basic,pass,,0.997
+dynamo/test_cudagraphs,test_dead_fill,pass,,0.135
+dynamo/test_cudagraphs,test_dtoh,pass,,0.123
+dynamo/test_cudagraphs,test_factory,pass,,0.193
+dynamo/test_cudagraphs,test_htod,pass,,0.194
+dynamo/test_cudagraphs,test_mutate_constant,pass,,0.238
+dynamo/test_cudagraphs,test_mutate_input,pass,,0.183
+dynamo/test_cudagraphs,test_mutated_metadata,pass,,0.089

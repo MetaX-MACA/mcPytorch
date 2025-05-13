@@ -1,0 +1,1 @@
+export MACA_PATH="/netapp/pytorch/maca_env/protein/tdriver/mxc500-20240918-133/opt/maca-20240918-133/"

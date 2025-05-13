@@ -1,0 +1,8 @@
+python_library(
+    name = "maca_tools",
+    srcs = glob(
+        ["**/*.py"],
+    ),
+    base_module = "maca_tools",
+    visibility = ["PUBLIC"],
+)

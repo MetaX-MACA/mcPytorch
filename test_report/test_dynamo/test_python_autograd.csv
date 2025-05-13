@@ -1,0 +1,6 @@
+test_filename,test_case_name,status,err_info,used_time
+dynamo/test_python_autograd,test_backwards1,pass,,0.142
+dynamo/test_python_autograd,test_backwards2,pass,,0.060
+dynamo/test_python_autograd,test_forwards1,pass,,0.019
+dynamo/test_python_autograd,test_forwards2,pass,,0.018
+dynamo/test_python_autograd,test_split,pass,,0.057

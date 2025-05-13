@@ -1,0 +1,97 @@
+test_filename,test_case_name,status,err_info,used_time
+functorch/test_vmap,test_vmap_exhaustive_linalg_eig_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_eigh_cpu_float32,skipped,Skipped!,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_eigvals_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_eigvalsh_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_householder_product_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_inv_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_inv_ex_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_ldl_factor_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_ldl_factor_ex_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_ldl_solve_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_lstsq_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_lstsq_grad_oriented_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_lu_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_lu_factor_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_lu_factor_ex_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_lu_solve_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_matrix_norm_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_matrix_power_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_matrix_rank_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_matrix_rank_hermitian_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_multi_dot_cpu_float32,pass,,0.002
+functorch/test_vmap,test_vmap_exhaustive_linalg_norm_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_norm_subgradients_at_zero_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_pinv_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_pinv_hermitian_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_pinv_singular_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_qr_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_slogdet_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_solve_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_solve_ex_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_solve_triangular_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_svd_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_svdvals_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_tensorinv_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_tensorsolve_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_linalg_vander_cpu_float32,pass,,0.077
+functorch/test_vmap,test_vmap_exhaustive_linalg_vecdot_cpu_float32,pass,,0.528
+functorch/test_vmap,test_vmap_exhaustive_linalg_vector_norm_cpu_float32,pass,,1.031
+functorch/test_vmap,test_vmap_exhaustive_linspace_cpu_float32,pass,,0.001
+functorch/test_vmap,test_vmap_exhaustive_log10_cpu_float32,pass,,3.631
+functorch/test_vmap,test_vmap_exhaustive_log1p_cpu_float32,pass,,5.181
+functorch/test_vmap,test_vmap_exhaustive_log2_cpu_float32,pass,,3.610
+functorch/test_vmap,test_vmap_exhaustive_log_cpu_float32,pass,,3.603
+functorch/test_vmap,test_vmap_exhaustive_log_normal_cpu_float32,skipped,Test expects tensor input,0.000
+functorch/test_vmap,test_vmap_exhaustive_log_softmax_cpu_float32,pass,,0.123
+functorch/test_vmap,test_vmap_exhaustive_log_softmax_with_dtype_cpu_float32,pass,,0.122
+functorch/test_vmap,test_vmap_exhaustive_logaddexp2_cpu_float32,pass,,0.013
+functorch/test_vmap,test_vmap_exhaustive_logaddexp_cpu_float32,pass,,5.356
+functorch/test_vmap,test_vmap_exhaustive_logcumsumexp_cpu_float32,pass,,0.081
+functorch/test_vmap,test_vmap_exhaustive_logdet_cpu_float32,skipped,PyTorch compiled without Lapack,0.001
+functorch/test_vmap,test_vmap_exhaustive_logical_and_cpu_float32,pass,,4.020
+functorch/test_vmap,test_vmap_exhaustive_logical_not_cpu_float32,pass,,1.584
+functorch/test_vmap,test_vmap_exhaustive_logical_or_cpu_float32,pass,,4.109
+functorch/test_vmap,test_vmap_exhaustive_logical_xor_cpu_float32,pass,,4.129
+functorch/test_vmap,test_vmap_exhaustive_logit_cpu_float32,pass,,5.566
+functorch/test_vmap,test_vmap_exhaustive_logspace_cpu_float32,pass,,0.002
+functorch/test_vmap,test_vmap_exhaustive_logsumexp_cpu_float32,pass,,0.269
+functorch/test_vmap,test_vmap_exhaustive_long_cpu_float32,skipped,,0.060
+functorch/test_vmap,test_vmap_exhaustive_long_functorch_no_channels_last_cpu_float32,pass,,0.023
+functorch/test_vmap,test_vmap_exhaustive_lt_cpu_float32,pass,,7.878
+functorch/test_vmap,test_vmap_exhaustive_lu_cpu_float32,skipped,PyTorch compiled without Lapack,0.001
+functorch/test_vmap,test_vmap_exhaustive_lu_solve_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_lu_unpack_cpu_float32,skipped,PyTorch compiled without Lapack,0.000
+functorch/test_vmap,test_vmap_exhaustive_mH_cpu_float32,pass,,0.118
+functorch/test_vmap,test_vmap_exhaustive_mT_cpu_float32,pass,,0.061
+functorch/test_vmap,test_vmap_exhaustive_masked_amax_cpu_float32,pass,,0.704
+functorch/test_vmap,test_vmap_exhaustive_masked_amin_cpu_float32,pass,,0.716
+functorch/test_vmap,test_vmap_exhaustive_masked_argmax_cpu_float32,pass,,0.444
+functorch/test_vmap,test_vmap_exhaustive_masked_argmin_cpu_float32,pass,,0.444
+functorch/test_vmap,test_vmap_exhaustive_masked_cumprod_cpu_float32,pass,,0.152
+functorch/test_vmap,test_vmap_exhaustive_masked_cumsum_cpu_float32,pass,,0.152
+functorch/test_vmap,test_vmap_exhaustive_masked_fill_cpu_float32,pass,,0.580
+functorch/test_vmap,test_vmap_exhaustive_masked_fill_functorch_Scalar_only_cpu_float32,pass,,0.149
+functorch/test_vmap,test_vmap_exhaustive_masked_log_softmax_cpu_float32,pass,,0.198
+functorch/test_vmap,test_vmap_exhaustive_masked_logaddexp_cpu_float32,pass,,0.416
+functorch/test_vmap,test_vmap_exhaustive_masked_logsumexp_cpu_float32,pass,,0.879
+functorch/test_vmap,test_vmap_exhaustive_masked_mean_cpu_float32,pass,,1.019
+functorch/test_vmap,test_vmap_exhaustive_masked_median_cpu_float32,pass,,0.145
+functorch/test_vmap,test_vmap_exhaustive_masked_norm_cpu_float32,pass,,3.532
+functorch/test_vmap,test_vmap_exhaustive_masked_normalize_cpu_float32,pass,,0.284
+functorch/test_vmap,test_vmap_exhaustive_masked_prod_cpu_float32,pass,,0.744
+functorch/test_vmap,test_vmap_exhaustive_masked_scatter_cpu_float32,pass,,0.285
+functorch/test_vmap,test_vmap_exhaustive_masked_select_cpu_float32,skipped,,0.117
+functorch/test_vmap,test_vmap_exhaustive_masked_softmax_cpu_float32,pass,,0.199
+functorch/test_vmap,test_vmap_exhaustive_masked_softmin_cpu_float32,pass,,0.208
+functorch/test_vmap,test_vmap_exhaustive_masked_std_cpu_float32,pass,,0.640
+functorch/test_vmap,test_vmap_exhaustive_masked_sum_cpu_float32,pass,,0.695
+functorch/test_vmap,test_vmap_exhaustive_masked_var_cpu_float32,pass,,0.626
+functorch/test_vmap,test_vmap_exhaustive_matmul_cpu_float32,pass,,0.525
+functorch/test_vmap,test_vmap_exhaustive_matrix_exp_cpu_float32,pass,,0.134
+functorch/test_vmap,test_vmap_exhaustive_max_binary_cpu_float32,pass,,9.506
+functorch/test_vmap,test_linalg_eigh_cpu,pass,,
+functorch/test_vmap,test_linalg_svd_cpu,pass,,
+functorch/test_vmap,test_slogdet_cpu,pass,,
+functorch/test_vmap,test_slogdet,pass,,
+functorch/test_vmap,test_torch_return_types_returns_cpu,pass,,

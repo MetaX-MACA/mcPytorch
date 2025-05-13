@@ -1,0 +1,2 @@
+test_filename,test_case_name
+test_torch,test_cuda_vitals_gpu_only_cuda,pass,,1.975

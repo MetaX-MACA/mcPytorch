@@ -1,0 +1,10 @@
+test_filename,test_case_name,status,err_info,used_time
+distributed/pipeline/sync/skip/test_verify_skippables,test_pop_again,pass,,0.002
+distributed/pipeline/sync/skip/test_verify_skippables,test_matching,pass,,0.002
+distributed/pipeline/sync/skip/test_verify_skippables,test_pop_unknown,pass,,0.003
+distributed/pipeline/sync/skip/test_verify_skippables,test_stash_pop_together_same_name,pass,,0.002
+distributed/pipeline/sync/skip/test_verify_skippables,test_stash_pop_together_different_names,pass,,0.001
+distributed/pipeline/sync/skip/test_verify_skippables,test_stash_again,pass,,0.001
+distributed/pipeline/sync/skip/test_verify_skippables,test_stash_not_pop,pass,,0.001
+distributed/pipeline/sync/skip/test_verify_skippables,test_double_stash_pop,pass,,0.001
+distributed/pipeline/sync/skip/test_verify_skippables,test_double_stash_pop_but_isolated,pass,,0.002

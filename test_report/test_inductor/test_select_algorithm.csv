@@ -1,0 +1,10 @@
+test_filename,test_case_name,status,err_info,used_time
+# inductor/test_select_algorithm,test_addmm,failed,AssertionError: Scalars are not equal!,1.224
+# inductor/test_select_algorithm,test_addmm_fp16,failed,AssertionError: Scalars are not equal!,0.757
+# inductor/test_select_algorithm,test_baddbmm,failed,"torch._dynamo.exc.BackendCompilerFailed: debug_wrapper raised LoweringException: TypeError: filtered_configs() missing 3 required positional arguments: 'm', 'n', and 'k'",0.018
+# inductor/test_select_algorithm,test_bmm,failed,"torch._dynamo.exc.BackendCompilerFailed: debug_wrapper raised LoweringException: TypeError: filtered_configs() missing 3 required positional arguments: 'm', 'n', and 'k'",0.013
+# inductor/test_select_algorithm,test_linear_relu,failed,AssertionError: Scalars are not equal!,0.729
+# inductor/test_select_algorithm,test_mm,failed,AssertionError: Scalars are not equal!,1.060
+# inductor/test_select_algorithm,test_mm_not_even_k,failed,AssertionError: Scalars are not equal!,0.741
+# inductor/test_select_algorithm,test_mm_plus_mm,failed,AssertionError: Scalars are not equal!,1.111
+inductor/test_select_algorithm,test_mm_skip,pass,,0.201
