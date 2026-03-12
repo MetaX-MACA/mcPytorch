@@ -1,5 +1,10 @@
 #pragma once
 
+// MACA RCPF Precision Fix: Include before CUDA headers
+#ifdef USE_MACA
+#include <ATen/native/cuda/MacARcpfFix.cuh>
+#endif
+
 #include <cuda.h>
 #include <cuda_runtime.h>
 #include <cuda_fp16.h>

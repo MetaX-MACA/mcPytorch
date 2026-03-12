@@ -616,7 +616,7 @@ class build_ext(setuptools.command.build_ext.build_ext):
         else:
             report("-- Not using cuDNN")
         if cmake_cache_vars["USE_CUDA"]:
-            report("-- Detected CUDA at " + cmake_cache_vars["CUDA_TOOLKIT_ROOT_DIR"])
+            report("-- Detected CUDA at " + str(cmake_cache_vars["CUDA_TOOLKIT_ROOT_DIR"]))
         else:
             report("-- Not using CUDA")
         if cmake_cache_vars["USE_XPU"]:
@@ -973,7 +973,9 @@ def configure_extension_build():
         main_sources = []
 
     if cmake_cache_vars["USE_CUDA"]:
-        library_dirs.append(os.path.dirname(cmake_cache_vars["CUDA_CUDA_LIB"]))
+        cuda_cuda_lib = cmake_cache_vars["CUDA_CUDA_LIB"]
+        if cuda_cuda_lib:
+            library_dirs.append(os.path.dirname(cuda_cuda_lib))
 
     if build_type.is_debug():
         if IS_WINDOWS:

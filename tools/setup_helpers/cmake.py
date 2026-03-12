@@ -28,7 +28,7 @@ USE_MACA = True if os.getenv('MACA_PATH') else False
 # Ninja
 # Use ninja if it is on the PATH. Previous version of PyTorch required the
 # ninja python package, but we no longer use it, so we do not have to import it
-USE_NINJA = not check_negative_env_flag("USE_NINJA") and which("ninja") is not None and not USE_MACA
+USE_NINJA = False  # MACA: force disable ninja
 if "CMAKE_GENERATOR" in os.environ:
     USE_NINJA = os.environ["CMAKE_GENERATOR"].lower() == "ninja"
 
@@ -310,6 +310,10 @@ class CMake:
             build_options.update(
                 {
                     "USE_MACA": "ON",
+                    "USE_CUDA": "ON",
+                    "USE_SYSTEM_NCCL": "ON",
+                    "NCCL_INCLUDE_DIR": os.environ.get("CUDA_PATH", "/opt/maca/tools/cu-bridge") + "/include",
+                    "NCCL_LIB_DIR": os.environ.get("CUDA_PATH", "/opt/maca/tools/cu-bridge") + "/lib",
                 }
             )
         CMake.defines(
@@ -345,6 +349,13 @@ class CMake:
         # Reference:
         # 1. https://cmake.org/cmake/help/latest/manual/cmake.1.html#synopsis
         # 2. https://stackoverflow.com/a/27169347
+        args.append("-DCMAKE_POLICY_VERSION_MINIMUM=3.5")
+        if USE_MACA:
+            maca_path = os.environ.get("MACA_PATH", "/opt/maca")
+            maca_cmake_module = os.path.join(maca_path, "tools/cu-bridge/cmake_module/maca")
+            args.append(f"-DCMAKE_MODULE_PATH={maca_cmake_module}")
+            os.environ["CUDA_PATH"] = os.path.join(maca_path, "tools/cu-bridge")
+            os.environ["CUCC_PATH"] = os.environ["CUDA_PATH"]
         args.append(base_dir)
         self.run(args, env=my_env)
 
@@ -389,7 +400,7 @@ class CMake:
             # build_args += ['-j', max_jobs] would be sufficient by
             # then. Until then, we use "--" to pass parameters to the
             # underlying build system.
-            build_args += ["--"]
+            # build_args += ["--"]  # Removed: cmake 3.12+ supports native -j
             if IS_WINDOWS and not USE_NINJA:
                 # We are likely using msbuild here
                 build_args += [f"/p:CL_MPCount={max_jobs}"]
