@@ -349,7 +349,6 @@ class CMake:
         # Reference:
         # 1. https://cmake.org/cmake/help/latest/manual/cmake.1.html#synopsis
         # 2. https://stackoverflow.com/a/27169347
-        args.append("-DCMAKE_POLICY_VERSION_MINIMUM=3.5")
         if USE_MACA:
             maca_path = os.environ.get("MACA_PATH", "/opt/maca")
             maca_cmake_module = os.path.join(maca_path, "tools/cu-bridge/cmake_module/maca")
