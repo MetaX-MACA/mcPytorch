@@ -8,7 +8,8 @@ export PATH=$CUDA_PATH/bin:$PATH
 export BUILD_TEST=0
 export MAX_JOBS=16
 
-cd /root/mcPytorch-2.4
+SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &> /dev/null && pwd)
+cd "$SCRIPT_DIR"
 
 # Full clean rebuild
 rm -rf build
