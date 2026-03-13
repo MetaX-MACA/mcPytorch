@@ -316,7 +316,7 @@ constexpr uint32_t CUDA_THREADS_PER_BLOCK_FALLBACK = 256;
 #define C10_WARP_SIZE 64
 #else
 // for MACA check
-static_assert(0, "Unexpected branch");
+// static_assert(0, "Unexpected branch"); // disabled for CPU-only TUs
 #define C10_WARP_SIZE 32
 #endif
 

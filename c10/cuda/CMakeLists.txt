@@ -104,3 +104,8 @@ install(FILES ${CMAKE_BINARY_DIR}/c10/cuda/impl/cuda_cmake_macros.h
 if(MSVC AND C10_CUDA_BUILD_SHARED_LIBS)
   install(FILES $<TARGET_PDB_FILE:c10_cuda> DESTINATION lib OPTIONAL)
 endif()
+
+# Link libruntime_cu.so for MACA
+if(USE_MACA)
+  target_link_libraries(c10_cuda PRIVATE "$ENV{MACA_PATH}/lib/libruntime_cu.so")
+endif()

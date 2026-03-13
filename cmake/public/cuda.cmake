@@ -25,6 +25,12 @@ if(NOT MSVC)
   set(CUDA_USE_STATIC_CUDA_RUNTIME OFF CACHE INTERNAL "")
 endif()
 
+# MACA: add cu-bridge cmake module path for FindCUDA
+if(USE_MACA AND DEFINED ENV{CUDA_PATH})
+  list(INSERT CMAKE_MODULE_PATH 0 $ENV{CUDA_PATH}/cmake_module/maca)
+  message(STATUS "MACA: Added cu-bridge cmake module path: $ENV{CUDA_PATH}/cmake_module/maca")
+endif()
+
 # Find CUDA.
 find_package(CUDA)
 if(NOT CUDA_FOUND)
@@ -38,46 +44,156 @@ endif()
 
 # Enable CUDA language support
 set(CUDAToolkit_ROOT "${CUDA_TOOLKIT_ROOT_DIR}")
-# Pass clang as host compiler, which according to the docs
-# Must be done before CUDA language is enabled, see
-# https://cmake.org/cmake/help/v3.15/variable/CMAKE_CUDA_HOST_COMPILER.html
-if("${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang")
-  set(CMAKE_CUDA_HOST_COMPILER "${CMAKE_C_COMPILER}")
+
+if(USE_MACA)
+  # MACA: Enable CUDA language support with cucc compiler
+  # Set default paths if environment variables are not set
+  if(NOT DEFINED ENV{MACA_PATH})
+    set(ENV{MACA_PATH} "/opt/maca")
+  endif()
+  if(NOT DEFINED ENV{CUDA_PATH})
+    set(ENV{CUDA_PATH} "$ENV{MACA_PATH}/tools/cu-bridge")
+  endif()
+  set(CMAKE_CUDA_COMPILER "$ENV{CUDA_PATH}/bin/cucc")
+  set(CMAKE_CUDA_STANDARD 17)
+  set(CMAKE_CUDA_STANDARD_REQUIRED ON)
+  set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} -std=c++17 -fPIC")
+  enable_language(CUDA)
+
+  # Set variables from MACA FindCUDA
+  set(CUDAToolkit_VERSION "${CUDA_VERSION}")
+  set(CUDAToolkit_VERSION_MAJOR "${CUDA_VERSION_MAJOR}")
+  set(CUDAToolkit_VERSION_MINOR "${CUDA_VERSION_MINOR}")
+  set(CUDAToolkit_ROOT_DIR "${CUDA_TOOLKIT_ROOT_DIR}")
+  set(CUDAToolkit_INCLUDE_DIRS "${CUDA_INCLUDE_DIRS}")
+  set(CUDAToolkit_BIN_DIR "${CUDA_TOOLKIT_ROOT_DIR}/bin")
+  set(CMAKE_CUDA_COMPILER_VERSION "${CUDA_VERSION}")
+  # Set CUDA_TOOLKIT_INCLUDE for FindCUB etc.
+  set(CUDA_TOOLKIT_INCLUDE "$ENV{MACA_PATH}/include" CACHE PATH "")
+  
+  # MACA: Add cu-bridge and safe MACA include subdirectories (avoid thrust/, cub/, cute/, mctlass/ which conflict with system headers)
+  include_directories(SYSTEM "$ENV{CUDA_PATH}/include")
+  include_directories(SYSTEM "$ENV{MACA_PATH}/include/mcr")
+  include_directories(SYSTEM "$ENV{MACA_PATH}/include/common")
+  include_directories(SYSTEM "$ENV{MACA_PATH}/include/mxsml")
+  include_directories(SYSTEM "$ENV{MACA_PATH}/include/mcsparse")
+  include_directories(SYSTEM "$ENV{MACA_PATH}/include/mcblas")
+  include_directories(SYSTEM "$ENV{MACA_PATH}/include/mcrand")
+  include_directories(SYSTEM "$ENV{MACA_PATH}/include/mcdnn")
+  include_directories(SYSTEM "$ENV{MACA_PATH}/include/mcfft")
+  include_directories(SYSTEM "$ENV{MACA_PATH}/include/mcsolver")
+  include_directories(SYSTEM "$ENV{MACA_PATH}/include/mcpti")
+  message(STATUS "MACA: Added safe include subdirectories from $ENV{MACA_PATH}/include/")
+
+  # Create CUDA:: imported targets for MACA
+  if(NOT TARGET CUDA::cuda_driver)
+    add_library(CUDA::cuda_driver SHARED IMPORTED)
+    set_target_properties(CUDA::cuda_driver PROPERTIES
+      IMPORTED_LOCATION "$ENV{CUDA_PATH}/lib/libcuda.so")
+  endif()
+  if(NOT TARGET CUDA::cudart)
+    add_library(CUDA::cudart SHARED IMPORTED)
+    set_target_properties(CUDA::cudart PROPERTIES
+      IMPORTED_LOCATION "${CUDA_CUDART_LIBRARY}"
+      INTERFACE_INCLUDE_DIRECTORIES "${CUDA_INCLUDE_DIRS}")
+  endif()
+  if(NOT TARGET CUDA::cudart_static)
+    add_library(CUDA::cudart_static STATIC IMPORTED)
+    set_target_properties(CUDA::cudart_static PROPERTIES
+      IMPORTED_LOCATION "${CUDA_CUDART_LIBRARY}")
+  endif()
+  if(NOT TARGET CUDA::nvToolsExt)
+    add_library(CUDA::nvToolsExt INTERFACE IMPORTED)
+  endif()
+  if(NOT TARGET CUDA::cublas)
+    add_library(CUDA::cublas INTERFACE IMPORTED)
+  endif()
+  if(NOT TARGET CUDA::cublasLt)
+    add_library(CUDA::cublasLt INTERFACE IMPORTED)
+  endif()
+  if(NOT TARGET CUDA::curand)
+    add_library(CUDA::curand INTERFACE IMPORTED)
+  endif()
+  if(NOT TARGET CUDA::curand_static)
+    add_library(CUDA::curand_static INTERFACE IMPORTED)
+  endif()
+  if(NOT TARGET CUDA::cufft)
+    add_library(CUDA::cufft INTERFACE IMPORTED)
+  endif()
+  if(NOT TARGET CUDA::cufft_static_nocallback)
+    add_library(CUDA::cufft_static_nocallback INTERFACE IMPORTED)
+  endif()
+  if(NOT TARGET CUDA::nvrtc)
+    add_library(CUDA::nvrtc INTERFACE IMPORTED)
+  endif()
+  if(NOT TARGET CUDA::cusparse)
+    add_library(CUDA::cusparse INTERFACE IMPORTED)
+  endif()
+  if(NOT TARGET CUDA::cusolver)
+    add_library(CUDA::cusolver INTERFACE IMPORTED)
+  endif()
+  if(NOT TARGET CUDA::cusolver_static)
+    add_library(CUDA::cusolver_static INTERFACE IMPORTED)
+  endif()
+  if(NOT TARGET CUDA::cusparse_static)
+    add_library(CUDA::cusparse_static INTERFACE IMPORTED)
+  endif()
+  if(NOT TARGET CUDA::cupti)
+    add_library(CUDA::cupti INTERFACE IMPORTED)
+  endif()
+  if(NOT TARGET CUDA::nvml)
+    add_library(CUDA::nvml INTERFACE IMPORTED)
+  endif()
+
+  # Define cuda_select_nvcc_arch_flags for MACA (fixed architecture)
+  macro(cuda_select_nvcc_arch_flags out_variable)
+    set(${out_variable} "-gencode=arch=compute_21,code=sm_21")
+  endmacro()
+
+  message(STATUS "MACA: Using cu-bridge CUDA compatibility layer, version ${CUDA_VERSION}")
+  message(STATUS "Caffe2: CUDA detected: " ${CUDA_VERSION})
+  message(STATUS "Caffe2: CUDA nvcc is: " ${CUDA_NVCC_EXECUTABLE})
+  message(STATUS "Caffe2: CUDA toolkit directory: " ${CUDA_TOOLKIT_ROOT_DIR})
+
+else()
+  # Standard NVIDIA CUDA path
+  if("${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang")
+    set(CMAKE_CUDA_HOST_COMPILER "${CMAKE_C_COMPILER}")
+  endif()
+  enable_language(CUDA)
+  if("X${CMAKE_CUDA_STANDARD}" STREQUAL "X" )
+    set(CMAKE_CUDA_STANDARD ${CMAKE_CXX_STANDARD})
+  endif()
+  set(CMAKE_CUDA_STANDARD_REQUIRED ON)
+
+  cmake_policy(PUSH)
+  if(CMAKE_VERSION VERSION_GREATER_EQUAL 3.12.0)
+    cmake_policy(SET CMP0074 NEW)
+  endif()
+
+  find_package(CUDAToolkit REQUIRED)
+
+  cmake_policy(POP)
+
+  if(NOT CMAKE_CUDA_COMPILER_VERSION VERSION_EQUAL CUDAToolkit_VERSION)
+    message(FATAL_ERROR "Found two conflicting CUDA versions:\n"
+                        "V${CMAKE_CUDA_COMPILER_VERSION} in '${CUDA_INCLUDE_DIRS}' and\n"
+                        "V${CUDAToolkit_VERSION} in '${CUDAToolkit_INCLUDE_DIRS}'")
+  endif()
+
+  if(NOT TARGET CUDA::nvToolsExt)
+    message(FATAL_ERROR "Failed to find nvToolsExt")
+  endif()
+
+  message(STATUS "Caffe2: CUDA detected: " ${CUDA_VERSION})
+  message(STATUS "Caffe2: CUDA nvcc is: " ${CUDA_NVCC_EXECUTABLE})
+  message(STATUS "Caffe2: CUDA toolkit directory: " ${CUDA_TOOLKIT_ROOT_DIR})
+  if(CUDA_VERSION VERSION_LESS 11.0)
+    message(FATAL_ERROR "PyTorch requires CUDA 11.0 or above.")
+  endif()
 endif()
-enable_language(CUDA)
-if("X${CMAKE_CUDA_STANDARD}" STREQUAL "X" )
-  set(CMAKE_CUDA_STANDARD ${CMAKE_CXX_STANDARD})
-endif()
-set(CMAKE_CUDA_STANDARD_REQUIRED ON)
 
-# CMP0074 - find_package will respect <PackageName>_ROOT variables
-cmake_policy(PUSH)
-if(CMAKE_VERSION VERSION_GREATER_EQUAL 3.12.0)
-  cmake_policy(SET CMP0074 NEW)
-endif()
-
-find_package(CUDAToolkit REQUIRED)
-
-cmake_policy(POP)
-
-if(NOT CMAKE_CUDA_COMPILER_VERSION VERSION_EQUAL CUDAToolkit_VERSION)
-  message(FATAL_ERROR "Found two conflicting CUDA versions:\n"
-                      "V${CMAKE_CUDA_COMPILER_VERSION} in '${CUDA_INCLUDE_DIRS}' and\n"
-                      "V${CUDAToolkit_VERSION} in '${CUDAToolkit_INCLUDE_DIRS}'")
-endif()
-
-if(NOT TARGET CUDA::nvToolsExt)
-  message(FATAL_ERROR "Failed to find nvToolsExt")
-endif()
-
-message(STATUS "Caffe2: CUDA detected: " ${CUDA_VERSION})
-message(STATUS "Caffe2: CUDA nvcc is: " ${CUDA_NVCC_EXECUTABLE})
-message(STATUS "Caffe2: CUDA toolkit directory: " ${CUDA_TOOLKIT_ROOT_DIR})
-if(CUDA_VERSION VERSION_LESS 11.0)
-  message(FATAL_ERROR "PyTorch requires CUDA 11.0 or above.")
-endif()
-
-if(CUDA_FOUND)
+if(CUDA_FOUND AND NOT USE_MACA)
   # Sometimes, we may mismatch nvcc with the CUDA headers we are
   # compiling with, e.g., if a ccache nvcc is fed to us by CUDA_NVCC_EXECUTABLE
   # but the PATH is not consistent with CUDA_HOME.  It's better safe
@@ -201,11 +317,9 @@ if(CAFFE2_STATIC_LINK_CUDA AND NOT WIN32)
         TARGET caffe2::cublas APPEND PROPERTY INTERFACE_LINK_LIBRARIES
         CUDA::cudart_static rt)
 else()
-  if(NOT USE_MACA)
-    set_property(
-      TARGET caffe2::cublas PROPERTY INTERFACE_LINK_LIBRARIES
-      CUDA::cublas CUDA::cublasLt)
-  endif()
+  set_property(
+    TARGET caffe2::cublas PROPERTY INTERFACE_LINK_LIBRARIES
+    CUDA::cublas CUDA::cublasLt)
 endif()
 
 
@@ -377,3 +491,12 @@ foreach(FLAG ${CUDA_NVCC_FLAGS})
   endif()
   string(APPEND CMAKE_CUDA_FLAGS " ${FLAG}")
 endforeach()
+
+# MACA: Add actual BLAS library links
+if(USE_MACA)
+  set_property(TARGET CUDA::cublas PROPERTY INTERFACE_LINK_LIBRARIES "$ENV{MACA_PATH}/lib/libmcblas.so")
+  set_property(TARGET CUDA::cublasLt PROPERTY INTERFACE_LINK_LIBRARIES "$ENV{MACA_PATH}/lib/libmcblasLt.so")
+  set_property(TARGET CUDA::cusparse PROPERTY INTERFACE_LINK_LIBRARIES "$ENV{MACA_PATH}/lib/libmcsparse.so")
+  set_property(TARGET CUDA::cufft PROPERTY INTERFACE_LINK_LIBRARIES "$ENV{MACA_PATH}/lib/libmcfft.so")
+  set_property(TARGET CUDA::nvToolsExt PROPERTY INTERFACE_LINK_LIBRARIES "$ENV{MACA_PATH}/lib/libToolsExt_cu.so")
+endif()

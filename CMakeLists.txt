@@ -659,6 +659,7 @@ endif(NOT USE_MACA)
 
 if(USE_MACA AND NOT DEFINED ENV{PYTORCH_BUILD_PRINT_WARNING})
   add_definitions(-w)
+  add_definitions(-DUSE_MACA)
 endif(USE_MACA)
 
 # Set INTERN_BUILD_MOBILE for all mobile builds. Components that are not

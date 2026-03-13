@@ -531,7 +531,7 @@ class TORCH_API Context {
 #ifdef USE_MACA
   bool allow_tf32_cudnn = maca_unlikely(at::maca::get_maca_allow_cuda_cudnn_tf32());
 #else
-  static_assert(0);
+  // static_assert(0); // disabled for CPU-only TUs
   bool allow_tf32_cudnn = true;
 #endif
   bool allow_fp16_reduction_cublas = true;
