@@ -11,4 +11,4 @@ export MAX_JOBS=16
 cd /root/mcPytorch-2.4/build
 
 # Build only torch_cuda target
-make -j16 torch_cuda 2&>1 | tee -a ../build_torch_cuda.log
+make -j16 torch_cuda 2>&1 | tee -a ../build_torch_cuda.log
