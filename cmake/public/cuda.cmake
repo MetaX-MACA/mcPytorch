@@ -176,8 +176,8 @@ else()
   cmake_policy(POP)
 
   if(NOT CMAKE_CUDA_COMPILER_VERSION VERSION_EQUAL CUDAToolkit_VERSION)
-    message(FATAL_ERROR "Found two conflicting CUDA versions:/opt/macan"
-                        "V${CMAKE_CUDA_COMPILER_VERSION} in '${CUDA_INCLUDE_DIRS}' and"
+    message(FATAL_ERROR "Found two conflicting CUDA versions:\n"
+                        "V${CMAKE_CUDA_COMPILER_VERSION} in '${CUDA_INCLUDE_DIRS}' and\n"
                         "V${CUDAToolkit_VERSION} in '${CUDAToolkit_INCLUDE_DIRS}'")
   endif()
 
